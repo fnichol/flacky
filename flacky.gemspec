@@ -16,4 +16,12 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
+
+  gem.add_dependency 'nokogiri'
+  gem.add_dependency 'flacinfo-rb'
+
+  gem.add_development_dependency 'minitest'
+  gem.add_development_dependency 'vcr'
+  gem.add_development_dependency 'webmock', '~> 1.8.11'
+  gem.add_development_dependency 'guard-minitest'
 end
