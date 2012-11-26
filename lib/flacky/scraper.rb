@@ -2,6 +2,7 @@
 
 require 'nokogiri'
 require 'open-uri'
+require 'net/http'
 
 module Flacky
   class ScraperError < RuntimeError ; end
@@ -22,10 +23,10 @@ module Flacky
 
     private
 
-    HTTP_ERRORS = [ Timeout::Error, Errno::EINVAL, Errno::ECONNRESET,
-      EOFError, Net::HTTPBadResponse, Net::HTTPHeaderSyntaxError,
-      Net::ProtocolError, SocketError, OpenSSL::SSL::SSLError,
-      Errno::ECONNREFUSED ]
+    HTTP_ERRORS = [ ::Timeout::Error, ::Errno::EINVAL, ::Errno::ECONNRESET,
+      ::EOFError, ::Net::HTTPBadResponse, ::Net::HTTPHeaderSyntaxError,
+      ::Net::ProtocolError, ::SocketError, ::OpenSSL::SSL::SSLError,
+      ::Errno::ECONNREFUSED ]
 
     def doc
       @doc ||= begin
