@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+# -*- encoding: UTF-8 -*-
+
+$:.unshift File.join(File.dirname(__FILE__), %w{.. lib})
+require 'json'
+
+start_dir = File.join(File.expand_path(ARGV.shift || ENV['PWD']), '**/metadata.json')
+files = []
+
+Dir.glob(start_dir).each do |mdf|
+  attr = JSON.parse(IO.read(mdf))["allmusic_url"]
+  files << mdf if attr.nil? || attr.empty?
+end
+
+if ARGV.shift == "-print0"
+  print files.join("\x0").concat("\x0")
+else
+  puts files.join("\n")
+end
