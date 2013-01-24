@@ -4,7 +4,6 @@ require 'flacinfo'
 
 require 'flacky/core_ext'
 require 'flacky/scraper'
-require 'flacky/scraper'
 
 module Flacky
   class MetadataGenerator
@@ -22,10 +21,10 @@ module Flacky
 
       # keep trying flac files until we run out
       info = begin
-               FlacInfo.new(flacs.shift).tags
-             rescue FlacInfoReadError => ex
-               flacs.size > 0 ? retry : Hash.new
-             end
+        FlacInfo.new(flacs.shift).tags
+      rescue FlacInfoReadError => ex
+        flacs.size > 0 ? retry : Hash.new
+      end
 
       info.each_pair { |k,v| v.force_encoding('UTF-8') if v.is_a? String }
       result = Hash.new

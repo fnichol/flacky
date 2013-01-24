@@ -6,6 +6,7 @@ require 'thor'
 
 require 'flacky'
 require 'flacky/metadata_generator'
+require 'flacky/mp3_convertor'
 
 module Flacky
 
@@ -53,77 +54,31 @@ module Flacky
         abort "Command #{cmd} must be on your PATH" unless %x{which #{cmd}}
       end
 
-      args.each do |glob|
-        FlacToMp3.new(
-          :glob       => glob,
-          :lame_opts  => options[:'lame-opts'],
-          :dest_root  => options[:destination]
-        ).convert!
-      end
+      mp3izer = Flacky::Mp3Convertor.new(
+        :lame_opts  => options[:'lame-opts'],
+        :dest_root  => options[:destination]
+      )
+
+      args.each { |glob| convert_files(glob, mp3izer) }
     end
 
     private
 
-    class FlacToMp3
+    def convert_files(glob, mp3izer)
+      Dir.glob(glob).each do |file|
+        next unless file =~ /\.flac$/
 
-      def initialize(opts = {})
-        @glob = opts[:glob]
-        @lame_opts = opts[:lame_opts]
-        @dest_root = opts[:dest_root]
+        say("Processing #{file}...", :cyan)
+        response = mp3izer.convert_file!(file)
+        say("Created #{response.mp3_filename} #{duration(response.elapsed)}",
+          :yellow)
       end
+    end
 
-      def convert!
-        Dir.glob(glob).each do |file|
-          next unless file =~ /\.flac$/
-          convert_file(file)
-        end
-      end
-
-      private
-
-      attr_reader :glob, :lame_opts, :dest_root
-
-      def convert_file(file)
-        dst = file.sub(/\.flac$/, ".mp3")
-        if dest_root
-          dst = File.join(dest_root, dst)
-          FileUtils.mkdir_p File.dirname(dst)
-        end
-
-        cmd = %{flac -dcs "#{file}" | lame #{lame_opts}}
-        tags.each { |lt, ft| cmd << %{ --#{lt} "#{tag(file, ft)}"} }
-        cmd << %{ - "#{dst}"}
-
-        banner "Processing #{file}..."
-        elapsed = Benchmark.measure do
-          %x{#{cmd}}
-        end
-        banner "Wrote out #{dst} #{duration(elapsed.real)}"
-      end
-
-      def tags
-        { :tt => :title, :tl => :album, :ta => :artist, :tn => :tracknumber,
-          :tg => :genre, :tc => :comment, :ty => :date }.freeze
-      end
-
-      def tag(file, tag)
-        r = %x{metaflac --show-tag=#{tag.to_s.upcase} "#{file}"}
-        unless r.nil? || r.empty?
-          r.split("=").last.chomp
-        else
-          ""
-        end
-      end
-
-      def duration(total)
-        minutes = (total / 60).to_i
-        seconds = (total - (minutes * 60))
-        "(%dm%.2fs)" % [minutes, seconds]
-      end
-
-      def banner(msg)
-        puts "-----> #{msg}"
-      end
+    def duration(total)
+      minutes = (total / 60).to_i
+      seconds = (total - (minutes * 60))
+      "(%dm%.2fs)" % [minutes, seconds]
     end
   end
 end

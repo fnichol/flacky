@@ -23,17 +23,17 @@ module Flacky
 
     private
 
-    HTTP_ERRORS = [ ::Timeout::Error, ::Errno::EINVAL, ::Errno::ECONNRESET,
+    HTTP_ERRORS = [::Timeout::Error, ::Errno::EINVAL, ::Errno::ECONNRESET,
       ::EOFError, ::Net::HTTPBadResponse, ::Net::HTTPHeaderSyntaxError,
       ::Net::ProtocolError, ::SocketError, ::OpenSSL::SSL::SSLError,
-      ::Errno::ECONNREFUSED ]
+      ::Errno::ECONNREFUSED]
 
     def doc
       @doc ||= begin
-                 Nokogiri::HTML(open(@url))
-               rescue *HTTP_ERRORS => ex
-                 raise Flacky::ScraperError, "#{ex.class.name}: #{ex.message}"
-               end
+        Nokogiri::HTML(open(@url))
+      rescue *HTTP_ERRORS => ex
+        raise Flacky::ScraperError, "#{ex.class.name}: #{ex.message}"
+      end
     end
   end
 end
