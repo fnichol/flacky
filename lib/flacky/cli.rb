@@ -43,7 +43,7 @@ module Flacky
       end
     end
 
-    desc "to_mp3 [file ...]|[**/*.flac ...]", "Convert Flac files to MP3 files"
+    desc "to_mp3 [file ...]|[**/*.flac ...] [options]", "Convert Flac files to MP3 files"
     method_option :destination, :aliases => "-d",
       :desc => "Sets optional destination directory"
     method_option :'lame-opts', :aliases => "-l",
