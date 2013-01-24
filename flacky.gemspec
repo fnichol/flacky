@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Flacky::VERSION
   gem.authors       = ["Fletcher Nichol"]
   gem.email         = ["fnichol@nichol.ca"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.summary       = %q{Loose collection of CLI commands to sort and process Flac files}
+  gem.description   = gem.summary
+  gem.homepage      = "https://github.com/fnichol/flacky"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
