@@ -17,6 +17,8 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
+  gem.required_ruby_version = ">= 1.9.3"
+
   gem.add_dependency 'thor'
   gem.add_dependency 'nokogiri'
   gem.add_dependency 'flacinfo-rb'
