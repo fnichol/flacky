@@ -1,5 +1,7 @@
 # -*- encoding: utf-8 -*-
 
+require 'flacky/tagger'
+
 module Flacky
 
   class Mp3Convertor
@@ -16,8 +18,14 @@ module Flacky
         FileUtils.mkdir_p File.dirname(dst)
       end
 
+      tagger = Flacky::Tagger.new(file)
+      require 'pry' ; binding.pry
+
       cmd = %{flac -dcs "#{file}" | lame #{lame_opts}}
-      tags.each { |lt, ft| cmd << %{ --#{lt} "#{tag(file, ft)}"} }
+      tags.each do |lame_tag, flac_tag|
+        cmd << %{ --#{lame_tag} "#{tagger.find(flac_tag)}"}
+      end
+      cmd << %{ --tc '#{lame_comment(tagger)}'}
       cmd << %{ - "#{dst}"}
 
       elapsed = Benchmark.measure do ; %x{#{cmd}} ; end
@@ -32,16 +40,21 @@ module Flacky
 
     def tags
       { :tt => :title, :tl => :album, :ta => :artist, :tn => :tracknumber,
-        :tg => :genre, :tc => :comment, :ty => :date }.freeze
+        :tg => :genre, :ty => :date }.freeze
     end
 
-    def tag(file, tag)
-      r = %x{metaflac --show-tag=#{tag.to_s.upcase} "#{file}"}
-      unless r.nil? || r.empty?
-        r.split("=").last.chomp
-      else
-        ""
+    def lame_comment(tagger)
+      comment = []
+      (tagger.find(:mood) || "").split(';').each do |mood|
+        comment << "mood=#{mood}"
       end
+      (tagger.find(:style) || "").split(';').each do |style|
+        comment << "style=#{style}"
+      end
+      if owner = tagger.find(:fileowner)
+        comment << "fileowner=#{owner}"
+      end
+      comment.join("\n")
     end
   end
 end

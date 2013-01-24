@@ -15,6 +15,15 @@ module Flacky
       @flac = FlacInfo.new(@flac_file)
     end
 
+    def [](attr)
+      @flac.tags[attr]
+    end
+
+    def find(attr)
+      key = @flac.tags.keys.find { |key| key =~ /#{attr}/i }
+      key ? @flac.tags[key] : nil
+    end
+
     def tag(name, value)
       @flac.comment_del(name) if @flac.tags.keys.include?(name)
       @flac.comment_add("#{name}=#{value}")
