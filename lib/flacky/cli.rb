@@ -47,7 +47,7 @@ module Flacky
     method_option :destination, :aliases => "-d",
       :desc => "Sets optional destination directory"
     method_option :'lame-opts', :aliases => "-l",
-      :default => "--vbr-new -V 0 -b 320",
+      :default => "--vbr-new --verbose -V 0 -b 320",
       :desc => "Set the lame encoding arguments"
     def to_mp3(*args)
       %w{flac metaflac lame}.each do |cmd|
