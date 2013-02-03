@@ -19,7 +19,6 @@ module Flacky
       end
 
       tagger = Flacky::Tagger.new(file)
-      require 'pry' ; binding.pry
 
       cmd = %{flac -dcs "#{file}" | lame #{lame_opts}}
       tags.each do |lame_tag, flac_tag|
