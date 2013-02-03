@@ -9,4 +9,6 @@ $:.unshift File.join(File.dirname(__FILE__), %w{.. lib})
 require 'rubygems'
 require 'flacky/cli'
 
+$stdout.sync = true
+
 Flacky::CLI.start
