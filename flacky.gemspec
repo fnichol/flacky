@@ -22,6 +22,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'thor'
   gem.add_dependency 'nokogiri'
   gem.add_dependency 'flacinfo-rb'
+  gem.add_dependency 'taglib-ruby'
 
   gem.add_development_dependency 'minitest'
   gem.add_development_dependency 'vcr'
