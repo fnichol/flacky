@@ -44,7 +44,7 @@ module Flacky
       return Hash.new if !url || (url && url.empty?)
 
       scraper = Flacky::Scraper.new(url)
-      { 'STYLE' => scraper.styles.join(';'), 'MOOD' => scraper.moods.join(';') }
+      { 'style' => scraper.styles.join(';'), 'mood' => scraper.moods.join(';') }
     end
 
     def combined_data
