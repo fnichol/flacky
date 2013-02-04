@@ -1,6 +1,5 @@
 # -*- encoding: UTF-8 -*-
 
-require 'flacinfo'
 require 'taglib'
 
 require 'flacky/core_ext'
