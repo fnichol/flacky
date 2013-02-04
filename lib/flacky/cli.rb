@@ -18,7 +18,7 @@ module Flacky
     desc "generate_json <root_path>", "Generate and populate metadata as JSON"
     def generate_json(root_dir = ENV['PWD'])
       start_dir = File.join(File.expand_path(root_dir), '**/*.flac')
-      Dir.glob(start_dir).map { |f| File.dirname(f) }.uniq.each do |dir|
+      Dir.glob(start_dir).sort.map { |f| File.dirname(f) }.uniq.each do |dir|
         mdf = File.join(dir, "metadata.json")
         say("Processing <#{dir}>", :cyan)
         data = Flacky::MetadataGenerator.new(mdf).combined_data
@@ -37,7 +37,7 @@ module Flacky
       start_dir = File.join(File.expand_path(root_dir), '**/metadata.json')
       files = []
 
-      Dir.glob(start_dir).each do |mdf|
+      Dir.glob(start_dir).sort.each do |mdf|
         attr = JSON.parse(IO.read(mdf))["allmusic_url"]
         files << mdf if attr.nil? || attr.empty?
       end
@@ -71,7 +71,7 @@ module Flacky
     private
 
     def convert_files(glob, mp3izer)
-      Dir.glob(glob).each do |file|
+      Dir.glob(glob).sort.each do |file|
         next unless file =~ /\.flac$/
 
         say("Processing #{file}...", :cyan)
@@ -82,7 +82,7 @@ module Flacky
     end
 
     def import_metadata_for_files(glob)
-      Dir.glob(glob).each do |file|
+      Dir.glob(glob).sort.each do |file|
         next unless file =~ /\.flac$/
 
         say("Processing #{file}...", :cyan)
