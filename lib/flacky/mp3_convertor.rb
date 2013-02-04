@@ -3,6 +3,8 @@
 require 'flacky/flac_tagger'
 require 'flacky/mp3_tagger'
 
+require 'shellwords'
+
 module Flacky
 
   class Mp3Convertor
@@ -37,7 +39,10 @@ module Flacky
     end
 
     def transcode_file(flac_file, mp3_file)
-      %x{flac -dcs '#{flac_file}' | lame #{lame_opts} - '#{mp3_file}'}
+      flac  = flac_file.shellescape
+      mp3   = mp3_file.shellescape
+
+      %x{flac -dcs #{flac} | lame #{lame_opts} - #{mp3}}
     end
 
     def tag_file(flac_file, mp3_file)
