@@ -34,7 +34,7 @@ module Flacky
     end
 
     def tag(name, value)
-      @tag.add_field(name, value, true)
+      @tag.add_field(name.to_s.upcase, value, true)
     end
 
     def cleanup
