@@ -50,7 +50,7 @@ module Flacky
       :default => "--vbr-new --verbose -V 0 -b 320",
       :desc => "Set the lame encoding arguments"
     def to_mp3(*args)
-      %w{flac metaflac lame}.each do |cmd|
+      %w{flac lame}.each do |cmd|
         abort "Command #{cmd} must be on your PATH" unless %x{which #{cmd}}
       end
 
