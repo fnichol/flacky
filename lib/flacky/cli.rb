@@ -5,6 +5,7 @@ require 'json'
 require 'thor'
 
 require 'flacky'
+require 'flacky/flac_metadata_importer'
 require 'flacky/metadata_generator'
 require 'flacky/mp3_convertor'
 
@@ -23,6 +24,11 @@ module Flacky
         data = Flacky::MetadataGenerator.new(mdf).combined_data
         IO.write(mdf, JSON.pretty_generate(data))
       end
+    end
+
+    desc "import_json [file ...]|[**/*.flac ...]", "Import metadata JSON into Flac files"
+    def import_json(*args)
+      args.each { |glob| import_metadata_for_files(glob) }
     end
 
     desc "missing_urls <root_path>", "List all metadata files with missing URLs"
@@ -72,6 +78,17 @@ module Flacky
         response = mp3izer.convert_file!(file)
         say("Created #{response.mp3_filename} #{duration(response.elapsed)}",
           :yellow)
+      end
+    end
+
+    def import_metadata_for_files(glob)
+      Dir.glob(glob).each do |file|
+        next unless file =~ /\.flac$/
+
+        say("Processing #{file}...", :cyan)
+        response = Flacky::FlacMetadataImporter.new(file).import!
+        say("Imported #{response.metadata_filename} into #{file} " +
+          "#{duration(response.elapsed)}", :yellow)
       end
     end
 
