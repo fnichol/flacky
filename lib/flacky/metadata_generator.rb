@@ -1,6 +1,7 @@
 # -*- encoding: UTF-8 -*-
 
 require 'flacinfo'
+require 'taglib'
 
 require 'flacky/core_ext'
 require 'flacky/scraper'
@@ -19,16 +20,23 @@ module Flacky
       flacs = Dir.glob(File.join(dir, '*.flac'))
       return Hash.new if flacs.empty?
 
-      # keep trying flac files until we run out
-      info = begin
-        FlacInfo.new(flacs.shift).tags
-      rescue FlacInfoReadError => ex
-        flacs.size > 0 ? retry : Hash.new
-      end
-
-      info.each_pair { |k,v| v.force_encoding('UTF-8') if v.is_a? String }
       result = Hash.new
-      common_tags.each { |t| result[t] = info[t] }
+      result["totaltracks"] = []
+
+      flacs.each do |flac|
+        md = read_flac_metadata(flac)
+        track_total = (md["totaltracks"] || -1).to_i
+        disc_number = (md["discnumber"] || -1).to_i
+
+        next if track_total < 0 || disc_number < 0
+        next if result["totaltracks"][disc_number - 1]
+
+        result["totaltracks"][disc_number - 1] = track_total
+
+        common_tags.each { |t| result[t] = md[t] if md[t] }
+      end
+      result["year"] = result.delete("date") if result["date"]
+
       result
     end
 
@@ -55,7 +63,24 @@ module Flacky
     end
 
     def common_tags
-      %w[Artist Album Date Genre TOTALDISCS STYLE MOOD FILEOWNER].freeze
+      %w[artist album date year genre style mood fileowner].freeze
+    end
+
+    def read_flac_metadata(flac)
+      info = TagLib::FLAC::File.open(flac) do |file|
+        file.xiph_comment.field_list_map
+      end
+
+      info.each_pair do |k, v|
+        value = Array(v).first
+        value.force_encoding('UTF-8') if v.is_a? String
+        info[k] = value
+      end
+      info.keys.each do |key|
+        info[key.downcase] = info.delete(key)
+      end
+
+      info
     end
   end
 end

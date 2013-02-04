@@ -14,8 +14,8 @@ module Flacky
 
     include Thor::Actions
 
-    desc "generate <root_path>", "Generate and populate metadata as JSON"
-    def generate(root_dir = ENV['PWD'])
+    desc "generate_json <root_path>", "Generate and populate metadata as JSON"
+    def generate_json(root_dir = ENV['PWD'])
       start_dir = File.join(File.expand_path(root_dir), '**/*.flac')
       Dir.glob(start_dir).map { |f| File.dirname(f) }.uniq.each do |dir|
         mdf = File.join(dir, "metadata.json")

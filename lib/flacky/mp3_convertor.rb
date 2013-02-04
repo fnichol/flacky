@@ -1,8 +1,7 @@
 # -*- encoding: utf-8 -*-
 
-require 'taglib'
-
-require 'flacky/tagger'
+require 'flacky/flac_tagger'
+require 'flacky/mp3_tagger'
 
 module Flacky
 
@@ -42,56 +41,40 @@ module Flacky
     end
 
     def tag_file(flac_file, mp3_file)
-      flac_tags = Flacky::Tagger.new(flac_file)
+      flac_tags = Flacky::FlacTagger.new(flac_file)
+      track     = track_tag(flac_tags)
+      disc      = disc_tag(flac_tags)
+      comment   = comment_tag(flac_tags)
 
-      TagLib::MPEG::File.open(mp3_file) do |file|
-        mp3_tags  = file.id3v2_tag
-
-        mp3_tags.album    = flac_tags.find(:album)
-        mp3_tags.artist   = flac_tags.find(:artist)
-        mp3_tags.title    = flac_tags.find(:title)
-        mp3_tags.year     = flac_tags.find(:date).to_i
-        mp3_tags.genre    = flac_tags.find(:genre)
-
-        mp3_tags.add_frame(track_frame(flac_tags))
-        mp3_tags.add_frame(disc_frame(flac_tags))
-        mp3_tags.add_frame(comment_frame(flac_tags))
-
-        file.save
+      Flacky::Mp3Tagger.update(mp3_file) do
+        tag "album",    flac_tags.find(:album)
+        tag "artist",   flac_tags.find(:artist)
+        tag "title",    flac_tags.find(:title)
+        tag "year",     flac_tags.find(:date).to_i
+        tag "genre",    flac_tags.find(:genre)
+        tag "track",    track
+        tag "disc",     disc
+        tag "comment",  comment
       end
+
+      flac_tags.cleanup
     end
 
-    def encoding
-      TagLib::String::Latin1
-    end
-
-    def comment_frame(flac_tags)
-      frame = TagLib::ID3v2::CommentsFrame.new
-      frame.text_encoding = encoding
-      frame.language = "eng"
-      frame.text = mp3_comment(flac_tags)
-      frame
-    end
-
-    def track_frame(flac_tags)
+    def track_tag(flac_tags)
       track_number = flac_tags.find(:tracknumber) || "0"
       track_total = flac_tags.find(:totaltracks) || "1"
 
-      frame = TagLib::ID3v2::TextIdentificationFrame.new("TRCK", encoding)
-      frame.text = "#{track_number}/#{track_total}"
-      frame
+      "#{track_number}/#{track_total}"
     end
 
-    def disc_frame(flac_tags)
+    def disc_tag(flac_tags)
       disc_number = flac_tags.find(:discnumber) || "0"
       disc_total = flac_tags.find(:totaldiscs) || "1"
 
-      frame = TagLib::ID3v2::TextIdentificationFrame.new("TPOS", encoding)
-      frame.text = "#{disc_number}/#{disc_total}"
-      frame
+      "#{disc_number}/#{disc_total}"
     end
 
-    def mp3_comment(flac_tags)
+    def comment_tag(flac_tags)
       comment = []
       if owner = flac_tags.find(:fileowner)
         comment << "o=#{owner}"
