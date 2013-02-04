@@ -37,7 +37,7 @@ module Flacky
     end
 
     def transcode_file(flac_file, mp3_file)
-      %x{flac -dcs "#{flac_file}" | lame #{lame_opts} - "#{mp3_file}"}
+      %x{flac -dcs '#{flac_file}' | lame #{lame_opts} - '#{mp3_file}'}
     end
 
     def tag_file(flac_file, mp3_file)
