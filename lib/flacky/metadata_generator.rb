@@ -1,6 +1,7 @@
 # -*- encoding: UTF-8 -*-
 
 require 'taglib'
+require 'shellwords'
 
 require 'flacky/core_ext'
 require 'flacky/scraper'
@@ -16,7 +17,7 @@ module Flacky
     end
 
     def flac_metadata
-      flacs = Dir.glob(File.join(dir, '*.flac'))
+      flacs = Dir.glob(File.join(dir.shellescape, '*.flac'))
       return Hash.new if flacs.empty?
 
       result = Hash.new
