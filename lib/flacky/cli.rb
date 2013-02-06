@@ -6,6 +6,7 @@ require 'thor'
 
 require 'flacky'
 require 'flacky/flac_metadata_importer'
+require 'flacky/flac_track_zero_pad_stripper'
 require 'flacky/metadata_generator'
 require 'flacky/mp3_convertor'
 
@@ -46,6 +47,16 @@ module Flacky
         print files.join("\x0").concat("\x0")
       else
         puts files.join("\n") unless files.empty?
+      end
+    end
+
+    desc "strip_pad [file ...]|[**/*.flac ...]", "Strip zero-padded track numbers in Flac files"
+    def strip_pad(*args)
+      args.each do |glob|
+        Dir.glob(glob).sort.each do |file|
+          say("Processing <#{file}>", :cyan)
+          Flacky::FlacTrackZeroPadStripper.new(file).strip!
+        end
       end
     end
 
