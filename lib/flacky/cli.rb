@@ -68,6 +68,12 @@ module Flacky
       args.each { |glob| convert_files(glob, mp3izer) }
     end
 
+    desc "version", "Print Flacky's version information"
+    def version
+      say "Flacky version #{Flacky::VERSION}"
+    end
+    map %w(-v --version) => :version
+
     private
 
     def convert_files(glob, mp3izer)
