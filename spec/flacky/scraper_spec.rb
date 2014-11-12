@@ -2,7 +2,7 @@
 
 require 'minitest/autorun'
 require 'vcr'
-require 'webmock/minitest'
+require 'webmock'
 require 'flacky/scraper'
 
 VCR.configure do |c|
@@ -11,6 +11,8 @@ VCR.configure do |c|
 end
 
 describe Flacky::Scraper do
+  include WebMock::API
+
   WRAPPED_ERRORS = [
     Timeout::Error, Errno::EINVAL, Errno::ECONNRESET, EOFError,
     Net::HTTPBadResponse, Net::HTTPHeaderSyntaxError, Net::ProtocolError,
