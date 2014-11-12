@@ -15,11 +15,11 @@ module Flacky
     end
 
     def styles
-      doc.css('#sidebar .styles ul a').map { |link| link.content }.sort
+      doc.css('.sidebar .styles div a').map { |link| link.content }.sort
     end
 
     def moods
-      doc.css('#sidebar .moods ul a').map { |link| link.content }.sort
+      doc.css('.sidebar .moods div a').map { |link| link.content }.sort
     end
 
     private

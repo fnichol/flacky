@@ -7,8 +7,10 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - ! '*/*'
+      - "*/*"
       User-Agent:
       - Ruby
   response:
@@ -17,653 +19,886 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 25 Nov 2012 21:02:13 GMT
+      - Wed, 12 Nov 2014 18:52:53 GMT
       Server:
-      - Apache/2.2.3 (Red Hat)
+      - Apache/2.2.22 (Ubuntu)
       X-Powered-By:
-      - PHP/5.3.14
+      - PHP/5.4.26-1+deb.sury.org~precise+1
+      Set-Cookie:
+      - allmusic_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22695353027bebb070ddf081d50486a954%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A18%3A%222607%3Af700%3A1%3A83%3A%3A92%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1415818373%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7Db7e3047b529b5ed7fc458cd19dfa459f;
+        path=/
+      - allmusic_session=a%3A6%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22695353027bebb070ddf081d50486a954%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A18%3A%222607%3Af700%3A1%3A83%3A%3A92%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1415818373%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3Bs%3A4%3A%22user%22%3Bi%3A0%3B%7D18877cc26f8a2c29a082a94619d72949;
+        path=/
+      Expires:
+      - Thu, 13 Nov 2014 06:52:54 GMT
+      Cache-Control:
+      - maxage=43200
       Vary:
       - Accept-Encoding
+      Content-Length:
+      - '10800'
       Content-Type:
       - text/html; charset=UTF-8
-      Age:
-      - '804'
-      Content-Length:
-      - '57767'
       X-Cache:
-      - HIT from tul1wtsppxy03.corporate.local
-      - MISS from tul1wtsppxy02.corporate.local
+      - MISS from bb-all-esquid02.allmusic.amn
+      - MISS from bb-all-isquid03.allmusic.amn
+      X-Cache-Lookup:
+      - MISS from bb-all-esquid02.allmusic.amn:80
+      - MISS from bb-all-isquid03.allmusic.amn:80
+      Via:
+      - 1.0 bb-all-isquid03.allmusic.amn (squid/3.1.23), 1.0 bb-all-esquid02.allmusic.amn
+        (squid/3.1.23)
       Connection:
-      - close
+      - keep-alive
     body:
-      encoding: US-ASCII
-      string: ! " <!DOCTYPE html>\n<html xmlns:og=\"http://ogp.me/ns#\" xmlns:fb=\"http://www.facebook.com/2008/fbml\">\n
-        \   <head>\n                <meta http-equiv=\"Content-Type\" content=\"text/html;
-        charset=utf-8\">\n\n        <script type=\"text/javascript\">var NREUMQ=NREUMQ||[];NREUMQ.push([\"mark\",\"firstbyte\",new
-        Date().getTime()]);</script>\n<link type=\"text/css\" rel=\"stylesheet\" href=\"/assets/cache/1353524636bc56f65a979af7fb4a857bb965ea96fe.css\"
-        media=\"screen\" />\r\n\n        <script>\n            var _gaq = _gaq ||
-        [];\n            _gaq.push(['_setAccount', 'UA-7096127-1']);\n            _gaq.push(['_setDomainName',
-        '.allmusic.com']);\n            \n                    _gaq.push(['_trackPageview']);\n
-        \                   \n                </script>\n\n            <script type=\"text/javascript\">\n
-        \           (function() {\n                var ga = document.createElement('script');\n
-        \               ga.type = 'text/javascript';\n                ga.async = true;\n
-        \               ga.src = ('https:' == document.location.protocol ? 'https://ssl'
-        : 'http://www') + '.google-analytics.com/ga.js';\n                var s =
-        document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
-        s);\n            })();\n        </script>\n    \n        <meta name=\"description\"
-        content=\"Find album reviews, stream songs, credits and award information
-        for Small Fame - Bend Sinister on AllMusic - 2012\">\n<meta name=\"keywords\"
-        content=\"Pop/Rock,Alternative/Indie Rock,She Don't Give It Up,Don't You Know,Man
-        of Faith and Virtue,One Shot,Got You On My Mind\">\n<meta property=\"og:type\"
-        content=\"music.album\">\n<meta property=\"og:site_name\" content=\"AllMusic\">\n<meta
-        property=\"og:title\" content=\"Small Fame - Bend Sinister : Songs, Reviews,
-        Credits, Awards : AllMusic\">\n<meta property=\"og:description\" content=\"Find
-        album reviews, stream songs, credits and award information for Small Fame
-        - Bend Sinister on AllMusic - 2012\">\n<meta property=\"og:image\" content=\"http://cps-static.rovicorp.com/3/JPG_250/MI0003/369/MI0003369371.jpg?partner=allrovi.com\">\n<meta
-        property=\"og:url\" content=\"http://www.allmusic.com/album/small-fame-mw0002374964\">\n<meta
-        name=\"title\" content=\"Small Fame - Bend Sinister : Songs, Reviews, Credits,
-        Awards : AllMusic\">\n<title>Small Fame - Bend Sinister : Songs, Reviews,
-        Credits, Awards : AllMusic</title>\n<script type=\"text/javascript\">\nvar
-        googletag = googletag || {};\ngoogletag.cmd = googletag.cmd || [];\n(function(){\n
-        \ var gads = document.createElement(\"script\");\n  gads.async = true;\n  gads.type
-        = \"text/javascript\";\n  var useSSL = \"https:\" == document.location.protocol;\n
-        \ gads.src = (useSSL ? \"https:\" : \"http:\") + \"//www.googletagservices.com/tag/js/gpt.js\";\n
-        \ var node = document.getElementsByTagName(\"script\")[0];\n  node.parentNode.insertBefore(gads,
-        node);\n})();\ngoogletag.cmd.push(function(){\n  googletag.defineSlot('/1034141/allmusic_728x90_atf',
-        [728, 90], 'allmusic_728x90_atf').addService(googletag.pubads());\n  googletag.defineSlot('/1034141/allmusic_300x250_btf',
-        [300, 250], 'allmusic_300x250_btf').addService(googletag.pubads());\n  googletag.defineSlot('/1034141/allmusic2_300x250_btf',
-        [300, 250], 'allmusic2_300x250_btf').addService(googletag.pubads());\n  googletag.defineSlot('/1034141/allmusic_728x90_btf',
-        [728, 90], 'allmusic_728x90_btf').addService(googletag.pubads());\n  googletag.defineSlot('/1034141/allmusic_1x1_footer',
-        [1, 1], 'allmusic_1x1_footer').addService(googletag.pubads());\n  googletag.pubads().setTargeting('album_id',
-        'MW0002374964');\n  googletag.pubads().setTargeting('artist_id', 'MN0002082546');\n
-        \ googletag.pubads().setTargeting('genre', 'Pop/Rock');\n  googletag.pubads().enableSingleRequest();\n
-        \ googletag.pubads().set(\"adsense_background_color\", \"F4F4F4\");\n  googletag.enableServices();\n});\n</script>\n<link
-        rel=\"canonical\" href=\"http://www.allmusic.com/album/small-fame-mw0002374964\">
-        \       \n                    <script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'></script>\n
-        \           <script type='text/javascript'>\n                GS_googleAddAdSenseService(\"ca-pub-7758644218383295\");\n
-        \               GS_googleEnableAllServices();\n            </script>\n            <script
-        type='text/javascript'>\n                GA_googleAddSlot(\"ca-pub-7758644218383295\",
-        \"allmusic_ROS_billboard_1x1\");\n                  \n                    GA_googleAddAttr(\"artist_id\",
-        \"MN0002082546\");\n                                                    GA_googleAddAttr(\"genre\",
-        \"Pop/Rock\");      \n                            </script>\n            <script
-        type='text/javascript'>\n                GA_googleFetchAds();\n            </script>\n
-        \       \n        <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/favicon.ico\">\n\n
-        \           </head>\n\n    <body class=\"album\">\n        <div id=\"header_wrapper\">\n
-        \           <div id=\"header\">\n                <div id=\"site-logo\" >\n
-        \                   <a href=\"/\">\n                                                    <h3
-        class=\"sprite2 bg-header-logo\" title=\"allmusic\"><span>AllMusic</span></h3>\n
-        \                                           </a>\n                </div>\n\n
-        \               <div id=\"nav\">\n                    <form id=\"search_bar\"
-        class=\"search_form\" method=\"POST\" action=\"/search/all/\">\n                        <input
-        type=\"text\" id=\"search_input\" name=\"term\" value=\"\" placeholder=\"search
-        for artists, albums and songs\" tabindex=\"1\">\n                        <input
-        class=\"submit sprite2 btn-search-black\" type=\"submit\" value=\"\">\n                    </form>\n\n
-        \                   <ul id=\"global-nav\">\n                        <li id=\"nav-genre\"
-        class=\"top-level-nav\">\n    <a class=\"nav-item\">explore<span class='sprite2
-        bg-toggle-sprite'></span></a>\n    \n    <ul class=\"nav-dropdown\" id=\"genre-dropdown\"
-        >\n        <li class=\"sub-menu-column genres\">\n            <ul>\n                <li><h3>popular
-        genres (a-z)</h3></li>                               \n                <li>\n
-        \                   <div class=\"thumbnail xxs genre blues\">\n                        <a
-        title=\"Blues Genre\" href=\"/genre/blues-ma0000002467\"></a>                      \n
-        \                   </div>\n                    <div class=\"info\">\n                        <a
-        href=\"http://www.allmusic.com/genre/blues-ma0000002467\">Blues</a>                        <p>B.B.
-        King, John Lee Hooker, Bessie Smith</p>                        \n                    </div>
-        \ \n                </li>\n                <li>\n                    <div
-        class=\"thumbnail xxs genre classical\">\n                        <a title=\"Classical
-        Genre\" href=\"/genre/classical-ma0000002521\"></a>                      \n
-        \                   </div>\n                    <div class=\"info\">\n                        <a
-        href=\"http://www.allmusic.com/genre/classical-ma0000002521\">Classical</a>
-        \                       <p>Yo-Yo Ma, Glenn Gould, Philip Glass</p>                      \n
-        \                   </div> \n                </li>                  \n                <li>\n
-        \                   <div class=\"thumbnail xxs genre country\">\n                        <a
-        title=\"Country Genre\" href=\"/genre/country-ma0000002532\"></a>                      \n
-        \                   </div>\n                    <div class=\"info\">\n                        <a
-        href=\"http://www.allmusic.com/genre/country-ma0000002532\">Country</a>                        <p>Taylor
-        Swift, Johnny Cash, Steve Earle</p>      \n                    </div>                     \n
-        \               </li>\n                <li>\n                    <div class=\"thumbnail
-        xxs genre electronic\">\n                        <a title=\"Electronic Genre\"
-        href=\"/genre/electronic-ma0000002572\"></a>                      \n                    </div>\n
-        \                   <div class=\"info\">\n                        <a href=\"http://www.allmusic.com/genre/electronic-ma0000002572\">Electronic</a>
-        \                       <p>Moby, Kraftwerk, Daft Punk, Girl Talk</p>\n                    </div>
-        \                     \n                </li>\n                <li>\n                     <div
-        class=\"thumbnail xxs genre jazz\">\n                         <a title=\"Jazz
-        Genre\" href=\"/genre/jazz-ma0000002674\"></a>                      \n                    </div>\n
-        \                   <div class=\"info\">\n                        <a href=\"http://www.allmusic.com/genre/jazz-ma0000002674\">Jazz</a>
-        \                       <p>John Coltrane, Ella Fitzgerald, Miles Davis</p>\n
-        \                   </div>   \n                </li>\n            </ul>\n
-        \       </li>\n        <li class=\"sub-menu-column genres\">\n            <ul>\n
-        \               <li><h3>&nbsp;</h3></li>                                                                                                                        \n
-        \               <li>\n                    <div class=\"thumbnail xxs genre
-        latin\">\n                         <a title=\"Latin Genre\" href=\"/genre/latin-ma0000002692\"></a>
-        \                     \n                    </div>\n                    <div
-        class=\"info\">\n                        <a href=\"http://www.allmusic.com/genre/latin-ma0000002692\">Latin</a>
-        \                       <p>Shakira, Willie Colon, Pitbull, Los Lobos</p>\n
-        \                   </div>   \n                </li>\n                <li>\n
-        \                   <div class=\"thumbnail xxs genre pop-rock\">\n                         <a
-        title=\"Pop/Rock Genre\" href=\"/genre/pop-rock-ma0000002613\"></a>                      \n
-        \                   </div>\n                    <div class=\"info\">\n                        <a
-        href=\"http://www.allmusic.com/genre/pop-rock-ma0000002613\">Pop/Rock</a>
-        \                       <p>White Stripes, Lady Gaga, Chuck Berry</p>\n                    </div>
-        \ \n                </li>\n                <li>\n                    <div
-        class=\"thumbnail xxs genre rap\">\n                         <a title=\"Rap
-        Genre\" href=\"/genre/rap-ma0000002816\"> </a>                      \n                    </div>\n
-        \                   <div class=\"info\">\n                        <a href=\"http://www.allmusic.com/genre/rap-ma0000002816\">Rap</a>
-        \                       <p>Eminem, De La Soul, The Roots</p>\n                    </div>
-        \        \n                </li>\n                <li>\n                    <div
-        class=\"thumbnail xxs genre reggae\">\n                         <a title=\"Reggae
-        Genre\" href=\"/genre/reggae-ma0000002820\"></a>                      \n                    </div>\n
-        \                   <div class=\"info\">\n                        <a href=\"http://www.allmusic.com/genre/reggae-ma0000002820\">Reggae</a>
-        \                       <p>Bob Marley, Black Uhuru, UB40, Shaggy</p>\n                    </div>
-        \n                </li>            \n            </ul>\n            <div class=\"see-all\">\n
-        \               <a href=\"/genres\">see all genres &raquo;</a>\n            </div>\n
-        \       </li>                                \n        <li class=\"sub-menu-column
-        shaded moods\">\n            <ul>\n                <li><h3>popular moods</h3></li>
-        \                              \n                <li><a href=\"http://www.allmusic.com/mood/romantic-xa0000000758\">Romantic</a></li>\n
-        \               <li><a href=\"http://www.allmusic.com/mood/bittersweet-xa0000000946\">Bittersweet</a></li>\n
-        \               <li><a href=\"http://www.allmusic.com/mood/druggy-xa0000000979\">Druggy</a></li>\n
-        \               <li><a href=\"http://www.allmusic.com/mood/melancholy-xa0000000734\">Melancholy</a></li>\n
-        \               <li><a href=\"http://www.allmusic.com/mood/hypnotic-xa0000000719\">Hypnotic</a></li>\n
-        \               <li><a href=\"http://www.allmusic.com/mood/aggressive-xa0000000694\">Aggressive</a></li>\n
-        \               <li><a href=\"http://www.allmusic.com/mood/sexy-xa0000000770\">Sexy</a></li>\n
-        \           </ul>\n            <div class=\"see-all\">\n                <a
-        href=\"/moods\">see all moods &raquo;</a>\n            </div>\n        </li>\n
-        \       <li class=\"sub-menu-column shaded themes\">\n            <ul>\n                <li><h3>popular
-        themes</h3></li>                               \n                <li><a href=\"http://www.allmusic.com/theme/late-night-ma0000006321\">Late
-        Night</a></li>\n                <li><a href=\"http://www.allmusic.com/theme/introspection-ma0000006318\">Introspection</a></li>\n
-        \               <li><a href=\"http://www.allmusic.com/theme/partying-ma0000004272\">Partying</a></li>\n
-        \               <li><a href=\"http://www.allmusic.com/theme/rainy-day-ma0000005096\">Rainy
-        Day</a></li>\n                <li><a href=\"http://www.allmusic.com/theme/summer-ma0000004281\">Summer</a></li>\n
-        \               <li><a href=\"http://www.allmusic.com/theme/cool-cocky-ma0000006328\">Cool
-        & Cocky</a></li>\n                <li><a href=\"http://www.allmusic.com/theme/drinking-ma0000004252\">Drinking</a></li>
-        \               \n            </ul>\n            <div class=\"see-all\">\n
-        \               <a href=\"/themes\">see all themes &raquo;</a>\n            </div>\n
-        \       </li>\n    </ul>\n</li>                        <li id=\"nav-new\"
-        class=\"top-level-nav\">\n    <a class=\"nav-item\">new releases<span class='sprite2
-        bg-toggle-sprite'></span></a>\n    <ul class=\"nav-dropdown\" id=\"new-dropdown\">\n
-        \       <li class=\"sub-menu-column new-releases\">\n            <ul>\n                <li><a
-        href=\"/newreleases/editorschoice\" class=\"nr-all\">Editors' Choice</a></li>\n
-        \               <li><a href=\"/newreleases\" class=\"nr-notable\">Notable
-        New Releases</a></li>\n                <li><a href=\"/newreleases/all\" class=\"nr-all\">All
-        New Releases</a></li>\n            </ul>\n        </li>\n    </ul>\n</li>\n
-        \                       <li id=\"nav-gift-guide\" class=\"top-level-nav\">\n
-        \   <a title=\"AllMusic Gift Guide 2012\" id=\"gift-guide-link\" class=\"nav-item\"
-        style=\"outline: 0; border: 0; margin-right:0px; background: none\" href=\"/lists/gift-guide/2012\">gift
-        guide</a>      \n</li>\n                                                            \n
-        \                                           </ul>                    \n                </div>\n
-        \           </div>\n        </div>\n        \n        <div class=\"advertisement-div
-        header-banner-ad\">            \n                            <script type='text/javascript'>\n
-        \                   GA_googleFillSlot(\"allmusic_ROS_billboard_1x1\");\n                </script>\n
-        \                   </div>\n\n        <div id=\"wrapper\">        \n            <noscript>\n
-        \               <div>\n                    AllMusic relies heavily on JavaScript.<br>\n
-        \                   Please enable Javascript in your browser to use the site
-        fully.\n                </div>\n            </noscript>\n<div class=\"hidden\"
-        itemscope itemtype=\"http://www.data-vocabulary.org/Review\">\n    <span itemprop=\"itemreviewed\">Small
-        Fame (2012)</span>\n        \n            \n    </div>\n\n<div class=\"page-heading\">\n
-        \   <div class=\"rovi-share\" data-sharemessage=\"Listen to Small Fame by
-        Bend Sinister - Album Reviews, Credits, and Awards - AllMusic\">\n        \n<ul
-        class=\"share-menu\">\n    <li>\n        Share Page\n    </li>\n    <li>\n
-        \       <a title=\"Share on Facebook\" class=\"sprite2 share-button facebook\"
-        href=\"http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.allmusic.com%2Falbum%2Fsmall-fame-mw0002374964\"></a>\n
-        \   </li>\n    <li>\n        <a title=\"Share on Twitter\" class=\"sprite2
-        share-button twitter\" href=\"http://twitter.com/share?url=http%3A%2F%2Fwww.allmusic.com%2Falbum%2Fsmall-fame-mw0002374964&text=Listen+to+Small+Fame+by+Bend+Sinister+-+Album+Reviews%2C+Credits%2C+and+Awards+-+AllMusic&count=http%3A%2F%2Fwww.allmusic.com%2Falbum%2Fsmall-fame-mw0002374964\"></a>\n
-        \   </li>\n    <li>\n        <a title=\"Share via e-mail\" class=\"sprite2
-        share-button email\" href=\"#\"></a>\n    </li>\n</ul>\n<div class=\"share-modal\">\n
-        \   <a title=\"close button\" class=\"close-button\"></a>\n    <div class=\"share-frame\"></div>\n</div>
-        \   </div>\n    \n    <h1><span class=\"seo-hidden\">Small Fame by Bend Sinister
-        on AllMusic</span></h1>\n    <div class=\"album-artist\"><a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
-        Sinister</a></div>\n    <div class=\"album-title\">\n                Small
-        Fame                                    <div class=\"ui360 ui360playlist\"
-        title=\"play all samples from Small Fame\">\n                                                    <a
-        href=\"http://rovimusic.rovicorp.com/playback.mp3?c=mr4PtF41XU5n4vwKlH3ZPqwfpsQHuOlGC4-o-yXc8Os=&f=J_playlist\"
-        title=\"play sample 0\" class=\"playlistlink\"></a>            \n                                                    <a
-        href=\"http://rovimusic.rovicorp.com/playback.mp3?c=mr4PtF41XU5n4vwKlH3ZPs2KXJKuJLE7UG4BJXcyKZ4=&f=J_playlist\"
-        title=\"play sample 1\" class=\"playlistlink\"></a>            \n                                                    <a
-        href=\"http://rovimusic.rovicorp.com/playback.mp3?c=mr4PtF41XU5n4vwKlH3ZPmjIb8Tr8vVfGLIuM5x_WSg=&f=J_playlist\"
-        title=\"play sample 2\" class=\"playlistlink\"></a>            \n                                                    <a
-        href=\"http://rovimusic.rovicorp.com/playback.mp3?c=mr4PtF41XU5n4vwKlH3ZPvQIxMnXLaW9NvEpt_rvU6E=&f=J_playlist\"
-        title=\"play sample 3\" class=\"playlistlink\"></a>            \n                                                    <a
-        href=\"http://rovimusic.rovicorp.com/playback.mp3?c=mr4PtF41XU5n4vwKlH3ZPv3pqi0RS20pHqZddGAWQOA=&f=J_playlist\"
-        title=\"play sample 4\" class=\"playlistlink\"></a>            \n                                                    <a
-        href=\"http://rovimusic.rovicorp.com/playback.mp3?c=cKHJAdbsT2K7sc0a8b0pqZjWf7KriH64XH0cLbjLrOY=&f=J_playlist\"
-        title=\"play sample 5\" class=\"playlistlink\"></a>            \n                                                    <a
-        href=\"http://rovimusic.rovicorp.com/playback.mp3?c=cKHJAdbsT2K7sc0a8b0pqYapJnH0KBK7tayJ1L1z1aM=&f=J_playlist\"
-        title=\"play sample 6\" class=\"playlistlink\"></a>            \n                                                    <a
-        href=\"http://rovimusic.rovicorp.com/playback.mp3?c=cKHJAdbsT2K7sc0a8b0pqawfpsQHuOlGC4-o-yXc8Os=&f=J_playlist\"
-        title=\"play sample 7\" class=\"playlistlink\"></a>            \n                                                    <a
-        href=\"http://rovimusic.rovicorp.com/playback.mp3?c=cKHJAdbsT2K7sc0a8b0pqfKUU23ZQzDPVjJ3ONioHGo=&f=J_playlist\"
-        title=\"play sample 8\" class=\"playlistlink\"></a>            \n                                                    <a
-        href=\"http://rovimusic.rovicorp.com/playback.mp3?c=mr4PtF41XU5n4vwKlH3ZPvKUU23ZQzDPVjJ3ONioHGo=&f=J_playlist\"
-        title=\"play sample 9\" class=\"playlistlink\"></a>            \n                                                    <a
-        href=\"http://rovimusic.rovicorp.com/playback.mp3?c=mr4PtF41XU5n4vwKlH3ZPvh0BJxFGWncDvRkmPV4knk=&f=J_playlist\"
-        title=\"play sample 10\" class=\"playlistlink\"></a>            \n                                                    <a
-        href=\"http://rovimusic.rovicorp.com/playback.mp3?c=mr4PtF41XU5n4vwKlH3ZPjqpU4hxl5saPDaNIVORh-E=&f=J_playlist\"
-        title=\"play sample 11\" class=\"playlistlink\"></a>            \n                                            </div>\n
-        \                   </div>\n</div>\n\n<div id=\"main\">\n    <div id=\"sidebar\"
-        class=\"left\">\n\n        \n    <div class=\"album-art\">            \n        \n
-        \                   <div class=\"image-container\" data-large=\"{&quot;height&quot;:450,&quot;width&quot;:500,&quot;formatid&quot;:16,&quot;url&quot;:&quot;http:\\/\\/cps-static.rovicorp.com\\/3\\/JPG_500\\/MI0003\\/369\\/MI0003369371.jpg?partner=allrovi.com&quot;,&quot;author&quot;:&quot;&quot;,&quot;copyrightOwner&quot;:&quot;&quot;}\">\n
-        \               <img src=\"http://cps-static.rovicorp.com/3/JPG_250/MI0003/369/MI0003369371.jpg?partner=allrovi.com\"
-        width=\"250\" alt=\"Small Fame\">            \n                <div class=\"enlarge-overlay\"
-        title=\"click to embiggen\"></div>\n            </div>\n            </div>\n\n
-        \       <div id=\"disco-browser\">\n        <h3>discography browser</h3>\n
-        \       \n        <div class=\"gallery\">        \n            <div class=\"button
-        previous sprite2 btn-arrow-left\"></div>\n\n            <div class=\"window\">\n
-        \               <ul class=\"slider\">\n                                    <li
-        class=\"album\">\n                        <a href=\"/album/through-the-broken-city-mw0001102515\"
-        title=\"Through the Broken City\" data-tooltip=\"{&quot;id&quot;:&quot;MW0001102515&quot;,&quot;thumbnail&quot;:true,&quot;position&quot;:{&quot;my&quot;:&quot;top
-        center&quot;,&quot;at&quot;:&quot;bottom center&quot;}}\">\n                                                    <div
-        class=\"cropped-image\" style=\"width:30px;height:30px;\" ><img src=\"http://cps-static.rovicorp.com/3/JPG_75/MI0002/093/MI0002093989.jpg?partner=allrovi.com\"
-        style=\"\" width=\"30\" height=\"30\" alt=\"Through the Broken City\" data-debug=\"75x75
-        (71)\"></div>                                                </a>\n                    </li>\n
-        \                                   <li class=\"album current\">\n                        <a
-        href=\"/album/small-fame-mw0002374964\" title=\"Small Fame\" data-tooltip=\"{&quot;id&quot;:&quot;MW0002374964&quot;,&quot;thumbnail&quot;:true,&quot;position&quot;:{&quot;my&quot;:&quot;top
-        center&quot;,&quot;at&quot;:&quot;bottom center&quot;}}\">\n                                                    <div
-        class=\"cropped-image\" style=\"width:30px;height:30px;\" ><img src=\"http://cps-static.rovicorp.com/3/JPG_75/MI0003/369/MI0003369371.jpg?partner=allrovi.com\"
-        style=\"left:-1px\" width=\"33\" height=\"30\" alt=\"Small Fame\" data-debug=\"75x67
-        (71)\"></div>                                                </a>\n                    </li>\n
-        \                               </ul>\n            </div>\n\n            <div
-        class=\"button next sprite2 btn-arrow-right\"></div>            \n        </div>\n
-        \   </div>\n\n    <dl class=\"details\">\n\n        \n                    <dt>release
-        date</dt>\n            <dd class=\"release-date\">2012</dd>\n        \n                    <dt>duration</dt>\n
-        \           <dd class=\"duration\">\n                43:53            </dd>\n
-        \       \n                    <dt>genre</dt>\n            <dd class=\"genres\">\n
-        \               <ul>\n                                            <li><a href=\"http://www.allmusic.com/genre/pop-rock-ma0000002613\">Pop/Rock</a></li>\n
-        \                                   </ul>\n            </dd>\n        \n                    <dt>styles</dt>\n
-        \           <dd class=\"styles\">\n                <ul>\n                                            <li><a
+      encoding: UTF-8
+      string: "<!DOCTYPE html>\n<!--[if lt IE 7]>      <html class=\"no-js lt-ie9
+        lt-ie8 lt-ie7\"> <![endif]-->\n<!--[if IE 7]>         <html class=\"no-js
+        lt-ie9 lt-ie8\"> <![endif]-->\n<!--[if IE 8]>         <html class=\"no-js
+        lt-ie9\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\"> <!--<![endif]-->\n
+        \   <head>\n        <meta charset=\"utf-8\">\n        <meta http-equiv=\"X-UA-Compatible\"
+        content=\"IE=Edge,chrome=1\"><script type=\"text/javascript\">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function
+        r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var
+        o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if(\"function\"==typeof
+        __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return
+        r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var
+        c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function
+        a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return
+        n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function
+        r(){return{}}var o=\"nr@context\",i=t(\"gos\");e.exports=n()},{gos:\"7eSDFh\"}],ee:[function(t,e){e.exports=t(\"QJf3ax\")},{}],gos:[function(t,e){e.exports=t(\"7eSDFh\")},{}],\"7eSDFh\":[function(t,e){function
+        n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return
+        Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return
+        t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function
+        n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void
+        o[t].push(e))}var r=t(\"ee\").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:\"QJf3ax\"}],handle:[function(t,e){e.exports=t(\"D5DuLP\")},{}],XL7HBI:[function(t,e){function
+        n(t){var e=typeof t;return!t||\"object\"!==e&&\"function\"!==e?-1:t===window?0:i(t,o,function(){return
+        r++})}var r=1,o=\"nr@id\",i=t(\"gos\");e.exports=n},{gos:\"7eSDFh\"}],id:[function(t,e){e.exports=t(\"XL7HBI\")},{}],loader:[function(t,e){e.exports=t(\"G9z0Bl\")},{}],G9z0Bl:[function(t,e){function
+        n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto=\"https\"===p.split(\":\")[0]||t.sslForHttp?\"https://\":\"http://\",a(\"mark\",[\"onload\",i()]);var
+        e=c.createElement(\"script\");e.src=l.proto+t.agent,c.body.appendChild(e)}}function
+        r(){\"complete\"===c.readyState&&o()}function o(){a(\"mark\",[\"domContent\",i()])}function
+        i(){return(new Date).getTime()}var a=t(\"handle\"),u=window,c=u.document,f=\"addEventListener\",s=\"attachEvent\",p=(\"\"+location).split(\"?\")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f](\"DOMContentLoaded\",o,!1),u[f](\"load\",n,!1)):(c[s](\"onreadystatechange\",r),u[s](\"onload\",n)),a(\"mark\",[\"firstbyte\",i()])},{handle:\"D5DuLP\"}]},{},[\"G9z0Bl\"]);</script>\n\n
+        \       <!-- iOS metadata -->\n        <meta name=\"apple-mobile-web-app-capable\"
+        content=\"no\">\n        <meta name=\"viewport\" content=\"width=device-width\"
+        >\n\n\n        <link rel=\"apple-touch-icon-precomposed\" href=\"http://assets.allmusic.com/images/ios/apple-touch-icon-57x57.png\">\n
+        \       <link rel=\"apple-touch-icon-precomposed\" sizes=\"72x72\" href=\"http://assets.allmusic.com/images/ios/apple-touch-icon-72x72.png\">\n
+        \       <link rel=\"apple-touch-icon-precomposed\" sizes=\"114x114\" href=\"http://assets.allmusic.com/images/ios/apple-touch-icon-114x114.png\">\n
+        \       <link rel=\"apple-touch-icon-precomposed\" sizes=\"144x144\" href=\"http://assets.allmusic.com/images/ios/apple-touch-icon-144x144.png\">\n\n
+        \       <link rel=\"shortcut icon\" href=\"http://assets.allmusic.com/images/favicon.ico\"
+        type=\"image/x-icon\" />\n        <link rel=\"alternate\" type=\"application/rss+xml\"
+        title=\"RSS\" href=\"/rss\" />\n\n        \t<meta name=\"title\" content=\"Small
+        Fame - Bend Sinister | Songs, Reviews, Credits, Awards | AllMusic\">\n\t<meta
+        name=\"keywords\" content=\"Pop/Rock,Alternative/Indie Rock,She Don&#039;t
+        Give It Up,Don&#039;t You Know,Man of Faith and Virtue,One Shot,Got You On
+        My Mind\">\n\t<meta name=\"description\" content=\"Find album reviews, stream
+        songs, credits and award information for Small Fame - Bend Sinister on AllMusic
+        - 2012\">\n\t<meta name=\"image\" content=\"http://cps-static.rovicorp.com/3/JPG_250/MI0003/369/MI0003369371.jpg?partner=allrovi.com\">\n\n
+        \       <meta property=\"og:site_name\" content=\"AllMusic\">\n\n\t<meta property=\"og:title\"
+        content=\"Small Fame - Bend Sinister | Songs, Reviews, Credits, Awards | AllMusic\">\n\t<meta
+        itemprop=\"name\" content=\"Small Fame - Bend Sinister | Songs, Reviews, Credits,
+        Awards | AllMusic\">\n\t<meta name=\"twitter:title\" content=\"Small Fame
+        - Bend Sinister | Songs, Reviews, Credits, Awards | AllMusic\">\n\n\t<meta
+        property=\"og:description\" content=\"Find album reviews, stream songs, credits
+        and award information for Small Fame - Bend Sinister on AllMusic - 2012\">\n\t<meta
+        itemprop=\"description\" content=\"Find album reviews, stream songs, credits
+        and award information for Small Fame - Bend Sinister on AllMusic - 2012\">\n\t<meta
+        name=\"twitter:description\" content=\"Find album reviews, stream songs, credits
+        and award information for Small Fame - Bend Sinister on AllMusic - 2012\">\n\n\t<meta
+        property=\"og:image\" content=\"http://cps-static.rovicorp.com/3/JPG_250/MI0003/369/MI0003369371.jpg?partner=allrovi.com\">\n\t<meta
+        itemprop=\"image\" content=\"http://cps-static.rovicorp.com/3/JPG_250/MI0003/369/MI0003369371.jpg?partner=allrovi.com\">\n\t<meta
+        name=\"twitter:card\" content=\"summary\">\n\t<meta name=\"twitter:image\"
+        content=\"http://cps-static.rovicorp.com/3/JPG_250/MI0003/369/MI0003369371.jpg?partner=allrovi.com\">\n\n
+        \       <meta property=\"og:image\" content=\"http://assets.allmusic.com/images/allmusic_facebook_share.png\">\n
+        \       <meta property=\"og:url\" content=\"http://www.allmusic.com/album/small-fame-mw0002374964\">\n\n
+        \       <link rel=\"canonical\" href=\"http://www.allmusic.com/album/small-fame-mw0002374964\">\n\n
+        \       <title>Small Fame - Bend Sinister | Songs, Reviews, Credits, Awards
+        | AllMusic</title>\n\n        <link type=\"text/css\" rel=\"stylesheet\" href=\"http://assets.allmusic.com/css/global/global.css\">\n\n
+        \                   <link type=\"text/css\" rel=\"stylesheet\" href=\"http://assets.allmusic.com/css/pages/album/album.css\">\n
+        \       \n        <!-- Alexa tag -->\n        <meta name=\"alexaVerifyID\"
+        content=\"SfgYrX5roRNK_iy-Mr_tFkRlY7M\"/>\n\n        <script>\n            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
+        \               (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n
+        \               m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n
+        \           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n
+        \           ga('create', 'UA-7096127-1', 'auto');\n\n                                ga('send',
+        'pageview', 'album/small-fame-mw0002374964');\n                        setTimeout(\"ga('send','event','adjusted
+        bounce rate','page visit 15 seconds or more')\",15000);\n                </script>\n\n\n
+        \       <!-- Media query polyfill ( Always require because loading via dynamic
+        ajax injection is too slow [the enquire.js will fire before the ajax completes]
+        ) -->\n        <script src=\"http://assets.allmusic.com/js/lib/media.match.min.js\"></script>\n\n
+        \       <script src=\"http://assets.allmusic.com/cache/setup.1415810327.js\"></script>\n\n
+        \                   <script type=\"text/javascript\">\n   // Get Mobile User
+        agent\n   var isMobileUa = /iPhone|iPod|BlackBerry|Opera Mini|(android|bb\\d+|meego).+mobile/i.test(navigator.userAgent);\n
+        \  // Get the browser width\n   var browserwidth = window.innerWidth;\n</script>\n<script
+        type=\"text/javascript\">\n   if (isMobile_AllMusic ) {\n       cmnunt_site
+        = 'allmusic_mob';\n   } else {\n       cmnunt_site = 'allmusic';\n   }\n   cmnunt_silo
+        = 's_mus';\n   cmnunt_subsilo = '';\n   cmnunt_tier = 'to,t2,internal';\n
+        \  cmnunt_zone = 'album';\n   cmnunt_kw = 'album_id=MW0002374964,artist_id=MN0002082546,genre=Pop/Rock,blockadex=FALSE,pagename=album';\n
+        \  cmnunt_exclude = '';\nif (isMobile_AllMusic) {\ndocument.write('<scr'+'ipt
+        type=\"text/javascript\" src=\"http://cdn.complexmedianetwork.com/js/cmnUNTmobile.js\"></scr'+'ipt>')\n}
+        else {\ndocument.write('<scr'+'ipt type=\"text/javascript\" src=\"http://cdn.complexmedianetwork.com/js/cmnUNT.js\"></scr'+'ipt>')\n}\n</script>
+        \       \n    </head>\n    <body>\n        <noscript>\n            <div class=\"javascript-disabled\"
+        id=\"no-js\">\n                AllMusic relies heavily on JavaScript.<br>\n
+        \               Please enable JavaScript in your browser to use the site fully.\n
+        \           </div>\n        </noscript>\n        <div class=\"stripe-container
+        header-leaderboard\">\n    <div class=\"advertising leaderboard\">\n                    <div
+        id=\"cmn_ad_tag_head\" class=\"fw_allmusic\">    <!-- 3x3 Ad Tag -->    <script
+        type=\"text/javascript\">        cmnUNT('3x3', tile_num++);    </script></div>
+        \           </div>\n</div>\n\n<div class=\"overflow-container album\">\n\n<div
+        class=\"stripe-container header-main-nav clearfix\">\n    <div class=\"max-header\">\n
+        \       <div class=\"main-nav\">\n\n    <div class=\"logo-container\">\n        <a
+        class=\"logo no-snap\" href=\"/\">\n            <h1>AllMusic</h1>\n        </a>\n
+        \   </div>\n\n    <nav class=\"mobile-menu\"></nav>\n\n    <div class=\"search-container\">\n
+        \       <form class=\"site-search\" method=\"post\" name=\"site-search\" action=\"/search\">\n
+        \           <input type=\"submit\" class=\"site-search-button\" name=\"submit\">\n
+        \           <input type=\"search\" class=\"site-search-input\" name=\"term\"
+        placeholder=\"Search\" tabindex=\"1\">\n        </form>\n    </div>\n\n    <nav
+        class=\"site-nav\">\n        <ul>\n            <li class=\"new-releases\">\n
+        \               <a href=\"/newreleases\">New Releases</a>\n                <ul
+        class=\"new-releases-nav\">\n    <div class=\"sub-nav-container\">\n        <div
+        class=\"sub-nav-columns\">\n            <div class=\"new-releases-subnav left\">\n
+        \               <li class=\"nr-featured\">\n                    <a href=\"/newreleases\">Featured
+        New Releases</a>\n                </li>\n                <li class=\"nr-editorschoice\">\n
+        \                   <a href=\"/newreleases/editorschoice\">Editors' Choice</a>\n
+        \               </li>\n                <li class=\"nr-all\">\n                    <a
+        href=\"/newreleases/all\">All New Releases</a>\n                </li>\n            </div>\n
+        \           <div class=\"new-releases-subnav right\">\n                <div
+        class=\"sub-nav-content\">\n\n                </div>\n            </div>\n
+        \       </div>\n\n    </div>\n</ul>            </li>\n            <li class=\"discover\">\n
+        \               <a href=\"/discover\">Discover</a>\n                <ul class=\"discover-nav\">\n
+        \   <div class=\"sub-nav-container\">\n        <div class=\"sub-nav-columns
+        left\">\n            <li class=\"discover-genres active\">\n                <a
+        href=\"/genres\">Genres<span class=\"genres-arrow\" style=\"display:none\">&nbsp;&nbsp;&rsaquo;</span></a>\n
+        \           </li>\n            <li class=\"discover-moods\">\n                <a
+        href=\"/moods\">Moods<span class=\"moods-arrow\" style=\"display:none\">&nbsp;&nbsp;&rsaquo;</span></a>\n
+        \           </li>\n            <li class=\"discover-themes\">\n                <a
+        href=\"/themes\">Themes<span class=\"themes-arrow\" style=\"display:none\">&nbsp;&nbsp;&rsaquo;</span></a>\n
+        \           </li>\n        </div>\n        <div class=\"sub-nav-columns right\">\n
+        \           <ul class=\"discover-genre-secondary\">\n    <div class=\"genre-column\">\n
+        \       <!-- spacer to prevent hover weirdness -->\n    </div>\n    <div class=\"genre-column\">\n
+        \       <li class=\"individual\">\n            <a href=\"/genre/blues-ma0000002467\">Blues</a>\n
+        \       </li>\n        <li class=\"individual\">\n            <a href=\"/genre/classical-ma0000002521\">Classical</a>\n
+        \       </li>\n        <li class=\"individual\">\n            <a href=\"/genre/country-ma0000002532\">Country</a>\n
+        \       </li>\n    </div>\n    <div class=\"genre-column\">\n        <li class=\"individual\">\n
+        \           <a href=\"/genre/electronic-ma0000002572\">Electronic</a>\n        </li>\n
+        \       <li class=\"individual\">\n            <a href=\"/genre/folk-ma0000002592\">Folk</a>\n
+        \       </li>\n        <li class=\"individual\">\n            <a href=\"/genre/international-ma0000002660\">International</a>\n
+        \       </li>\n    </div>\n    <div class=\"genre-column\">\n        <li class=\"individual\">\n
+        \           <a href=\"/genre/jazz-ma0000002674\">Jazz</a>\n        </li>\n
+        \       <li class=\"individual\">\n            <a href=\"/genre/latin-ma0000002692\">Latin</a>\n
+        \       </li>\n        <li class=\"individual\">\n            <a href=\"/genre/new-age-ma0000002745\">New
+        Age</a>\n        </li>\n    </div>\n    <div class=\"genre-column\">\n        <li
+        class=\"individual\">\n            <a href=\"/genre/pop-rock-ma0000002613\">Pop/Rock</a>\n
+        \       </li>\n        <li class=\"individual\">\n            <a href=\"/genre/rap-ma0000002816\">Rap</a>\n
+        \       </li>\n        <li class=\"individual\">\n            <a href=\"/genre/r-b-ma0000002809\">R&amp;B</a>\n
+        \       </li>\n    </div>\n    <div class=\"genre-column\">\n        <li class=\"individual\">\n
+        \           <a href=\"/genre/reggae-ma0000002820\">Reggae</a>\n        </li>\n
+        \       <li class=\"individual\">\n            <a href=\"/genre/stage-screen-ma0000004432\">Stage
+        &amp; Screen</a>\n        </li>\n        <li class=\"last\">\n            <a
+        href=\"/genres\">All Genres</a>\n        </li>\n    </div>\n</ul>            <ul
+        class=\"discover-mood-secondary\" style=\"display:none;\">\n    <div class=\"mood-column\">\n
+        \       <!-- spacer to prevent hover weirdness -->\n    </div>\n    <div class=\"mood-column\">\n
+        \       <li class=\"individual\">\n            <a href=\"/mood/aggressive-xa0000000694\">Aggressive</a>\n
+        \       </li>\n        <li class=\"individual\">\n            <a href=\"/mood/bittersweet-xa0000000946\">Bittersweet</a>\n
+        \       </li>\n        <li class=\"individual\">\n            <a href=\"/mood/druggy-xa0000000979\">Druggy</a>\n
+        \       </li>\n    </div>\n    <div class=\"mood-column\">\n        <li class=\"individual\">\n
+        \           <a href=\"/mood/energetic-xa0000000990\">Energetic</a>\n        </li>\n
+        \       <li class=\"individual\">\n            <a href=\"/mood/happy-xa0000001016\">Happy</a>\n
+        \       </li>\n        <li class=\"individual\">\n            <a href=\"/mood/hypnotic-xa0000000719\">Hypnotic</a>\n
+        \       </li>\n    </div>\n    <div class=\"mood-column\">\n        <li class=\"individual\">\n
+        \           <a href=\"/mood/laid-back-mellow-xa0000001032\">Laid Back/Mellow</a>\n
+        \       </li>\n        <li class=\"individual\">\n            <a href=\"/mood/melancholy-xa0000000734\">Melancholy</a>\n
+        \       </li>\n        <li>\n            <a href=\"/mood/passionate-xa0000001062\">Passionate</a>\n
+        \       </li>\n    </div>\n    <div class=\"mood-column\">\n        <li class=\"individual\">\n
+        \           <a href=\"/mood/romantic-xa0000000758\">Romantic</a>\n        </li>\n
+        \       <li class=\"individual\">\n            <a href=\"/mood/sad-xa0000000761\">Sad</a>\n
+        \       </li>\n        <li>\n            <a href=\"/mood/sentimental-xa0000000765\">Sentimental</a>\n
+        \       </li>\n    </div>\n    <div class=\"mood-column\">\n        <li>\n
+        \           <a href=\"/mood/sexy-xa0000000770\">Sexy</a>\n        </li>\n
+        \       <li class=\"individual\">\n            <a href=\"/mood/trippy-xa0000000749\">Trippy</a>\n
+        \       </li>\n        <li class=\"last\">\n            <a href=\"/moods\">All
+        Moods</a>\n        </li>\n    </div>\n</ul>            <ul class=\"discover-theme-secondary\"
+        style=\"display:none;\">\n    <div class=\"theme-column\">\n        <!-- spacer
+        to prevent hover weirdness -->\n    </div>\n    <div class=\"theme-column\">\n
+        \       <li class=\"individual\">\n            <a href=\"/theme/background-music-ma0000006329\">Background
+        Music</a>\n        </li>\n        <li class=\"individual\">\n            <a
+        href=\"/theme/celebration-ma0000005042\">Celebration</a>\n        </li>\n
+        \       <li class=\"individual\">\n            <a href=\"/theme/cool-cocky-ma0000006328\">Cool
+        & Cocky</a>\n        </li>\n    </div>\n    <div class=\"theme-column\">\n
+        \       <li class=\"individual\">\n            <a href=\"/theme/drinking-ma0000004252\">Drinking</a>\n
+        \       </li>\n        <li class=\"individual\">\n            <a href=\"/theme/hanging-out-ma0000006297\">Hanging
+        Out</a>\n        </li>\n        <li class=\"individual\">\n            <a
+        href=\"/theme/in-love-ma0000005076\">In Love</a>\n        </li>\n    </div>\n
+        \   <div class=\"theme-column\">\n        <li class=\"individual\">\n            <a
+        href=\"/theme/introspection-ma0000006318\">Introspection</a>\n        </li>\n
+        \       <li class=\"individual\">\n            <a href=\"/theme/late-night-ma0000006321\">Late
+        Night</a>\n        </li>\n        <li class=\"individual\">\n            <a
+        href=\"/theme/partying-ma0000004272\">Partying</a>\n        </li>\n    </div>\n
+        \   <div class=\"theme-column\">\n        <li class=\"individual\">\n            <a
+        href=\"/theme/rainy-day-ma0000005096\">Rainy Day</a>\n        </li>\n        <li
+        class=\"individual\">\n            <a href=\"/theme/relaxation-ma0000006314\">Relaxation</a>\n
+        \       </li>\n        <li class=\"individual\">\n            <a href=\"/theme/road-trip-ma0000006287\">Road
+        Trip</a>\n        </li>\n    </div>\n    <div class=\"theme-column\">\n        <li
+        class=\"individual\">\n            <a href=\"/theme/romantic-evening-ma0000006312\">Romantic
+        Evening</a>\n        </li>\n        <li class=\"individual\">\n            <a
+        href=\"/theme/sex-ma0000005107\">Sex</a>\n        </li>\n        <li class=\"last\">\n
+        \           <a href=\"/themes\">All Themes</a>\n        </li>\n    </div>\n</ul>
+        \       </div>\n    </div>\n</ul>            </li>\n            <li class=\"blog\">\n
+        \               <a href=\"/blog\">Articles</a>\n                <ul>\n    <div
+        class=\"sub-nav-container clearfix\">\n        <div class=\"sub-nav-columns\">\n
+        \           <div class=\"blog-list\">\n                <li class=\"blog-features\">\n
+        \                   <a href=\"/blog/features\">Features</a>\n                </li>\n
+        \               <li class=\"blog-interviews\">\n                    <a href=\"/blog/interviews-14\">Interviews</a>\n
+        \               </li>\n                <li class=\"blog-lists\">\n                    <a
+        href=\"/blog/lists\">Lists</a>\n                </li>\n            </div>\n
+        \           <div class=\"blog-list\">\n                <li class=\"blog-stream\">\n
+        \                   <a href=\"/blog/stream-and-download\">Streams</a>\n                </li>\n
+        \               <li class=\"blog-promotions\">\n                    <a href=\"/blog/promotions\">Promotions</a>\n
+        \               </li>\n                <li class=\"blog-all\">\n                    <a
+        href=\"/blog\">All Posts</a>\n                </li>\n            </div>\n
+        \           <div class=\"blog-subnav right\">\n                <div class=\"sub-nav-blog-content\"></div>\n
+        \           </div>\n        </div>\n    </div>\n</ul>\n            </li>\n
+        \           <li class=\"recommendations\">\n                <a href=\"/recommendations\">Recommendations</a>\n
+        \           </li>\n            <li class=\"my-profile\">\n                <a
+        href=\"javascript:void(0)\" class=\"my-profile-link\">My Profile</a>\n            </li>\n
+        \           <li class=\"advanced-search\">\n                <a href=\"/advanced-search\">Advanced
+        Search</a>\n            </li>\n        </ul>\n    </nav>\n\n    <div class=\"user-social-nav\">\n
+        \       <nav class=\"social-nav\">\n            <ul>\n                <li
+        class=\"facebook\">\n                    <a href=\"http://www.facebook.com/AllMusicDotCom\"
+        alt=\"Like us on Facebook\" title=\"Like us on Facebook\">Facebook</a>\n                </li>\n
+        \               <li class=\"twitter\">\n                    <a href=\"https://twitter.com/#!/Allmusic\"
+        alt=\"Follow us on Twitter\" title=\"Follow us on Twitter\">Twitter</a>\n
+        \               </li>\n                <li class=\"google-plus\">\n                    <a
+        href=\"https://plus.google.com/101788172919569561373/posts\" alt=\"Follow
+        us on Google+\" title=\"Follow us on Google+\">Google</a>\n                </li>\n
+        \               <li class=\"rss\">\n                    <a alt=\"Subscribe
+        to our RSS feed\" title=\"Subscribe to our RSS feed\" alt=\"Subscribe to our
+        RSS feed\" href=\"/rss\" target=\"_blank\">RSS</a>\n                </li>\n
+        \           </ul>\n        </nav>\n\n        <nav class=\"user-notifications\">\n
+        \           <ul>\n                <li class=\"user-notification-icon\">\n
+        \               </li>\n            </ul>\n        </nav>\n\n        <nav class=\"user-nav\"></nav>\n
+        \   </div>\n\n</div>    </div>\n</div>\n\n<div id=\"cmn_wrap\">\n<div class=\"content-container\"
+        itemscope itemtype=\"http://schema.org/MusicAlbum\">\n\n    <meta itemprop=\"url\"
+        content=\"http://www.allmusic.com/album/small-fame-mw0002374964\">\n    <div
+        class=\"sidebar\">\n        <div class=\"album-cover\">\n            <div
+        class=\"album-contain\">\n                                    <img src=\"http://cps-static.rovicorp.com/3/JPG_400/MI0003/369/MI0003369371.jpg?partner=allrovi.com\"\n
+        \                        width=\"303\"\n                         alt=\"Small
+        Fame\"\n                         title=\"click to embiggen\"\n                         itemprop=\"image\"
+        data-lightbox=\"{&quot;image&quot;:{&quot;height&quot;:450,&quot;width&quot;:500,&quot;formatid&quot;:16,&quot;author&quot;:&quot;&quot;,&quot;copyrightOwner&quot;:&quot;&quot;,&quot;imageTypeId&quot;:0,&quot;zoomLevel&quot;:null,&quot;url&quot;:&quot;http:\\/\\/cps-static.rovicorp.com\\/3\\/JPG_500\\/MI0003\\/369\\/MI0003369371.jpg?partner=allrovi.com&quot;}}\">\n
+        \               \n                            </div>\n        </div>\n\n            <section
+        class=\"discography-browser\">\n        <h4><a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546/discography\"
+        alt=\"Bend Sinister Discography\" title=\"Bend Sinister Discography\">Discography
+        Browser</a></h4>\n        \n\n        <ul>\n            <li class=\"previous\">previous</li>\n\n
+        \                           <li class=\"album\">\n                    <a class=\"album-cover-link
+        crop-image-borders\" href=\"/album/through-the-broken-city-mw0001102515\"
+        title=\"Through the Broken City\" style=\"width:64px;height:64px;\" data-tooltip=\"{&quot;id&quot;:&quot;MW0001102515&quot;,&quot;thumbnail&quot;:true,&quot;position&quot;:{&quot;my&quot;:&quot;top
+        center&quot;,&quot;at&quot;:&quot;bottom center&quot;,&quot;adjust&quot;:{&quot;x&quot;:0}}}\"><img
+        src=\"http://cps-static.rovicorp.com/3/JPG_75/MI0002/093/MI0002093989.jpg?partner=allrovi.com\"
+        width=\"65\" height=\"65\" alt=\"Through the Broken City\"></a>                </li>\n
+        \                           <li class=\"album current\">\n                    <a
+        class=\"album-cover-link crop-image-borders\" href=\"/album/small-fame-mw0002374964\"
+        title=\"Small Fame\" style=\"width:64px;height:64px;\" data-tooltip=\"{&quot;id&quot;:&quot;MW0002374964&quot;,&quot;thumbnail&quot;:true,&quot;position&quot;:{&quot;my&quot;:&quot;top
+        center&quot;,&quot;at&quot;:&quot;bottom center&quot;,&quot;adjust&quot;:{&quot;x&quot;:0}}}\"><img
+        src=\"http://cps-static.rovicorp.com/3/JPG_75/MI0003/369/MI0003369371.jpg?partner=allrovi.com\"
+        width=\"65\" height=\"65\" alt=\"Small Fame\"></a>                </li>\n
+        \           \n            <li class=\"next\">next</li>\n\n            <li
+        class=\"dots-container\"></li>\n        </ul>\n    </section>\n\n        <div
+        class=\"advertising medium-rectangle\">\n            <!-- 300x250 Ad Tag --><script
+        type=\"text/javascript\">    cmnUNT('300x250,300x600', tile_num++);</script>
+        \       </div>\n\n        <section class=\"basic-info\">\n\n            <div
+        class=\"affiliates num-1\">\n            <h4>Stream or buy on:</h4>\n\n            <ul
+        class=\"partner-buttons\">\n                \n                                    <li>\n
+        \                       <a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Fwww.rdio.com%2Fartist%2FBend_Sinister%2Falbum%2FSmall_Fame%2F\"
+        data-target=\"rdio\" class=\"rdio\" title=\"Stream from Rdio\">\n                            Rdio\n
+        \                       </a>\n                    </li>\n                \n
+        \               \n                            </ul>\n        </div>\n    \n
+        \           <div class=\"release-date\">\n            <h4>Release Date</h4>\n
+        \           <span>2012</span>\n        </div>\n    \n            <div class=\"duration\">\n
+        \           <h4>Duration</h4>\n            <span>43:53</span>\n        </div>\n
+        \   \n            <div class=\"genre\">\n            <h4>Genre</h4>\n            <div>\n
+        \                           <a href=\"http://www.allmusic.com/genre/pop-rock-ma0000002613\">Pop/Rock</a>
+        \                       </div>\n        </div>\n    \n            <div class=\"styles\">\n
+        \           <h4>Styles</h4>\n            <div>\n                            <a
         href=\"http://www.allmusic.com/style/alternative-indie-rock-ma0000012230\">Alternative/Indie
-        Rock</a></li>\n                                    </ul>\n            </dd>\n
-        \       \n        <dd class=\"metaids\">\n            <div>\n                <a
-        href=\"#\">Album Metadata IDs</a>\n                <dl class=\"id-details\">\n
-        \                                           <dt>\n                        Rovi
-        Music ID                        </dt>\n                        <dd>\n                            <span>\n
-        \                               MW0002374964                            </span>\n
-        \                       </dd>\n                      \n                                            <dt>\n
-        \                       AMG Pop ID                        </dt>\n                        <dd>\n
-        \                           <span>\n                                R  2483089
-        \                           </span>\n                        </dd>\n                                                                                                         \n
-        \               </dl>\n            </div>\n        </dd>\n\n        <div class=\"corrections\">\n
-        \           <a href=\"/album/small-fame-mw0002374964/corrections\">Submit
-        corrections</a>\n        </div>\n    </dl>\n\n    <div class=\"advertisement
-        medium-rectangle\">\n        <span class='ad_sprite'></span>\n<div id='allmusic_300x250_btf'
-        style='width:300px;'>\n    <script type='text/javascript'>googletag.cmd.push(function(){
-        googletag.display('allmusic_300x250_btf'); });    </script>\n</div>\n    </div>\n\n
-        \   \n        \n    \n    <div class=\"advertisement medium-rectangle\">\n
-        \       <span class='ad_sprite'></span>\n<div id='allmusic2_300x250_btf' style='width:300px;'>\n
-        \   <script type='text/javascript'>googletag.cmd.push(function(){ googletag.display('allmusic2_300x250_btf');
-        });    </script>\n</div>\n    </div>\n</div>\n    <div id=\"content\" class=\"right\">\n
-        \       \n        <ul class=\"tabset\">\n                                    <li
-        class=\"active\">\n                    <a href=\"/album/small-fame-mw0002374964\"
-        class=\"overview\">\n                        <span>overview</span>\n                    </a>\n
-        \               </li>\n                                                <li>\n
-        \                   <a href=\"/album/small-fame-mw0002374964/credits\" class=\"credits\">\n
-        \                       <span>credits</span>\n                    </a>\n                </li>\n
-        \                                               <li>\n                    <a
-        href=\"/album/small-fame-mw0002374964/releases\" class=\"releases\">\n                        <span>releases</span>\n
-        \                   </a>\n                </li>\n                                                <li>\n
-        \                   <a href=\"/album/small-fame-mw0002374964/stream-buy\"
-        class=\"stream & buy\">\n                        <span>stream & buy</span>\n
-        \                   </a>\n                </li>\n                                                </ul>\n
-        \       \n    \n    <div class=\"advertisement leaderboard\">\n        <span
-        class='ad_sprite'></span>\n<div id='allmusic_728x90_atf' style='width:728px;height:90px;'>\n
-        \   <script type='text/javascript'>googletag.cmd.push(function(){ googletag.display('allmusic_728x90_atf');
-        });    </script>\n</div>\n    </div>\n\n    <div id=\"tracks\">\n        <h2>tracks</h2>\n\n<div
-        class=\"table-container\">\n    <table class=\"list\">\n        <thead>\n
-        \           <tr>\n                <th class=\"sample\">Sample</th>\n                <th
-        class=\"tracknum\"></th>\n                <th class=\"title-artist\">Title/Composer</th>\n
-        \               <th class=\"performer\">Performer</th>\n                <th
-        class=\"time\">Time</th>\n\n                            <th class=\"stream\"
-        colspan=\"2\">Stream</th>\n                        </tr>\n        </thead>\n
-        \       <tbody>\n                                    <tr>\n                    <td
-        class=\"sample\" >\n                                            <div class=\"ui360\">\n
-        \                           <a href=\"http://rovimusic.rovicorp.com/playback.mp3?c=mr4PtF41XU5n4vwKlH3ZPqwfpsQHuOlGC4-o-yXc8Os=&f=J\"
-        title=\"play sample\"></a>\n                        </div>\n                                        </td>\n\n
-        \                   <td class=\"tracknum\">1</td>\n\n                    <td
-        class=\"title\">\n                        <div class=\"title\">\n                            <a
-        href=\"http://www.allmusic.com/song/she-dont-give-it-up-mt0044314620\" class=\"primary_link\">She
-        Don't Give It Up</a>\n                                                </div>\n
-        \                       <div class=\"artist secondary_link\">                    \n
-        \                           <a href=\"http://www.allmusic.com/artist/joseph-martin-mn0000826335\">Joseph
-        Martin</a><span> / </span><a href=\"http://www.allmusic.com/artist/dan-moxon-mn0002546393\">Dan
-        Moxon</a><span> / </span><a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
-        Sinister</a>                                                       \n                        </div>\n
-        \                   </td>\n\n                    <td class=\"performer secondary_link\">\n
-        \                       <div class=\"primary\">\n                            <a
-        href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend Sinister</a>
-        \                       </div>\n                                            </td>\n
-        \                   <td class=\"time\">\n                        4:04                    </td>\n\n
-        \                   \n                                            <td class=\"stream\">\n
-        \                                                   <a href=\"http://rd.io/x/QitDSh2j\"
-        data-target=\"rdio\" class=\"sprite2 icon-stream-rdio\" title=\"Open in Rdio\"></a>\n
-        \                                               </td>\n                    \n
-        \                                           <td class=\"stream\">\n                                                </td>\n
-        \                                   </tr>\n                                                <tr>\n
-        \                   <td class=\"sample\" >\n                                            <div
-        class=\"ui360\">\n                            <a href=\"http://rovimusic.rovicorp.com/playback.mp3?c=mr4PtF41XU5n4vwKlH3ZPs2KXJKuJLE7UG4BJXcyKZ4=&f=J\"
-        title=\"play sample\"></a>\n                        </div>\n                                        </td>\n\n
-        \                   <td class=\"tracknum\">2</td>\n\n                    <td
-        class=\"title\">\n                        <div class=\"title\">\n                            <a
-        href=\"http://www.allmusic.com/song/dont-you-know-mt0044314621\" class=\"primary_link\">Don't
-        You Know</a>\n                                                </div>\n                        <div
-        class=\"artist secondary_link\">                    \n                            <a
+        Rock</a>                        </div>\n        </div>\n    \n            <div
+        class=\"recording-date\">\n            <h4>Recording Date</h4>\n            <div>April,
+        2011 - November, 2011</div>\n        </div>\n    \n    <a href=\"http://www.allmusic.com/album/small-fame-mw0002374964/corrections\"
+        class=\"submit-corrections\">Submit Corrections</a>\n</section>\n\n        \n\n
+        \       <div class=\"advertising medium-rectangle-btf\">\n            <script
+        type=\"text/javascript\">    cmnUNT('300x251', tile_num++);</script>        </div>\n\n
+        \   </div>\n\n    <div class=\"content\">\n\n        <header>\n            <a
+        href=\"#no-js\"\n           class=\"audio-player large\"\n           data-sample-url=\"/album/MW0002374964/samples.json\">\n
+        \           <canvas width=\"55\" height=\"55\"></canvas>\n        </a>\n    \n
+        \   <hgroup>\n        <h3 class=\"album-artist\" id=\"album-artist-link\"\n
+        \           itemprop=\"byArtist\"\n            itemscope\n            itemtype=\"http://schema.org/MusicGroup\">\n
+        \           <span itemprop=\"name\">\n                <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>            </span>\n        </h3>\n\n        <h2 class=\"album-title\"
+        itemprop=\"name\">\n            Small Fame        </h2>\n\n        <a href=\"javascript:void(0)\"
+        class=\"add-to-list-link\" data-id=\"MW0002374964\" data-addtolist=\"addtolist\"></a>\n
+        \       <a href=\"javascript:void(0)\" class=\"add-to-collection-link\" data-id=\"MW0002374964\"\n
+        \          data-artist=\"Bend Sinister\"\n           data-album=\"Small Fame\"\n
+        \          data-release-date=\"2012-??-??\"></a>\n        <div class=\"tabletdummy\"></div>\n
+        \           </hgroup>\n\n    <ul class=\"ratings\" itemscope itemtype=\"http://schema.org/Rating\">\n
+        \       <li id=\"microdata-rating\">\n            <span>AllMusic Rating</span>\n\n
+        \           <div class=\"allmusic-rating rating-allmusic-0\" itemprop=\"ratingValue\">\n
+        \                            </div>\n\n            <meta itemprop=\"name\"
+        content=\"AllMusic Rating\">\n            <meta itemprop=\"bestRating\" content=\"10\">\n
+        \           <meta itemprop=\"worstRating\" content=\"1\">\n        </li>\n\n
+        \       <li class=\"average\">\n            <span>\n                User Ratings
+        (<span class=\"average-user-rating-count\" data-id=\"MW0002374964\">0</span>)\n
+        \           </span>\n            <div class=\"average-user-rating\" data-id=\"MW0002374964\"></div>\n
+        \       </li>\n\n        <li>\n            <span>Your Rating</span>\n            <div
+        class=\"album-page-user-rating user-rating\"\n                 data-id=\"MW0002374964\"\n
+        \                data-artist=\"Bend Sinister\"\n                 data-title=\"Small
+        Fame\">\n             </div>\n        </li>\n    </ul>\n</header>\n        <ul
+        class=\"tabs overview\">\n            <li class=\"tab overview\" data-sections=\"tracks\">\n
+        \           <a href=\"/album/small-fame-mw0002374964\">\n                Overview\n
+        \               <span class=\"arrow\">&darr;</span>\n            </a>\n        </li>\n
+        \   \n            <li class=\"tab credits\">\n            <a href=\"/album/small-fame-mw0002374964/credits\">\n
+        \               Credits\n                <span class=\"arrow\">&darr;</span>\n
+        \           </a>\n        </li>\n    \n    \n            <li class=\"tab releases\">\n
+        \           <a href=\"/album/small-fame-mw0002374964/releases\">\n                Releases\n
+        \               <span class=\"arrow\">&darr;</span>\n            </a>\n        </li>\n
+        \   \n            <li class=\"tab similar\">\n            <a href=\"/album/small-fame-mw0002374964/similar\">\n
+        \               Similar Albums\n                <span class=\"arrow\">&darr;</span>\n
+        \           </a>\n        </li>\n    </ul>\n        \n<div class=\"allmusic-share\"
+        data-sharemessage=\"Listen to Small Fame by Bend Sinister - Album Reviews,
+        Credits, and Awards - AllMusic - \">\n    <p>\n        Share this page\n    </p>\n
+        \   <ul class=\"share-menu\">\n        <li>\n            <a title=\"Share
+        on Facebook\" class=\"share-button facebook\" href=\"http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.allmusic.com%2Falbum%2Fsmall-fame-mw0002374964\">facebook</a>\n
+        \       </li>\n        <li>\n            <a title=\"Share on Twitter\" class=\"share-button
+        twitter\" href=\"http://twitter.com/share?url=http%3A%2F%2Fwww.allmusic.com%2Falbum%2Fsmall-fame-mw0002374964&text=Listen+to+Small+Fame+by+Bend+Sinister+-+Album+Reviews%2C+Credits%2C+and+Awards+-+AllMusic+-+&counturl=http%3A%2F%2Fwww.allmusic.com%2Falbum%2Fsmall-fame-mw0002374964\">twitter</a>\n
+        \       </li>\n        <li>\n            <a title=\"Share on Google+\" class=\"share-button
+        google-plus\" href=\"https://plus.google.com/share?url=http%3A%2F%2Fwww.allmusic.com%2Falbum%2Fsmall-fame-mw0002374964\">google+</a>\n
+        \       </li>\n        <li>\n            <a title=\"Share via e-mail\" class=\"share-button
+        email\" href=\"#\">email</a>\n        </li>\n    </ul>\n    <div class=\"share-modal\">\n
+        \       <a title=\"close button\" class=\"close-button\"></a>\n        <div
+        class=\"share-frame\"></div>\n    </div>\n</div>\n\n            <section class=\"track-listing\">\n\n
+        \                   <div class=\"disc\">\n                <div class=\"headline\">\n
+        \                   <h3>\n                        Track Listing\n                                            </h3>\n
+        \               </div>\n\n                <table>\n                    <thead>\n
+        \                       <tr>\n                            <th class=\"pick-prefix\"></th>\n
+        \                                                           <th class=\"sample\">Sample</th>\n
+        \                                                       <th class=\"tracknum\"><!--
+        Track #--></th>\n                            <th class=\"title-composer\">Title/Composer</th>\n
+        \                           <th class=\"performer\">Performer</th>\n                            <th
+        class=\"time\">Time</th>\n\n                                                            <th
+        class=\"stream\">Stream</th>\n                            \n                            <th
+        class=\"pick-suffix\"></th>\n                        </tr>\n                    </thead>\n\n
+        \                   <tbody>\n                        \n                            <tr
+        class=\"track\"\n                                itemprop=\"track\"\n                                itemscope\n
+        \                               itemtype=\"http://schema.org/MusicRecording\">\n\n
+        \                               <td class=\"pick-prefix\"></td>\n\n                                                                    <td
+        class=\"sample\">\n                                                                                    <a
+        href=\"#no-js\" data-sample-url=\"http://rovimusic.rovicorp.com/playback.mp3?c=mr4PtF41XU5n4vwKlH3ZPqwfpsQHuOlGC4-o-yXc8Os=&f=J\"
+        class=\"audio-player\">\n                                                <canvas
+        width=\"30\" height=\"30\"></canvas>\n                                            </a>\n
+        \                                                                           </td>\n
+        \                               \n                                <td class=\"tracknum\">\n
+        \                                   1                                </td>\n\n
+        \                               <td class=\"title-composer\">\n                                    <div
+        class=\"title\" itemprop=\"name\">\n                                                                                    <a
+        href=\"http://www.allmusic.com/song/she-dont-give-it-up-mt0044314620\" itemprop=\"url\">She
+        Don't Give It Up</a>                                        \n                                                                            </div>\n\n
+        \                                   <div class=\"composer\">\n                                                                                    <a
         href=\"http://www.allmusic.com/artist/joseph-martin-mn0000826335\">Joseph
-        Martin</a><span> / </span><a href=\"http://www.allmusic.com/artist/dan-moxon-mn0002546393\">Dan
-        Moxon</a><span> / </span><a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
-        Sinister</a>                                                       \n                        </div>\n
-        \                   </td>\n\n                    <td class=\"performer secondary_link\">\n
-        \                       <div class=\"primary\">\n                            <a
-        href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend Sinister</a>
-        \                       </div>\n                                            </td>\n
-        \                   <td class=\"time\">\n                        3:04                    </td>\n\n
-        \                   \n                                            <td class=\"stream\">\n
-        \                                                   <a href=\"http://rd.io/x/QitDShx_\"
-        data-target=\"rdio\" class=\"sprite2 icon-stream-rdio\" title=\"Open in Rdio\"></a>\n
-        \                                               </td>\n                    \n
-        \                                           <td class=\"stream\">\n                                                </td>\n
-        \                                   </tr>\n                                                <tr>\n
-        \                   <td class=\"sample\" >\n                                            <div
-        class=\"ui360\">\n                            <a href=\"http://rovimusic.rovicorp.com/playback.mp3?c=mr4PtF41XU5n4vwKlH3ZPmjIb8Tr8vVfGLIuM5x_WSg=&f=J\"
-        title=\"play sample\"></a>\n                        </div>\n                                        </td>\n\n
-        \                   <td class=\"tracknum\">3</td>\n\n                    <td
-        class=\"title\">\n                        <div class=\"title\">\n                            <a
+        Martin</a> / <a href=\"http://www.allmusic.com/artist/dan-moxon-mn0002546393\">Dan
+        Moxon</a> / <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>                                                                            </div>\n
+        \                               </td>\n\n                                <td
+        class=\"performer\"\n                                    itemprop=\"byArtist\"\n
+        \                                   itemscope\n                                    itemtype=\"http://schema.org/MusicGroup\">\n
+        \                                   <span itemprop=\"name\">\n                                                                                    <div
+        class=\"primary\">\n                                                <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>                                            </div>\n                                        \n
+        \                                                                           </span>\n
+        \                               </td>\n\n                                <td
+        class=\"time\">\n                                                                            4:04
+        \                                       <meta itemprop=\"duration\" content=\"PT4M4S\">\n
+        \                                                                   </td>\n\n
+        \                                                                   <td class=\"stream\">\n
+        \                                       <a href=\"javascript:void(0)\" class=\"empty
+        spotify\"></a><a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Frd.io%2Fx%2FQitDSh2j%2F\"
+        class=\"rdio\" alt=\"Stream from Rdio\" title=\"Stream from Rdio\">Rdio</a><a
+        href=\"javascript:void(0)\" class=\"empty mog\"></a>                                    </td>\n
+        \                               \n                                <td class=\"pick-suffix\"></td>\n\n
+        \                           </tr>\n                        \n                            <tr
+        class=\"track\"\n                                itemprop=\"track\"\n                                itemscope\n
+        \                               itemtype=\"http://schema.org/MusicRecording\">\n\n
+        \                               <td class=\"pick-prefix\"></td>\n\n                                                                    <td
+        class=\"sample\">\n                                                                                    <a
+        href=\"#no-js\" data-sample-url=\"http://rovimusic.rovicorp.com/playback.mp3?c=mr4PtF41XU5n4vwKlH3ZPs2KXJKuJLE7UG4BJXcyKZ4=&f=J\"
+        class=\"audio-player\">\n                                                <canvas
+        width=\"30\" height=\"30\"></canvas>\n                                            </a>\n
+        \                                                                           </td>\n
+        \                               \n                                <td class=\"tracknum\">\n
+        \                                   2                                </td>\n\n
+        \                               <td class=\"title-composer\">\n                                    <div
+        class=\"title\" itemprop=\"name\">\n                                                                                    <a
+        href=\"http://www.allmusic.com/song/dont-you-know-mt0044314621\" itemprop=\"url\">Don't
+        You Know</a>                                        \n                                                                            </div>\n\n
+        \                                   <div class=\"composer\">\n                                                                                    <a
+        href=\"http://www.allmusic.com/artist/joseph-martin-mn0000826335\">Joseph
+        Martin</a> / <a href=\"http://www.allmusic.com/artist/dan-moxon-mn0002546393\">Dan
+        Moxon</a> / <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>                                                                            </div>\n
+        \                               </td>\n\n                                <td
+        class=\"performer\"\n                                    itemprop=\"byArtist\"\n
+        \                                   itemscope\n                                    itemtype=\"http://schema.org/MusicGroup\">\n
+        \                                   <span itemprop=\"name\">\n                                                                                    <div
+        class=\"primary\">\n                                                <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>                                            </div>\n                                        \n
+        \                                                                           </span>\n
+        \                               </td>\n\n                                <td
+        class=\"time\">\n                                                                            3:04
+        \                                       <meta itemprop=\"duration\" content=\"PT3M4S\">\n
+        \                                                                   </td>\n\n
+        \                                                                   <td class=\"stream\">\n
+        \                                       <a href=\"javascript:void(0)\" class=\"empty
+        spotify\"></a><a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Frd.io%2Fx%2FQitDShx_%2F\"
+        class=\"rdio\" alt=\"Stream from Rdio\" title=\"Stream from Rdio\">Rdio</a><a
+        href=\"javascript:void(0)\" class=\"empty mog\"></a>                                    </td>\n
+        \                               \n                                <td class=\"pick-suffix\"></td>\n\n
+        \                           </tr>\n                        \n                            <tr
+        class=\"track\"\n                                itemprop=\"track\"\n                                itemscope\n
+        \                               itemtype=\"http://schema.org/MusicRecording\">\n\n
+        \                               <td class=\"pick-prefix\"></td>\n\n                                                                    <td
+        class=\"sample\">\n                                                                                    <a
+        href=\"#no-js\" data-sample-url=\"http://rovimusic.rovicorp.com/playback.mp3?c=mr4PtF41XU5n4vwKlH3ZPmjIb8Tr8vVfGLIuM5x_WSg=&f=J\"
+        class=\"audio-player\">\n                                                <canvas
+        width=\"30\" height=\"30\"></canvas>\n                                            </a>\n
+        \                                                                           </td>\n
+        \                               \n                                <td class=\"tracknum\">\n
+        \                                   3                                </td>\n\n
+        \                               <td class=\"title-composer\">\n                                    <div
+        class=\"title\" itemprop=\"name\">\n                                                                                    <a
         href=\"http://www.allmusic.com/song/man-of-faith-and-virtue-mt0044314622\"
-        class=\"primary_link\">Man of Faith and Virtue</a>\n                                                </div>\n
-        \                       <div class=\"artist secondary_link\">                    \n
-        \                           <a href=\"http://www.allmusic.com/artist/joseph-martin-mn0000826335\">Joseph
-        Martin</a><span> / </span><a href=\"http://www.allmusic.com/artist/dan-moxon-mn0002546393\">Dan
-        Moxon</a><span> / </span><a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
-        Sinister</a>                                                       \n                        </div>\n
-        \                   </td>\n\n                    <td class=\"performer secondary_link\">\n
-        \                       <div class=\"primary\">\n                            <a
-        href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend Sinister</a>
-        \                       </div>\n                                            </td>\n
-        \                   <td class=\"time\">\n                        3:27                    </td>\n\n
-        \                   \n                                            <td class=\"stream\">\n
-        \                                                   <a href=\"http://rd.io/x/QitDShxg\"
-        data-target=\"rdio\" class=\"sprite2 icon-stream-rdio\" title=\"Open in Rdio\"></a>\n
-        \                                               </td>\n                    \n
-        \                                           <td class=\"stream\">\n                                                </td>\n
-        \                                   </tr>\n                                                <tr>\n
-        \                   <td class=\"sample\" >\n                                            <div
-        class=\"ui360\">\n                            <a href=\"http://rovimusic.rovicorp.com/playback.mp3?c=mr4PtF41XU5n4vwKlH3ZPvQIxMnXLaW9NvEpt_rvU6E=&f=J\"
-        title=\"play sample\"></a>\n                        </div>\n                                        </td>\n\n
-        \                   <td class=\"tracknum\">4</td>\n\n                    <td
-        class=\"title\">\n                        <div class=\"title\">\n                            <a
-        href=\"http://www.allmusic.com/song/one-shot-mt0044314623\" class=\"primary_link\">One
-        Shot</a>\n                                                </div>\n                        <div
-        class=\"artist secondary_link\">                    \n                            <a
+        itemprop=\"url\">Man of Faith and Virtue</a>                                        \n
+        \                                                                           </div>\n\n
+        \                                   <div class=\"composer\">\n                                                                                    <a
         href=\"http://www.allmusic.com/artist/joseph-martin-mn0000826335\">Joseph
-        Martin</a><span> / </span><a href=\"http://www.allmusic.com/artist/dan-moxon-mn0002546393\">Dan
-        Moxon</a><span> / </span><a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
-        Sinister</a>                                                       \n                        </div>\n
-        \                   </td>\n\n                    <td class=\"performer secondary_link\">\n
-        \                       <div class=\"primary\">\n                            <a
-        href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend Sinister</a>
-        \                       </div>\n                                            </td>\n
-        \                   <td class=\"time\">\n                        3:22                    </td>\n\n
-        \                   \n                                            <td class=\"stream\">\n
-        \                                                   <a href=\"http://rd.io/x/QitDShw5\"
-        data-target=\"rdio\" class=\"sprite2 icon-stream-rdio\" title=\"Open in Rdio\"></a>\n
-        \                                               </td>\n                    \n
-        \                                           <td class=\"stream\">\n                                                </td>\n
-        \                                   </tr>\n                                                <tr>\n
-        \                   <td class=\"sample\" >\n                                            <div
-        class=\"ui360\">\n                            <a href=\"http://rovimusic.rovicorp.com/playback.mp3?c=mr4PtF41XU5n4vwKlH3ZPv3pqi0RS20pHqZddGAWQOA=&f=J\"
-        title=\"play sample\"></a>\n                        </div>\n                                        </td>\n\n
-        \                   <td class=\"tracknum\">5</td>\n\n                    <td
-        class=\"title\">\n                        <div class=\"title\">\n                            <a
-        href=\"http://www.allmusic.com/song/got-you-on-my-mind-mt0044314624\" class=\"primary_link\">Got
-        You On My Mind</a>\n                                                </div>\n
-        \                       <div class=\"artist secondary_link\">                    \n
-        \                           <a href=\"http://www.allmusic.com/artist/joseph-martin-mn0000826335\">Joseph
-        Martin</a><span> / </span><a href=\"http://www.allmusic.com/artist/dan-moxon-mn0002546393\">Dan
-        Moxon</a><span> / </span><a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
-        Sinister</a>                                                       \n                        </div>\n
-        \                   </td>\n\n                    <td class=\"performer secondary_link\">\n
-        \                       <div class=\"primary\">\n                            <a
-        href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend Sinister</a>
-        \                       </div>\n                                            </td>\n
-        \                   <td class=\"time\">\n                        2:35                    </td>\n\n
-        \                   \n                                            <td class=\"stream\">\n
-        \                                                   <a href=\"http://rd.io/x/QitDShza\"
-        data-target=\"rdio\" class=\"sprite2 icon-stream-rdio\" title=\"Open in Rdio\"></a>\n
-        \                                               </td>\n                    \n
-        \                                           <td class=\"stream\">\n                                                    <a
-        href=\"http://mog.com/m#track/64642575\" data-target=\"mog\" class=\"sprite2
-        icon-stream-mog\" title=\"Open in MOG\"></a>\n                                                </td>\n
-        \                                   </tr>\n                                                <tr>\n
-        \                   <td class=\"sample\" >\n                                            <div
-        class=\"ui360\">\n                            <a href=\"http://rovimusic.rovicorp.com/playback.mp3?c=cKHJAdbsT2K7sc0a8b0pqZjWf7KriH64XH0cLbjLrOY=&f=J\"
-        title=\"play sample\"></a>\n                        </div>\n                                        </td>\n\n
-        \                   <td class=\"tracknum\">6</td>\n\n                    <td
-        class=\"title\">\n                        <div class=\"title\">\n                            <a
-        href=\"http://www.allmusic.com/song/my-lady-mt0044314625\" class=\"primary_link\">My
-        Lady</a>\n                                                </div>\n                        <div
-        class=\"artist secondary_link\">                    \n                            <a
-        href=\"http://www.allmusic.com/artist/tom-hillifer-mn0002950241\">Tom Hillifer</a><span>
-        / </span><a href=\"http://www.allmusic.com/artist/joseph-martin-mn0000826335\">Joseph
-        Martin</a><span> / </span><a href=\"http://www.allmusic.com/artist/dan-moxon-mn0002546393\">Dan
-        Moxon</a><span> / </span><a href=\"http://www.allmusic.com/artist/jacob-mullen-mn0002950189\">Jacob
-        Mullen</a><span> / </span><a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
-        Sinister</a>                                                       \n                        </div>\n
-        \                   </td>\n\n                    <td class=\"performer secondary_link\">\n
-        \                       <div class=\"primary\">\n                            <a
-        href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend Sinister</a>
-        \                       </div>\n                                            </td>\n
-        \                   <td class=\"time\">\n                        3:59                    </td>\n\n
-        \                   \n                                            <td class=\"stream\">\n
-        \                                                   <a href=\"http://rd.io/x/QitDShzC\"
-        data-target=\"rdio\" class=\"sprite2 icon-stream-rdio\" title=\"Open in Rdio\"></a>\n
-        \                                               </td>\n                    \n
-        \                                           <td class=\"stream\">\n                                                </td>\n
-        \                                   </tr>\n                                                <tr>\n
-        \                   <td class=\"sample\" >\n                                            <div
-        class=\"ui360\">\n                            <a href=\"http://rovimusic.rovicorp.com/playback.mp3?c=cKHJAdbsT2K7sc0a8b0pqYapJnH0KBK7tayJ1L1z1aM=&f=J\"
-        title=\"play sample\"></a>\n                        </div>\n                                        </td>\n\n
-        \                   <td class=\"tracknum\">7</td>\n\n                    <td
-        class=\"title\">\n                        <div class=\"title\">\n                            <a
-        href=\"http://www.allmusic.com/song/we-know-better-mt0044314626\" class=\"primary_link\">We
-        Know Better</a>\n                                                </div>\n
-        \                       <div class=\"artist secondary_link\">                    \n
-        \                           <a href=\"http://www.allmusic.com/artist/joseph-martin-mn0000826335\">Joseph
-        Martin</a><span> / </span><a href=\"http://www.allmusic.com/artist/dan-moxon-mn0002546393\">Dan
-        Moxon</a><span> / </span><a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
-        Sinister</a>                                                       \n                        </div>\n
-        \                   </td>\n\n                    <td class=\"performer secondary_link\">\n
-        \                       <div class=\"primary\">\n                            <a
-        href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend Sinister</a>
-        \                       </div>\n                                            </td>\n
-        \                   <td class=\"time\">\n                        3:39                    </td>\n\n
-        \                   \n                                            <td class=\"stream\">\n
-        \                                                   <a href=\"http://rd.io/x/QitDShyZ\"
-        data-target=\"rdio\" class=\"sprite2 icon-stream-rdio\" title=\"Open in Rdio\"></a>\n
-        \                                               </td>\n                    \n
-        \                                           <td class=\"stream\">\n                                                </td>\n
-        \                                   </tr>\n                                                <tr>\n
-        \                   <td class=\"sample\" >\n                                            <div
-        class=\"ui360\">\n                            <a href=\"http://rovimusic.rovicorp.com/playback.mp3?c=cKHJAdbsT2K7sc0a8b0pqawfpsQHuOlGC4-o-yXc8Os=&f=J\"
-        title=\"play sample\"></a>\n                        </div>\n                                        </td>\n\n
-        \                   <td class=\"tracknum\">8</td>\n\n                    <td
-        class=\"title\">\n                        <div class=\"title\">\n                            <a
-        href=\"http://www.allmusic.com/song/give-it-a-rest-mt0044314627\" class=\"primary_link\">Give
-        It a Rest</a>\n                                                </div>\n                        <div
-        class=\"artist secondary_link\">                    \n                            <a
+        Martin</a> / <a href=\"http://www.allmusic.com/artist/dan-moxon-mn0002546393\">Dan
+        Moxon</a> / <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>                                                                            </div>\n
+        \                               </td>\n\n                                <td
+        class=\"performer\"\n                                    itemprop=\"byArtist\"\n
+        \                                   itemscope\n                                    itemtype=\"http://schema.org/MusicGroup\">\n
+        \                                   <span itemprop=\"name\">\n                                                                                    <div
+        class=\"primary\">\n                                                <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>                                            </div>\n                                        \n
+        \                                                                           </span>\n
+        \                               </td>\n\n                                <td
+        class=\"time\">\n                                                                            3:27
+        \                                       <meta itemprop=\"duration\" content=\"PT3M27S\">\n
+        \                                                                   </td>\n\n
+        \                                                                   <td class=\"stream\">\n
+        \                                       <a href=\"javascript:void(0)\" class=\"empty
+        spotify\"></a><a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Frd.io%2Fx%2FQitDShxg%2F\"
+        class=\"rdio\" alt=\"Stream from Rdio\" title=\"Stream from Rdio\">Rdio</a><a
+        href=\"javascript:void(0)\" class=\"empty mog\"></a>                                    </td>\n
+        \                               \n                                <td class=\"pick-suffix\"></td>\n\n
+        \                           </tr>\n                        \n                            <tr
+        class=\"track\"\n                                itemprop=\"track\"\n                                itemscope\n
+        \                               itemtype=\"http://schema.org/MusicRecording\">\n\n
+        \                               <td class=\"pick-prefix\"></td>\n\n                                                                    <td
+        class=\"sample\">\n                                                                                    <a
+        href=\"#no-js\" data-sample-url=\"http://rovimusic.rovicorp.com/playback.mp3?c=mr4PtF41XU5n4vwKlH3ZPvQIxMnXLaW9NvEpt_rvU6E=&f=J\"
+        class=\"audio-player\">\n                                                <canvas
+        width=\"30\" height=\"30\"></canvas>\n                                            </a>\n
+        \                                                                           </td>\n
+        \                               \n                                <td class=\"tracknum\">\n
+        \                                   4                                </td>\n\n
+        \                               <td class=\"title-composer\">\n                                    <div
+        class=\"title\" itemprop=\"name\">\n                                                                                    <a
+        href=\"http://www.allmusic.com/song/one-shot-mt0044314623\" itemprop=\"url\">One
+        Shot</a>                                        \n                                                                            </div>\n\n
+        \                                   <div class=\"composer\">\n                                                                                    <a
         href=\"http://www.allmusic.com/artist/joseph-martin-mn0000826335\">Joseph
-        Martin</a><span> / </span><a href=\"http://www.allmusic.com/artist/dan-moxon-mn0002546393\">Dan
-        Moxon</a><span> / </span><a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
-        Sinister</a>                                                       \n                        </div>\n
-        \                   </td>\n\n                    <td class=\"performer secondary_link\">\n
-        \                       <div class=\"primary\">\n                            <a
-        href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend Sinister</a>
-        \                       </div>\n                                            </td>\n
-        \                   <td class=\"time\">\n                        3:01                    </td>\n\n
-        \                   \n                                            <td class=\"stream\">\n
-        \                                                   <a href=\"http://rd.io/x/QitDShy2\"
-        data-target=\"rdio\" class=\"sprite2 icon-stream-rdio\" title=\"Open in Rdio\"></a>\n
-        \                                               </td>\n                    \n
-        \                                           <td class=\"stream\">\n                                                    <a
-        href=\"http://mog.com/m#track/64642571\" data-target=\"mog\" class=\"sprite2
-        icon-stream-mog\" title=\"Open in MOG\"></a>\n                                                </td>\n
-        \                                   </tr>\n                                                <tr>\n
-        \                   <td class=\"sample\" >\n                                            <div
-        class=\"ui360\">\n                            <a href=\"http://rovimusic.rovicorp.com/playback.mp3?c=cKHJAdbsT2K7sc0a8b0pqfKUU23ZQzDPVjJ3ONioHGo=&f=J\"
-        title=\"play sample\"></a>\n                        </div>\n                                        </td>\n\n
-        \                   <td class=\"tracknum\">9</td>\n\n                    <td
-        class=\"title\">\n                        <div class=\"title\">\n                            <a
-        href=\"http://www.allmusic.com/song/hot-blooded-man-mt0044314628\" class=\"primary_link\">Hot
-        Blooded Man</a>\n                                                </div>\n
-        \                       <div class=\"artist secondary_link\">                    \n
-        \                           <a href=\"http://www.allmusic.com/artist/tom-hillifer-mn0002950241\">Tom
-        Hillifer</a><span> / </span><a href=\"http://www.allmusic.com/artist/joseph-martin-mn0000826335\">Joseph
-        Martin</a><span> / </span><a href=\"http://www.allmusic.com/artist/dan-moxon-mn0002546393\">Dan
-        Moxon</a><span> / </span><a href=\"http://www.allmusic.com/artist/jacob-mullen-mn0002950189\">Jacob
-        Mullen</a><span> / </span><a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
-        Sinister</a>                                                       \n                        </div>\n
-        \                   </td>\n\n                    <td class=\"performer secondary_link\">\n
-        \                       <div class=\"primary\">\n                            <a
-        href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend Sinister</a>
-        \                       </div>\n                                            </td>\n
-        \                   <td class=\"time\">\n                        4:19                    </td>\n\n
-        \                   \n                                            <td class=\"stream\">\n
-        \                                                   <a href=\"http://rd.io/x/QitDShyi\"
-        data-target=\"rdio\" class=\"sprite2 icon-stream-rdio\" title=\"Open in Rdio\"></a>\n
-        \                                               </td>\n                    \n
-        \                                           <td class=\"stream\">\n                                                </td>\n
-        \                                   </tr>\n                                                <tr>\n
-        \                   <td class=\"sample\" >\n                                            <div
-        class=\"ui360\">\n                            <a href=\"http://rovimusic.rovicorp.com/playback.mp3?c=mr4PtF41XU5n4vwKlH3ZPvKUU23ZQzDPVjJ3ONioHGo=&f=J\"
-        title=\"play sample\"></a>\n                        </div>\n                                        </td>\n\n
-        \                   <td class=\"tracknum\">10</td>\n\n                    <td
-        class=\"title\">\n                        <div class=\"title\">\n                            <a
-        href=\"http://www.allmusic.com/song/black-magic-woman-mt0044314629\" class=\"primary_link\">Black
-        Magic Woman</a>\n                                                </div>\n
-        \                       <div class=\"artist secondary_link\">                    \n
-        \                           <a href=\"http://www.allmusic.com/artist/tom-hillifer-mn0002950241\">Tom
-        Hillifer</a><span> / </span><a href=\"http://www.allmusic.com/artist/joseph-martin-mn0000826335\">Joseph
-        Martin</a><span> / </span><a href=\"http://www.allmusic.com/artist/dan-moxon-mn0002546393\">Dan
-        Moxon</a><span> / </span><a href=\"http://www.allmusic.com/artist/jacob-mullen-mn0002950189\">Jacob
-        Mullen</a><span> / </span><a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
-        Sinister</a>                                                       \n                        </div>\n
-        \                   </td>\n\n                    <td class=\"performer secondary_link\">\n
-        \                       <div class=\"primary\">\n                            <a
-        href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend Sinister</a>
-        \                       </div>\n                                            </td>\n
-        \                   <td class=\"time\">\n                        5:16                    </td>\n\n
-        \                   \n                                            <td class=\"stream\">\n
-        \                                                   <a href=\"http://rd.io/x/QitDSiNA\"
-        data-target=\"rdio\" class=\"sprite2 icon-stream-rdio\" title=\"Open in Rdio\"></a>\n
-        \                                               </td>\n                    \n
-        \                                           <td class=\"stream\">\n                                                </td>\n
-        \                                   </tr>\n                                                <tr>\n
-        \                   <td class=\"sample\" >\n                                            <div
-        class=\"ui360\">\n                            <a href=\"http://rovimusic.rovicorp.com/playback.mp3?c=mr4PtF41XU5n4vwKlH3ZPvh0BJxFGWncDvRkmPV4knk=&f=J\"
-        title=\"play sample\"></a>\n                        </div>\n                                        </td>\n\n
-        \                   <td class=\"tracknum\">11</td>\n\n                    <td
-        class=\"title\">\n                        <div class=\"title\">\n                            <a
+        Martin</a> / <a href=\"http://www.allmusic.com/artist/dan-moxon-mn0002546393\">Dan
+        Moxon</a> / <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>                                                                            </div>\n
+        \                               </td>\n\n                                <td
+        class=\"performer\"\n                                    itemprop=\"byArtist\"\n
+        \                                   itemscope\n                                    itemtype=\"http://schema.org/MusicGroup\">\n
+        \                                   <span itemprop=\"name\">\n                                                                                    <div
+        class=\"primary\">\n                                                <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>                                            </div>\n                                        \n
+        \                                                                           </span>\n
+        \                               </td>\n\n                                <td
+        class=\"time\">\n                                                                            3:22
+        \                                       <meta itemprop=\"duration\" content=\"PT3M22S\">\n
+        \                                                                   </td>\n\n
+        \                                                                   <td class=\"stream\">\n
+        \                                       <a href=\"javascript:void(0)\" class=\"empty
+        spotify\"></a><a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Frd.io%2Fx%2FQitDShw5%2F\"
+        class=\"rdio\" alt=\"Stream from Rdio\" title=\"Stream from Rdio\">Rdio</a><a
+        href=\"javascript:void(0)\" class=\"empty mog\"></a>                                    </td>\n
+        \                               \n                                <td class=\"pick-suffix\"></td>\n\n
+        \                           </tr>\n                        \n                            <tr
+        class=\"track\"\n                                itemprop=\"track\"\n                                itemscope\n
+        \                               itemtype=\"http://schema.org/MusicRecording\">\n\n
+        \                               <td class=\"pick-prefix\"></td>\n\n                                                                    <td
+        class=\"sample\">\n                                                                                    <a
+        href=\"#no-js\" data-sample-url=\"http://rovimusic.rovicorp.com/playback.mp3?c=mr4PtF41XU5n4vwKlH3ZPv3pqi0RS20pHqZddGAWQOA=&f=J\"
+        class=\"audio-player\">\n                                                <canvas
+        width=\"30\" height=\"30\"></canvas>\n                                            </a>\n
+        \                                                                           </td>\n
+        \                               \n                                <td class=\"tracknum\">\n
+        \                                   5                                </td>\n\n
+        \                               <td class=\"title-composer\">\n                                    <div
+        class=\"title\" itemprop=\"name\">\n                                                                                    <a
+        href=\"http://www.allmusic.com/song/got-you-on-my-mind-mt0044314624\" itemprop=\"url\">Got
+        You On My Mind</a>                                        \n                                                                            </div>\n\n
+        \                                   <div class=\"composer\">\n                                                                                    <a
+        href=\"http://www.allmusic.com/artist/joseph-martin-mn0000826335\">Joseph
+        Martin</a> / <a href=\"http://www.allmusic.com/artist/dan-moxon-mn0002546393\">Dan
+        Moxon</a> / <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>                                                                            </div>\n
+        \                               </td>\n\n                                <td
+        class=\"performer\"\n                                    itemprop=\"byArtist\"\n
+        \                                   itemscope\n                                    itemtype=\"http://schema.org/MusicGroup\">\n
+        \                                   <span itemprop=\"name\">\n                                                                                    <div
+        class=\"primary\">\n                                                <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>                                            </div>\n                                        \n
+        \                                                                           </span>\n
+        \                               </td>\n\n                                <td
+        class=\"time\">\n                                                                            2:35
+        \                                       <meta itemprop=\"duration\" content=\"PT2M35S\">\n
+        \                                                                   </td>\n\n
+        \                                                                   <td class=\"stream\">\n
+        \                                       <a href=\"javascript:void(0)\" class=\"empty
+        spotify\"></a><a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Frd.io%2Fx%2FQitDShza%2F\"
+        class=\"rdio\" alt=\"Stream from Rdio\" title=\"Stream from Rdio\">Rdio</a><a
+        href=\"javascript:void(0)\" class=\"empty mog\"></a>                                    </td>\n
+        \                               \n                                <td class=\"pick-suffix\"></td>\n\n
+        \                           </tr>\n                        \n                            <tr
+        class=\"track\"\n                                itemprop=\"track\"\n                                itemscope\n
+        \                               itemtype=\"http://schema.org/MusicRecording\">\n\n
+        \                               <td class=\"pick-prefix\"></td>\n\n                                                                    <td
+        class=\"sample\">\n                                                                                    <a
+        href=\"#no-js\" data-sample-url=\"http://rovimusic.rovicorp.com/playback.mp3?c=cKHJAdbsT2K7sc0a8b0pqZjWf7KriH64XH0cLbjLrOY=&f=J\"
+        class=\"audio-player\">\n                                                <canvas
+        width=\"30\" height=\"30\"></canvas>\n                                            </a>\n
+        \                                                                           </td>\n
+        \                               \n                                <td class=\"tracknum\">\n
+        \                                   6                                </td>\n\n
+        \                               <td class=\"title-composer\">\n                                    <div
+        class=\"title\" itemprop=\"name\">\n                                                                                    <a
+        href=\"http://www.allmusic.com/song/my-lady-mt0044314625\" itemprop=\"url\">My
+        Lady</a>                                        \n                                                                            </div>\n\n
+        \                                   <div class=\"composer\">\n                                                                                    <a
+        href=\"http://www.allmusic.com/artist/tom-hillifer-mn0002950241\">Tom Hillifer</a>
+        / <a href=\"http://www.allmusic.com/artist/joseph-martin-mn0000826335\">Joseph
+        Martin</a> / <a href=\"http://www.allmusic.com/artist/dan-moxon-mn0002546393\">Dan
+        Moxon</a> / <a href=\"http://www.allmusic.com/artist/jacob-mullen-mn0002950189\">Jacob
+        Mullen</a> / <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>                                                                            </div>\n
+        \                               </td>\n\n                                <td
+        class=\"performer\"\n                                    itemprop=\"byArtist\"\n
+        \                                   itemscope\n                                    itemtype=\"http://schema.org/MusicGroup\">\n
+        \                                   <span itemprop=\"name\">\n                                                                                    <div
+        class=\"primary\">\n                                                <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>                                            </div>\n                                        \n
+        \                                                                           </span>\n
+        \                               </td>\n\n                                <td
+        class=\"time\">\n                                                                            3:59
+        \                                       <meta itemprop=\"duration\" content=\"PT3M59S\">\n
+        \                                                                   </td>\n\n
+        \                                                                   <td class=\"stream\">\n
+        \                                       <a href=\"javascript:void(0)\" class=\"empty
+        spotify\"></a><a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Frd.io%2Fx%2FQitDShzC%2F\"
+        class=\"rdio\" alt=\"Stream from Rdio\" title=\"Stream from Rdio\">Rdio</a><a
+        href=\"javascript:void(0)\" class=\"empty mog\"></a>                                    </td>\n
+        \                               \n                                <td class=\"pick-suffix\"></td>\n\n
+        \                           </tr>\n                        \n                            <tr
+        class=\"track\"\n                                itemprop=\"track\"\n                                itemscope\n
+        \                               itemtype=\"http://schema.org/MusicRecording\">\n\n
+        \                               <td class=\"pick-prefix\"></td>\n\n                                                                    <td
+        class=\"sample\">\n                                                                                    <a
+        href=\"#no-js\" data-sample-url=\"http://rovimusic.rovicorp.com/playback.mp3?c=cKHJAdbsT2K7sc0a8b0pqYapJnH0KBK7tayJ1L1z1aM=&f=J\"
+        class=\"audio-player\">\n                                                <canvas
+        width=\"30\" height=\"30\"></canvas>\n                                            </a>\n
+        \                                                                           </td>\n
+        \                               \n                                <td class=\"tracknum\">\n
+        \                                   7                                </td>\n\n
+        \                               <td class=\"title-composer\">\n                                    <div
+        class=\"title\" itemprop=\"name\">\n                                                                                    <a
+        href=\"http://www.allmusic.com/song/we-know-better-mt0044314626\" itemprop=\"url\">We
+        Know Better</a>                                        \n                                                                            </div>\n\n
+        \                                   <div class=\"composer\">\n                                                                                    <a
+        href=\"http://www.allmusic.com/artist/joseph-martin-mn0000826335\">Joseph
+        Martin</a> / <a href=\"http://www.allmusic.com/artist/dan-moxon-mn0002546393\">Dan
+        Moxon</a> / <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>                                                                            </div>\n
+        \                               </td>\n\n                                <td
+        class=\"performer\"\n                                    itemprop=\"byArtist\"\n
+        \                                   itemscope\n                                    itemtype=\"http://schema.org/MusicGroup\">\n
+        \                                   <span itemprop=\"name\">\n                                                                                    <div
+        class=\"primary\">\n                                                <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>                                            </div>\n                                        \n
+        \                                                                           </span>\n
+        \                               </td>\n\n                                <td
+        class=\"time\">\n                                                                            3:39
+        \                                       <meta itemprop=\"duration\" content=\"PT3M39S\">\n
+        \                                                                   </td>\n\n
+        \                                                                   <td class=\"stream\">\n
+        \                                       <a href=\"javascript:void(0)\" class=\"empty
+        spotify\"></a><a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Frd.io%2Fx%2FQitDShyZ%2F\"
+        class=\"rdio\" alt=\"Stream from Rdio\" title=\"Stream from Rdio\">Rdio</a><a
+        href=\"javascript:void(0)\" class=\"empty mog\"></a>                                    </td>\n
+        \                               \n                                <td class=\"pick-suffix\"></td>\n\n
+        \                           </tr>\n                        \n                            <tr
+        class=\"track\"\n                                itemprop=\"track\"\n                                itemscope\n
+        \                               itemtype=\"http://schema.org/MusicRecording\">\n\n
+        \                               <td class=\"pick-prefix\"></td>\n\n                                                                    <td
+        class=\"sample\">\n                                                                                    <a
+        href=\"#no-js\" data-sample-url=\"http://rovimusic.rovicorp.com/playback.mp3?c=cKHJAdbsT2K7sc0a8b0pqawfpsQHuOlGC4-o-yXc8Os=&f=J\"
+        class=\"audio-player\">\n                                                <canvas
+        width=\"30\" height=\"30\"></canvas>\n                                            </a>\n
+        \                                                                           </td>\n
+        \                               \n                                <td class=\"tracknum\">\n
+        \                                   8                                </td>\n\n
+        \                               <td class=\"title-composer\">\n                                    <div
+        class=\"title\" itemprop=\"name\">\n                                                                                    <a
+        href=\"http://www.allmusic.com/song/give-it-a-rest-mt0044314627\" itemprop=\"url\">Give
+        It a Rest</a>                                        \n                                                                            </div>\n\n
+        \                                   <div class=\"composer\">\n                                                                                    <a
+        href=\"http://www.allmusic.com/artist/joseph-martin-mn0000826335\">Joseph
+        Martin</a> / <a href=\"http://www.allmusic.com/artist/dan-moxon-mn0002546393\">Dan
+        Moxon</a> / <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>                                                                            </div>\n
+        \                               </td>\n\n                                <td
+        class=\"performer\"\n                                    itemprop=\"byArtist\"\n
+        \                                   itemscope\n                                    itemtype=\"http://schema.org/MusicGroup\">\n
+        \                                   <span itemprop=\"name\">\n                                                                                    <div
+        class=\"primary\">\n                                                <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>                                            </div>\n                                        \n
+        \                                                                           </span>\n
+        \                               </td>\n\n                                <td
+        class=\"time\">\n                                                                            3:01
+        \                                       <meta itemprop=\"duration\" content=\"PT3M1S\">\n
+        \                                                                   </td>\n\n
+        \                                                                   <td class=\"stream\">\n
+        \                                       <a href=\"javascript:void(0)\" class=\"empty
+        spotify\"></a><a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Frd.io%2Fx%2FQitDShy2%2F\"
+        class=\"rdio\" alt=\"Stream from Rdio\" title=\"Stream from Rdio\">Rdio</a><a
+        href=\"javascript:void(0)\" class=\"empty mog\"></a>                                    </td>\n
+        \                               \n                                <td class=\"pick-suffix\"></td>\n\n
+        \                           </tr>\n                        \n                            <tr
+        class=\"track\"\n                                itemprop=\"track\"\n                                itemscope\n
+        \                               itemtype=\"http://schema.org/MusicRecording\">\n\n
+        \                               <td class=\"pick-prefix\"></td>\n\n                                                                    <td
+        class=\"sample\">\n                                                                                    <a
+        href=\"#no-js\" data-sample-url=\"http://rovimusic.rovicorp.com/playback.mp3?c=cKHJAdbsT2K7sc0a8b0pqfKUU23ZQzDPVjJ3ONioHGo=&f=J\"
+        class=\"audio-player\">\n                                                <canvas
+        width=\"30\" height=\"30\"></canvas>\n                                            </a>\n
+        \                                                                           </td>\n
+        \                               \n                                <td class=\"tracknum\">\n
+        \                                   9                                </td>\n\n
+        \                               <td class=\"title-composer\">\n                                    <div
+        class=\"title\" itemprop=\"name\">\n                                                                                    <a
+        href=\"http://www.allmusic.com/song/hot-blooded-man-mt0044314628\" itemprop=\"url\">Hot
+        Blooded Man</a>                                        \n                                                                            </div>\n\n
+        \                                   <div class=\"composer\">\n                                                                                    <a
+        href=\"http://www.allmusic.com/artist/tom-hillifer-mn0002950241\">Tom Hillifer</a>
+        / <a href=\"http://www.allmusic.com/artist/joseph-martin-mn0000826335\">Joseph
+        Martin</a> / <a href=\"http://www.allmusic.com/artist/dan-moxon-mn0002546393\">Dan
+        Moxon</a> / <a href=\"http://www.allmusic.com/artist/jacob-mullen-mn0002950189\">Jacob
+        Mullen</a> / <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>                                                                            </div>\n
+        \                               </td>\n\n                                <td
+        class=\"performer\"\n                                    itemprop=\"byArtist\"\n
+        \                                   itemscope\n                                    itemtype=\"http://schema.org/MusicGroup\">\n
+        \                                   <span itemprop=\"name\">\n                                                                                    <div
+        class=\"primary\">\n                                                <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>                                            </div>\n                                        \n
+        \                                                                           </span>\n
+        \                               </td>\n\n                                <td
+        class=\"time\">\n                                                                            4:19
+        \                                       <meta itemprop=\"duration\" content=\"PT4M19S\">\n
+        \                                                                   </td>\n\n
+        \                                                                   <td class=\"stream\">\n
+        \                                       <a href=\"javascript:void(0)\" class=\"empty
+        spotify\"></a><a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Frd.io%2Fx%2FQitDShyi%2F\"
+        class=\"rdio\" alt=\"Stream from Rdio\" title=\"Stream from Rdio\">Rdio</a><a
+        href=\"javascript:void(0)\" class=\"empty mog\"></a>                                    </td>\n
+        \                               \n                                <td class=\"pick-suffix\"></td>\n\n
+        \                           </tr>\n                        \n                            <tr
+        class=\"track\"\n                                itemprop=\"track\"\n                                itemscope\n
+        \                               itemtype=\"http://schema.org/MusicRecording\">\n\n
+        \                               <td class=\"pick-prefix\"></td>\n\n                                                                    <td
+        class=\"sample\">\n                                                                                    <a
+        href=\"#no-js\" data-sample-url=\"http://rovimusic.rovicorp.com/playback.mp3?c=mr4PtF41XU5n4vwKlH3ZPvKUU23ZQzDPVjJ3ONioHGo=&f=J\"
+        class=\"audio-player\">\n                                                <canvas
+        width=\"30\" height=\"30\"></canvas>\n                                            </a>\n
+        \                                                                           </td>\n
+        \                               \n                                <td class=\"tracknum\">\n
+        \                                   10                                </td>\n\n
+        \                               <td class=\"title-composer\">\n                                    <div
+        class=\"title\" itemprop=\"name\">\n                                                                                    <a
+        href=\"http://www.allmusic.com/song/black-magic-woman-mt0044314629\" itemprop=\"url\">Black
+        Magic Woman</a>                                        \n                                                                            </div>\n\n
+        \                                   <div class=\"composer\">\n                                                                                    <a
+        href=\"http://www.allmusic.com/artist/tom-hillifer-mn0002950241\">Tom Hillifer</a>
+        / <a href=\"http://www.allmusic.com/artist/joseph-martin-mn0000826335\">Joseph
+        Martin</a> / <a href=\"http://www.allmusic.com/artist/dan-moxon-mn0002546393\">Dan
+        Moxon</a> / <a href=\"http://www.allmusic.com/artist/jacob-mullen-mn0002950189\">Jacob
+        Mullen</a> / <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>                                                                            </div>\n
+        \                               </td>\n\n                                <td
+        class=\"performer\"\n                                    itemprop=\"byArtist\"\n
+        \                                   itemscope\n                                    itemtype=\"http://schema.org/MusicGroup\">\n
+        \                                   <span itemprop=\"name\">\n                                                                                    <div
+        class=\"primary\">\n                                                <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>                                            </div>\n                                        \n
+        \                                                                           </span>\n
+        \                               </td>\n\n                                <td
+        class=\"time\">\n                                                                            5:16
+        \                                       <meta itemprop=\"duration\" content=\"PT5M16S\">\n
+        \                                                                   </td>\n\n
+        \                                                                   <td class=\"stream\">\n
+        \                                       <a href=\"javascript:void(0)\" class=\"empty
+        spotify\"></a><a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Frd.io%2Fx%2FQitDSiNA%2F\"
+        class=\"rdio\" alt=\"Stream from Rdio\" title=\"Stream from Rdio\">Rdio</a><a
+        href=\"javascript:void(0)\" class=\"empty mog\"></a>                                    </td>\n
+        \                               \n                                <td class=\"pick-suffix\"></td>\n\n
+        \                           </tr>\n                        \n                            <tr
+        class=\"track\"\n                                itemprop=\"track\"\n                                itemscope\n
+        \                               itemtype=\"http://schema.org/MusicRecording\">\n\n
+        \                               <td class=\"pick-prefix\"></td>\n\n                                                                    <td
+        class=\"sample\">\n                                                                                    <a
+        href=\"#no-js\" data-sample-url=\"http://rovimusic.rovicorp.com/playback.mp3?c=mr4PtF41XU5n4vwKlH3ZPvh0BJxFGWncDvRkmPV4knk=&f=J\"
+        class=\"audio-player\">\n                                                <canvas
+        width=\"30\" height=\"30\"></canvas>\n                                            </a>\n
+        \                                                                           </td>\n
+        \                               \n                                <td class=\"tracknum\">\n
+        \                                   11                                </td>\n\n
+        \                               <td class=\"title-composer\">\n                                    <div
+        class=\"title\" itemprop=\"name\">\n                                                                                    <a
         href=\"http://www.allmusic.com/song/she-lost-her-rock-and-roll-mt0044314630\"
-        class=\"primary_link\">She Lost Her Rock and Roll</a>\n                                                </div>\n
-        \                       <div class=\"artist secondary_link\">                    \n
-        \                           <a href=\"http://www.allmusic.com/artist/joseph-martin-mn0000826335\">Joseph
-        Martin</a><span> / </span><a href=\"http://www.allmusic.com/artist/dan-moxon-mn0002546393\">Dan
-        Moxon</a><span> / </span><a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
-        Sinister</a>                                                       \n                        </div>\n
-        \                   </td>\n\n                    <td class=\"performer secondary_link\">\n
-        \                       <div class=\"primary\">\n                            <a
-        href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend Sinister</a>
-        \                       </div>\n                                            </td>\n
-        \                   <td class=\"time\">\n                        3:52                    </td>\n\n
-        \                   \n                                            <td class=\"stream\">\n
-        \                                                   <a href=\"http://rd.io/x/QitDSiMI\"
-        data-target=\"rdio\" class=\"sprite2 icon-stream-rdio\" title=\"Open in Rdio\"></a>\n
-        \                                               </td>\n                    \n
-        \                                           <td class=\"stream\">\n                                                </td>\n
-        \                                   </tr>\n                                                <tr>\n
-        \                   <td class=\"sample\" >\n                                            <div
-        class=\"ui360\">\n                            <a href=\"http://rovimusic.rovicorp.com/playback.mp3?c=mr4PtF41XU5n4vwKlH3ZPjqpU4hxl5saPDaNIVORh-E=&f=J\"
-        title=\"play sample\"></a>\n                        </div>\n                                        </td>\n\n
-        \                   <td class=\"tracknum\">12</td>\n\n                    <td
-        class=\"title\">\n                        <div class=\"title\">\n                            <a
-        href=\"http://www.allmusic.com/song/quest-for-love-mt0044314631\" class=\"primary_link\">Quest
-        For Love</a>\n                                                </div>\n                        <div
-        class=\"artist secondary_link\">                    \n                            <a
-        href=\"http://www.allmusic.com/artist/tom-hillifer-mn0002950241\">Tom Hillifer</a><span>
-        / </span><a href=\"http://www.allmusic.com/artist/joseph-martin-mn0000826335\">Joseph
-        Martin</a><span> / </span><a href=\"http://www.allmusic.com/artist/dan-moxon-mn0002546393\">Dan
-        Moxon</a><span> / </span><a href=\"http://www.allmusic.com/artist/jacob-mullen-mn0002950189\">Jacob
-        Mullen</a><span> / </span><a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
-        Sinister</a>                                                       \n                        </div>\n
-        \                   </td>\n\n                    <td class=\"performer secondary_link\">\n
-        \                       <div class=\"primary\">\n                            <a
-        href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend Sinister</a>
-        \                       </div>\n                                            </td>\n
-        \                   <td class=\"time\">\n                        3:15                    </td>\n\n
-        \                   \n                                            <td class=\"stream\">\n
-        \                                                   <a href=\"http://rd.io/x/QitDSiMs\"
-        data-target=\"rdio\" class=\"sprite2 icon-stream-rdio\" title=\"Open in Rdio\"></a>\n
-        \                                               </td>\n                    \n
-        \                                           <td class=\"stream\">\n                                                </td>\n
-        \                                   </tr>\n                            </tbody>\n
-        \   </table>\n</div>\n    </div>\n\n    \n    <div class=\"advertisement leaderboard\">\n
-        \       <span class='ad_sprite'></span>\n<div id='allmusic_728x90_btf' style='width:728px;height:90px;'>\n
-        \   <script type='text/javascript'>googletag.cmd.push(function(){ googletag.display('allmusic_728x90_btf');
-        });    </script>\n</div>\n    </div>        \n    </div>\n</div>\n\n    <div
-        class=\"socialIcons\">        \n        <a title=\"Click here to visit and
-        &quot;Like&quot; the AllMusic Facebook Page\" href=\"http://www.facebook.com/AllMusicDotCom\"
-        class=\"sprite2 icon-facebook-side-tab connectFacebookLink\"></a>\n        <a
-        title=\"Click here to follow AllMusic on Twitter\" href=\"https://twitter.com/#!/Allmusic\"
-        class=\"sprite2 icon-twitter-side-tab connectTwitterLink\"></a>\n        <a
-        title=\"Provide us Feedback on AllMusic\" href=\"http://getsatisfaction.com/allmusic\"
-        class=\"sprite2 icon-feedback-side-tab connectFeedbackLink\"></a>\n        <a
-        title=\"Welcome to AllMusic\" href=\"/welcome\" class=\"sprite2 icon-welcome-side-tab
-        connectWelcomeLink\"></a>\n    </div>\n\n    <div id=\"footer\">\n        <ul
-        id=\"visit-links\">\n            <li><a href=\"/\">allmusic</a></li>\n            <li><a
-        href=\"http://www.allmovie.com/\">allmovie</a></li>\n            <li><a href=\"http://www.allgame.com/\">allgame</a></li>\n
-        \           <li><a href=\"http://www.divx.com/\">divx</a></li>\n            <li><a
-        href=\"http://www.celebified.com/\">celebified</a></li>\n            <li><a
-        href=\"http://www.sidereel.com/\">sidereel</a></li>\n        </ul>\n\n        <ul
-        class=\"right logo\">\n            <li><a href=\"http://www.rovicorp.com\"><span
-        class=\"sprite2 rovi-logo-black\"></span></a></li>\n        </ul>\n\n        <ul
-        id=\"corporate-links\">\n            <li><a href=\"http://www.rovicorp.com\">Corporate
-        Site</a></li>\n            <li><a href=\"/copyright-policy\">Copyright Policy</a></li>\n
-        \           <li><a href=\"http://developer.rovicorp.com/\">Developers</a></li>\n
-        \           <li><a href=\"/support\">Help/FAQ</a></li>\n            <li><a
-        href=\"http://getsatisfaction.com/allmusic\" data-target=\"true\" class=\"connectFeedbackLink\">Feedback</a></li>\n
-        \           <li><a href=\"/advertise\">Advertise</a></li>\n            <li><a
-        href=\"/privacy-policy\">Privacy Policy</a></li>\n            <li><a href=\"/terms-of-use\">Terms
-        of Use</a></li>\n        </ul>\n\n        <ul id=\"copyright\" class=\"right\">\n
-        \           <li>&copy;2012 Rovi Corp | All Rights Reserved</li>\n        </ul>\n
-        \   </div>   \n</div>\n\n<div class=\"advertisement-div\">            \n    <span
-        class='ad_sprite'></span>\n<div id='allmusic_1x1_footer' style='width:1px;height:1px;'>\n
-        \   <script type='text/javascript'>googletag.cmd.push(function(){ googletag.display('allmusic_1x1_footer');
-        });    </script>\n</div>\n</div>\n\n<script src=\"//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js\"></script>\n<script>!window.jQuery
-        && document.write(unescape('%3Cscript src=\"/js/jquery/jquery.min.js\"%3E%3C/script%3E'))</script>\n<script
+        itemprop=\"url\">She Lost Her Rock and Roll</a>                                        \n
+        \                                                                           </div>\n\n
+        \                                   <div class=\"composer\">\n                                                                                    <a
+        href=\"http://www.allmusic.com/artist/joseph-martin-mn0000826335\">Joseph
+        Martin</a> / <a href=\"http://www.allmusic.com/artist/dan-moxon-mn0002546393\">Dan
+        Moxon</a> / <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>                                                                            </div>\n
+        \                               </td>\n\n                                <td
+        class=\"performer\"\n                                    itemprop=\"byArtist\"\n
+        \                                   itemscope\n                                    itemtype=\"http://schema.org/MusicGroup\">\n
+        \                                   <span itemprop=\"name\">\n                                                                                    <div
+        class=\"primary\">\n                                                <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>                                            </div>\n                                        \n
+        \                                                                           </span>\n
+        \                               </td>\n\n                                <td
+        class=\"time\">\n                                                                            3:52
+        \                                       <meta itemprop=\"duration\" content=\"PT3M52S\">\n
+        \                                                                   </td>\n\n
+        \                                                                   <td class=\"stream\">\n
+        \                                       <a href=\"javascript:void(0)\" class=\"empty
+        spotify\"></a><a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Frd.io%2Fx%2FQitDSiMI%2F\"
+        class=\"rdio\" alt=\"Stream from Rdio\" title=\"Stream from Rdio\">Rdio</a><a
+        href=\"javascript:void(0)\" class=\"empty mog\"></a>                                    </td>\n
+        \                               \n                                <td class=\"pick-suffix\"></td>\n\n
+        \                           </tr>\n                        \n                            <tr
+        class=\"track\"\n                                itemprop=\"track\"\n                                itemscope\n
+        \                               itemtype=\"http://schema.org/MusicRecording\">\n\n
+        \                               <td class=\"pick-prefix\"></td>\n\n                                                                    <td
+        class=\"sample\">\n                                                                                    <a
+        href=\"#no-js\" data-sample-url=\"http://rovimusic.rovicorp.com/playback.mp3?c=mr4PtF41XU5n4vwKlH3ZPjqpU4hxl5saPDaNIVORh-E=&f=J\"
+        class=\"audio-player\">\n                                                <canvas
+        width=\"30\" height=\"30\"></canvas>\n                                            </a>\n
+        \                                                                           </td>\n
+        \                               \n                                <td class=\"tracknum\">\n
+        \                                   12                                </td>\n\n
+        \                               <td class=\"title-composer\">\n                                    <div
+        class=\"title\" itemprop=\"name\">\n                                                                                    <a
+        href=\"http://www.allmusic.com/song/quest-for-love-mt0044314631\" itemprop=\"url\">Quest
+        For Love</a>                                        \n                                                                            </div>\n\n
+        \                                   <div class=\"composer\">\n                                                                                    <a
+        href=\"http://www.allmusic.com/artist/tom-hillifer-mn0002950241\">Tom Hillifer</a>
+        / <a href=\"http://www.allmusic.com/artist/joseph-martin-mn0000826335\">Joseph
+        Martin</a> / <a href=\"http://www.allmusic.com/artist/dan-moxon-mn0002546393\">Dan
+        Moxon</a> / <a href=\"http://www.allmusic.com/artist/jacob-mullen-mn0002950189\">Jacob
+        Mullen</a> / <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>                                                                            </div>\n
+        \                               </td>\n\n                                <td
+        class=\"performer\"\n                                    itemprop=\"byArtist\"\n
+        \                                   itemscope\n                                    itemtype=\"http://schema.org/MusicGroup\">\n
+        \                                   <span itemprop=\"name\">\n                                                                                    <div
+        class=\"primary\">\n                                                <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>                                            </div>\n                                        \n
+        \                                                                           </span>\n
+        \                               </td>\n\n                                <td
+        class=\"time\">\n                                                                            3:15
+        \                                       <meta itemprop=\"duration\" content=\"PT3M15S\">\n
+        \                                                                   </td>\n\n
+        \                                                                   <td class=\"stream\">\n
+        \                                       <a href=\"javascript:void(0)\" class=\"empty
+        spotify\"></a><a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Frd.io%2Fx%2FQitDSiMs%2F\"
+        class=\"rdio\" alt=\"Stream from Rdio\" title=\"Stream from Rdio\">Rdio</a><a
+        href=\"javascript:void(0)\" class=\"empty mog\"></a>                                    </td>\n
+        \                               \n                                <td class=\"pick-suffix\"></td>\n\n
+        \                           </tr>\n                                            </tbody>\n
+        \               </table>\n            </div>\n        \n        <span class=\"note\">blue
+        highlight denotes track pick</span>\n\n    </section>\n\n    </div>\n\n</div>\n\n<div
+        class=\"stripe-container footer-leaderboard\">\n    <div class=\"advertising
+        leaderboard\">\n            <script type=\"text/javascript\">        cmnUNT('728x91',
+        tile_num++);    </script>    </div>\n</div>\n\n<div class=\"stripe-container
+        footer-container\">\n    <footer>\n        <div class=\"other-sites\">\n                <a
+        href=\"http://www.allmovie.com/\" title=\"AllMovie - Movies and Films Database
+        - Movie Search, Guide, Recommendations, and Reviews\">AllMovie</a>&nbsp;&nbsp;|&nbsp;\n
+        \               <a href=\"http://www.allgame.com/\" title=\"AllGame - Games
+        Database - Games Search, Guides, Recommendations, and Reviews\">AllGame</a>&nbsp;&nbsp;|&nbsp;\n
+        \               <a href=\"http://www.sidereel.com/\" title=\"SideReel - Watch
+        TV &amp; Movies Online | Episodes, Seasons, Series | SideReel\">SideReel</a>&nbsp;&nbsp;|&nbsp;\n
+        \               <a href=\"http://www.celebified.com/\" title=\"Celebified
+        - Celebrity news, watch videos, get tv info\">Celebified</a>\n        </div>\n\n
+        \       <div class=\"corporate-links\">\n                <a href=\"/copyright-policy\"
+        title=\"AllMusic - Copyright Policy &amp; Intellectual Property Rights\">Copyright
+        Policy</a>&nbsp;&nbsp;|&nbsp;\n                <a href=\"/about\" title=\"AllMusic
+        About\">About</a>&nbsp;&nbsp;|&nbsp;\n                <a href=\"/faq\" title=\"AllMusic
+        FAQ\">FAQ</a>&nbsp;&nbsp;|&nbsp;\n                <a href=\"https://getsatisfaction.com/allmedianetwork/categories/allmedianetwork_allmusic\"
+        title=\"AllMusic Customer Community\" class=\"getSatisfactionLink\">Feedback</a><span
+        class=\"line-one\">&nbsp;&nbsp;|&nbsp;</span>\n                <a href=\"/advertise\"
+        title=\"AllMusic Advertising Network\"><br class=\"mobile-break\">Advertise</a>&nbsp;&nbsp;|&nbsp;\n
+        \               <a href=\"/privacy-policy\" title=\"AllMusic Privacy Policy\">Privacy
+        Policy</a>&nbsp;&nbsp;|&nbsp;\n                <a href=\"/terms-of-service\"
+        title=\"AllMusic Terms of Service\">Terms of Service</a>\n        </div>\n\n
+        \       <div class=\"copyright\">\n                &copy;2014 AllMusic, a
+        division of All Media Network, LLC.<span class=\"line-two\">&nbsp;&nbsp;|&nbsp;&nbsp;</span><br
+        class=\"mobile-break\">All Rights Reserved\n        </div>\n    </footer>\n</div><script
+        src=\"//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js\"></script>\n<script>!window.jQuery
+        && document.write(unescape('%3Cscript src=\"http://assets.allmusic.com/js/jquery/jquery-1.9.1.min.js\"%3E%3C/script%3E'))</script>\n<script
         src=\"//ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js\"></script>\n<script>!window.jQuery.ui
-        && document.write(unescape('%3Cscript src=\"/js/jquery/jquery-ui.min.js\"%3E%3C/script%3E'))</script>\n<script
-        src=\"//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js\"></script>\n<script>!window.swfobject
-        && document.write(unescape('%3Cscript src=\"/js/plugins/swfobject.js\"%3E%3C/script%3E'))</script>\n\n<script
-        type=\"text/javascript\" src=\"/assets/cache/1353356173cea600bafe63d6fcb82265253465d964.js\"
-        charset=\"UTF-8\"></script>\r\n\n<!-- Google Code for Universal Site Pixel
-        Conversion Page -->\n<script type=\"text/javascript\">\n/* <![CDATA[ */\nvar
-        google_conversion_id = 1007721248;\nvar google_conversion_language = \"en\";\nvar
-        google_conversion_format = \"3\";\nvar google_conversion_color = \"ffffff\";\nvar
-        google_conversion_label = \"hxm5CMDKgAMQoLbC4AM\";\nvar google_conversion_value
-        = 0;\n/* ]]> */\n</script>\n<script type=\"text/javascript\" src=\"http://www.googleadservices.com/pagead/conversion.js\">\n</script>\n<noscript>\n<div
-        style=\"display:inline;\">\n<img height=\"1\" width=\"1\" style=\"border-style:none;\"
-        alt=\"\" src=\"http://www.googleadservices.com/pagead/conversion/1007721248/?value=0&amp;label=hxm5CMDKgAMQoLbC4AM&amp;guid=ON&amp;script=0\"/>\n</div>\n</noscript>\n\n<img
-        src=\"//insight.adsrvr.org/track/conv/?ct=0:nmdbkyg&adv=4fk7dd2&fmt=3\" alt=\"\"
-        />\n\n<!-- BEGIN GetSat -->\n<script type=\"text/javascript\" charset=\"utf-8\">\n
-        \ var is_ssl = (\"https:\" == document.location.protocol);\n  var asset_host
-        = is_ssl ? \"https://d3rdqalhjaisuu.cloudfront.net/\" : \"http://d3rdqalhjaisuu.cloudfront.net/\";\n
-        \ document.write(unescape(\"%3Cscript src='\" + asset_host + \"javascripts/feedback-v2.js'
-        type='text/javascript'%3E%3C/script%3E\"));\n</script>\n\n<script type=\"text/javascript\"
-        charset=\"utf-8\">\nvar feedback_widget = new GSFN.feedback_widget({\n    display:
-        'overlay',\n    company: 'allmusic',\n    placement: 'hidden',\n    custom_css:
-        '/css/modules/feedback_widget.css',\n    color: '#222',\n    style: 'idea',\n
-        \   limit: '3'\n});\n</script>\n<!-- END GetSat -->\n\n<script type=\"text/javascript\">_qoptions={qacct:\"p-cbO7evNACrYx2\"};</script>\n<noscript>\n
-        \   <img src=\"http://pixel.quantserve.com/pixel/p-cbO7evNACrYx2.gif\" style=\"display:
-        none;\" border=\"0\" height=\"1\" width=\"1\" alt=\"Quantcast\">\n</noscript>\n\n<script
-        src=\"https://www.surveymonkey.com/jsPop.aspx?sm=upiLQt7xlFGYEug048Vy_2bw_3d_3d\">
-        </script>\n\n<!-- 10.202.81.143 -->\n\n<script type=\"text/javascript\">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push([\"load\",new
-        Date().getTime()]);var e=document.createElement(\"script\");e.type=\"text/javascript\";e.async=true;e.src=\"https://d1ros97qkrwjf5.cloudfront.net/42/eum/rum.js\";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push([\"nrf2\",\"beacon-3.newrelic.com\",\"36752b252e\",\"478200\",\"NAABMENUXEtXUkJfCQ1KIgdFXF1WGXBaVBMOSgoKVVBK\",0,110,new
-        Date().getTime()]);</script>\n</body>\n</html>\n"
+        && document.write(unescape('%3Cscript src=\"http://assets.allmusic.com/js/jquery/jquery-ui.min.js\"%3E%3C/script%3E'))</script>\n\n<script
+        src=\"http://assets.allmusic.com/cache/global.1415810327.js\"></script>\n\n
+        \                                           <script src=\"http://assets.allmusic.com/cache/album.overview.1415810324.js\"></script>\n
+        \           \n                            <script>\n                    if(User.loggedIn)
+        {\n                        ga('set', 'dimension1', 'Yes');\n                    }
+        else {\n                        ga('set', 'dimension1', 'No');\n                    }\n
+        \               </script>\n            \n            <!-- BEGIN GetSat -->\n
+        \           <script type=\"text/javascript\" charset=\"utf-8\">\n                var
+        is_ssl = (\"https:\" == document.location.protocol);\n                var
+        asset_host = is_ssl ? \"https://d11e618678w89x.cloudfront.net/\" : \"http://d11e618678w89x.cloudfront.net/\";\n
+        \               document.write(unescape(\"%3Cscript src='\" + asset_host +
+        \"javascripts/feedback-v2.js' type='text/javascript'%3E%3C/script%3E\"));\n
+        \           </script>\n\n            <script type=\"text/javascript\" charset=\"utf-8\">\n
+        \               var feedback_widget = new GSFN.feedback_widget({\n                    display:
+        'overlay',\n                    company: 'allmedianetwork',\n                    placement:
+        'hidden',\n                    custom_css: 'http://assets.allmusic.com/css/modules/feedback-widget.css',\n
+        \                   color: '#222',\n                    style: 'idea',\n                    limit:
+        '3',\n                    product: 'allmedianetwork_allmusic'\n                });\n
+        \           </script>\n            <!-- END GetSat -->\n\n            <!--
+        Begin comScore Tag -->\n            <script>\n                var _comscore
+        = _comscore || [];\n                _comscore.push({ c1: \"2\", c2: \"6685975\"
+        });\n                (function() {\n                    var s = document.createElement(\"script\"),
+        el = document.getElementsByTagName(\"script\")[0]; s.async = true;\n                    s.src
+        = (document.location.protocol == \"https:\" ? \"https://sb\" : \"http://b\")
+        + \".scorecardresearch.com/beacon.js\";\n                    el.parentNode.insertBefore(s,
+        el);\n                })();\n            </script>\n            <noscript>\n
+        \               <img src=\"http://b.scorecardresearch.com/p?c1=2&c2=17343944&cv=2.0&cj=1\"
+        />\n            </noscript>\n            <!-- End comScore Tag -->\n\n                    </div>\n
+        \       \n       </div>\n\n       <!-- Footer Ad Tag -->\n<script type=\"text/javascript\">\ncmnTB();\ncmnUNT('tover',
+        tile_num++);\n</script>    <script type=\"text/javascript\">window.NREUM||(NREUM={});NREUM.info={\"beacon\":\"beacon-6.newrelic.com\",\"licenseKey\":\"37e6a77380\",\"applicationID\":\"3096013\",\"transactionName\":\"NlMEYhZXW0oEWkQNVg8ZJ1UQX1pXSnhcBkwMGQlAAURDUABO\",\"queueTime\":0,\"applicationTime\":1011,\"ttGuid\":\"\",\"agentToken\":\"\",\"userAttributes\":\"\",\"errorBeacon\":\"bam.nr-data.net\",\"agent\":\"js-agent.newrelic.com\\/nr-476.min.js\"}</script></body>\n</html>\n"
     http_version: 
-  recorded_at: Sun, 25 Nov 2012 21:15:35 GMT
-recorded_with: VCR 2.3.0
+  recorded_at: Wed, 12 Nov 2014 18:52:54 GMT
+recorded_with: VCR 2.9.3
