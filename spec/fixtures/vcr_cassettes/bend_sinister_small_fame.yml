@@ -19,100 +19,107 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 12 Nov 2014 18:52:53 GMT
+      - Sun, 17 Jan 2016 19:34:51 GMT
       Server:
       - Apache/2.2.22 (Ubuntu)
       X-Powered-By:
       - PHP/5.4.26-1+deb.sury.org~precise+1
       Set-Cookie:
-      - allmusic_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22695353027bebb070ddf081d50486a954%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A18%3A%222607%3Af700%3A1%3A83%3A%3A92%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1415818373%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7Db7e3047b529b5ed7fc458cd19dfa459f;
+      - allmusic_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%2240ca267ccf529e837a933039de0ae042%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A18%3A%222607%3Af700%3A1%3A83%3A%3A92%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1453059291%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7Daaf11cb74f8c1ec9bc8bf9f89facd5094d27e3c2;
         path=/
-      - allmusic_session=a%3A6%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22695353027bebb070ddf081d50486a954%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A18%3A%222607%3Af700%3A1%3A83%3A%3A92%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1415818373%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3Bs%3A4%3A%22user%22%3Bi%3A0%3B%7D18877cc26f8a2c29a082a94619d72949;
+      - allmusic_session=a%3A6%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%2240ca267ccf529e837a933039de0ae042%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A18%3A%222607%3Af700%3A1%3A83%3A%3A92%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A4%3A%22Ruby%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1453059291%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3Bs%3A4%3A%22user%22%3Bi%3A0%3B%7D609d84ee635cdb25a4210257bac2c5c70853e0fb;
         path=/
       Expires:
-      - Thu, 13 Nov 2014 06:52:54 GMT
+      - Mon, 18 Jan 2016 07:34:52 GMT
       Cache-Control:
       - maxage=43200
       Vary:
       - Accept-Encoding
       Content-Length:
-      - '10800'
+      - '11792'
       Content-Type:
       - text/html; charset=UTF-8
       X-Cache:
-      - MISS from bb-all-esquid02.allmusic.amn
+      - MISS from bb-all-esquid01.allmusic.amn
       - MISS from bb-all-isquid03.allmusic.amn
       X-Cache-Lookup:
-      - MISS from bb-all-esquid02.allmusic.amn:80
+      - MISS from bb-all-esquid01.allmusic.amn:80
       - MISS from bb-all-isquid03.allmusic.amn:80
       Via:
-      - 1.0 bb-all-isquid03.allmusic.amn (squid/3.1.23), 1.0 bb-all-esquid02.allmusic.amn
+      - 1.0 bb-all-isquid03.allmusic.amn (squid/3.1.23), 1.0 bb-all-esquid01.allmusic.amn
         (squid/3.1.23)
       Connection:
       - keep-alive
     body:
-      encoding: UTF-8
+      encoding: ASCII-8BIT
       string: "<!DOCTYPE html>\n<!--[if lt IE 7]>      <html class=\"no-js lt-ie9
         lt-ie8 lt-ie7\"> <![endif]-->\n<!--[if IE 7]>         <html class=\"no-js
         lt-ie9 lt-ie8\"> <![endif]-->\n<!--[if IE 8]>         <html class=\"no-js
         lt-ie9\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\"> <!--<![endif]-->\n
         \   <head>\n        <meta charset=\"utf-8\">\n        <meta http-equiv=\"X-UA-Compatible\"
-        content=\"IE=Edge,chrome=1\"><script type=\"text/javascript\">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function
-        r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var
-        o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if(\"function\"==typeof
-        __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return
-        r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var
-        c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function
-        a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return
-        n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function
-        r(){return{}}var o=\"nr@context\",i=t(\"gos\");e.exports=n()},{gos:\"7eSDFh\"}],ee:[function(t,e){e.exports=t(\"QJf3ax\")},{}],gos:[function(t,e){e.exports=t(\"7eSDFh\")},{}],\"7eSDFh\":[function(t,e){function
-        n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return
-        Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return
-        t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function
-        n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void
-        o[t].push(e))}var r=t(\"ee\").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:\"QJf3ax\"}],handle:[function(t,e){e.exports=t(\"D5DuLP\")},{}],XL7HBI:[function(t,e){function
-        n(t){var e=typeof t;return!t||\"object\"!==e&&\"function\"!==e?-1:t===window?0:i(t,o,function(){return
-        r++})}var r=1,o=\"nr@id\",i=t(\"gos\");e.exports=n},{gos:\"7eSDFh\"}],id:[function(t,e){e.exports=t(\"XL7HBI\")},{}],loader:[function(t,e){e.exports=t(\"G9z0Bl\")},{}],G9z0Bl:[function(t,e){function
-        n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto=\"https\"===p.split(\":\")[0]||t.sslForHttp?\"https://\":\"http://\",a(\"mark\",[\"onload\",i()]);var
-        e=c.createElement(\"script\");e.src=l.proto+t.agent,c.body.appendChild(e)}}function
-        r(){\"complete\"===c.readyState&&o()}function o(){a(\"mark\",[\"domContent\",i()])}function
-        i(){return(new Date).getTime()}var a=t(\"handle\"),u=window,c=u.document,f=\"addEventListener\",s=\"attachEvent\",p=(\"\"+location).split(\"?\")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f](\"DOMContentLoaded\",o,!1),u[f](\"load\",n,!1)):(c[s](\"onreadystatechange\",r),u[s](\"onload\",n)),a(\"mark\",[\"firstbyte\",i()])},{handle:\"D5DuLP\"}]},{},[\"G9z0Bl\"]);</script>\n\n
-        \       <!-- iOS metadata -->\n        <meta name=\"apple-mobile-web-app-capable\"
+        content=\"IE=Edge,chrome=1\"><script type=\"text/javascript\">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function
+        r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var
+        o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if(\"function\"==typeof
+        __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return
+        r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var
+        u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function
+        a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return
+        t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function
+        r(){return{}}var o=\"nr@context\",i=e(\"gos\");n.exports=t()},{gos:\"7eSDFh\"}],ee:[function(e,n){n.exports=e(\"QJf3ax\")},{}],3:[function(e,n){function
+        t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var
+        r=e(\"handle\"),o=e(1),i=e(2);\"undefined\"==typeof window.newrelic&&(newrelic=window.NREUM);var
+        a=[\"setPageViewName\",\"addPageAction\",\"setCustomAttribute\",\"finished\",\"addToTrace\",\"inlineHit\",\"noticeError\"];o(a,function(e,n){window.NREUM[n]=t(\"api-\"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:\"D5DuLP\"}],gos:[function(e,n){n.exports=e(\"7eSDFh\")},{}],\"7eSDFh\":[function(e,n){function
+        t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return
+        Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return
+        e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],D5DuLP:[function(e,n){function
+        t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):void(r.q&&(r.q[e]||(r.q[e]=[]),r.q[e].push(n)))}var
+        r=e(\"ee\").create();n.exports=t,t.ee=r,r.q={}},{ee:\"QJf3ax\"}],handle:[function(e,n){n.exports=e(\"D5DuLP\")},{}],XL7HBI:[function(e,n){function
+        t(e){var n=typeof e;return!e||\"object\"!==n&&\"function\"!==n?-1:e===window?0:i(e,o,function(){return
+        r++})}var r=1,o=\"nr@id\",i=e(\"gos\");n.exports=t},{gos:\"7eSDFh\"}],id:[function(e,n){n.exports=e(\"XL7HBI\")},{}],G9z0Bl:[function(e,n){function
+        t(){var e=d.info=NREUM.info,n=f.getElementsByTagName(\"script\")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n
+        in e||(e[n]=t)});var t=\"https\"===s.split(\":\")[0]||e.sslForHttp;d.proto=t?\"https://\":\"http://\",a(\"mark\",[\"onload\",i()]);var
+        r=f.createElement(\"script\");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function
+        r(){\"complete\"===f.readyState&&o()}function o(){a(\"mark\",[\"domContent\",i()])}function
+        i(){return(new Date).getTime()}var a=e(\"handle\"),c=e(1),u=window,f=u.document;e(2);var
+        s=(\"\"+location).split(\"?\")[0],p={beacon:\"bam.nr-data.net\",errorBeacon:\"bam.nr-data.net\",agent:\"js-agent.newrelic.com/nr-768.min.js\"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener(\"DOMContentLoaded\",o,!1),u.addEventListener(\"load\",t,!1)):(f.attachEvent(\"onreadystatechange\",r),u.attachEvent(\"onload\",t)),a(\"mark\",[\"firstbyte\",i()])},{1:12,2:3,handle:\"D5DuLP\"}],loader:[function(e,n){n.exports=e(\"G9z0Bl\")},{}],12:[function(e,n){function
+        t(e,n){var t=[],o=\"\",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return
+        t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function
+        t(e,n,t){n||(n=0),\"undefined\"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return
+        i}n.exports=t},{}]},{},[\"G9z0Bl\"]);</script>\n\n        <meta http-equiv=\"content-language\"
+        content=\"en-us\">\n\n        <!-- iOS metadata -->\n        <meta name=\"apple-mobile-web-app-capable\"
         content=\"no\">\n        <meta name=\"viewport\" content=\"width=device-width\"
-        >\n\n\n        <link rel=\"apple-touch-icon-precomposed\" href=\"http://assets.allmusic.com/images/ios/apple-touch-icon-57x57.png\">\n
-        \       <link rel=\"apple-touch-icon-precomposed\" sizes=\"72x72\" href=\"http://assets.allmusic.com/images/ios/apple-touch-icon-72x72.png\">\n
-        \       <link rel=\"apple-touch-icon-precomposed\" sizes=\"114x114\" href=\"http://assets.allmusic.com/images/ios/apple-touch-icon-114x114.png\">\n
-        \       <link rel=\"apple-touch-icon-precomposed\" sizes=\"144x144\" href=\"http://assets.allmusic.com/images/ios/apple-touch-icon-144x144.png\">\n\n
-        \       <link rel=\"shortcut icon\" href=\"http://assets.allmusic.com/images/favicon.ico\"
+        >\n\n\n        <link rel=\"apple-touch-icon-precomposed\" href=\"//r6d3s2t7.ssl.hwcdn.net/images/ios/apple-touch-icon-57x57.png\">\n
+        \       <link rel=\"apple-touch-icon-precomposed\" sizes=\"72x72\" href=\"//r6d3s2t7.ssl.hwcdn.net/images/ios/apple-touch-icon-72x72.png\">\n
+        \       <link rel=\"apple-touch-icon-precomposed\" sizes=\"114x114\" href=\"//r6d3s2t7.ssl.hwcdn.net/images/ios/apple-touch-icon-114x114.png\">\n
+        \       <link rel=\"apple-touch-icon-precomposed\" sizes=\"144x144\" href=\"//r6d3s2t7.ssl.hwcdn.net/images/ios/apple-touch-icon-144x144.png\">\n\n
+        \       <link rel=\"shortcut icon\" href=\"//r6d3s2t7.ssl.hwcdn.net/images/favicon.ico\"
         type=\"image/x-icon\" />\n        <link rel=\"alternate\" type=\"application/rss+xml\"
         title=\"RSS\" href=\"/rss\" />\n\n        \t<meta name=\"title\" content=\"Small
-        Fame - Bend Sinister | Songs, Reviews, Credits, Awards | AllMusic\">\n\t<meta
-        name=\"keywords\" content=\"Pop/Rock,Alternative/Indie Rock,She Don&#039;t
-        Give It Up,Don&#039;t You Know,Man of Faith and Virtue,One Shot,Got You On
-        My Mind\">\n\t<meta name=\"description\" content=\"Find album reviews, stream
-        songs, credits and award information for Small Fame - Bend Sinister on AllMusic
-        - 2012\">\n\t<meta name=\"image\" content=\"http://cps-static.rovicorp.com/3/JPG_250/MI0003/369/MI0003369371.jpg?partner=allrovi.com\">\n\n
+        Fame - Bend Sinister | Songs, Reviews, Credits | AllMusic\">\n\t<meta name=\"description\"
+        content=\"Find album reviews, stream songs, credits and award information
+        for Small Fame - Bend Sinister on AllMusic - 2012\">\n\t<meta name=\"image\"
+        content=\"http://cps-static.rovicorp.com/3/JPG_250/MI0003/369/MI0003369371.jpg?partner=allrovi.com\">\n\n
         \       <meta property=\"og:site_name\" content=\"AllMusic\">\n\n\t<meta property=\"og:title\"
-        content=\"Small Fame - Bend Sinister | Songs, Reviews, Credits, Awards | AllMusic\">\n\t<meta
-        itemprop=\"name\" content=\"Small Fame - Bend Sinister | Songs, Reviews, Credits,
-        Awards | AllMusic\">\n\t<meta name=\"twitter:title\" content=\"Small Fame
-        - Bend Sinister | Songs, Reviews, Credits, Awards | AllMusic\">\n\n\t<meta
-        property=\"og:description\" content=\"Find album reviews, stream songs, credits
-        and award information for Small Fame - Bend Sinister on AllMusic - 2012\">\n\t<meta
-        itemprop=\"description\" content=\"Find album reviews, stream songs, credits
-        and award information for Small Fame - Bend Sinister on AllMusic - 2012\">\n\t<meta
-        name=\"twitter:description\" content=\"Find album reviews, stream songs, credits
-        and award information for Small Fame - Bend Sinister on AllMusic - 2012\">\n\n\t<meta
-        property=\"og:image\" content=\"http://cps-static.rovicorp.com/3/JPG_250/MI0003/369/MI0003369371.jpg?partner=allrovi.com\">\n\t<meta
+        content=\"Small Fame - Bend Sinister | Songs, Reviews, Credits | AllMusic\">\n\t<meta
+        itemprop=\"name\" content=\"Small Fame - Bend Sinister | Songs, Reviews, Credits
+        | AllMusic\">\n\t<meta name=\"twitter:title\" content=\"Small Fame - Bend
+        Sinister | Songs, Reviews, Credits | AllMusic\">\n\n\t<meta property=\"og:description\"
+        content=\"Find album reviews, stream songs, credits and award information
+        for Small Fame - Bend Sinister on AllMusic - 2012\">\n\t<meta itemprop=\"description\"
+        content=\"Find album reviews, stream songs, credits and award information
+        for Small Fame - Bend Sinister on AllMusic - 2012\">\n\t<meta name=\"twitter:description\"
+        content=\"Find album reviews, stream songs, credits and award information
+        for Small Fame - Bend Sinister on AllMusic - 2012\">\n\n\t<meta property=\"og:image\"
+        content=\"http://cps-static.rovicorp.com/3/JPG_250/MI0003/369/MI0003369371.jpg?partner=allrovi.com\">\n\t<meta
         itemprop=\"image\" content=\"http://cps-static.rovicorp.com/3/JPG_250/MI0003/369/MI0003369371.jpg?partner=allrovi.com\">\n\t<meta
         name=\"twitter:card\" content=\"summary\">\n\t<meta name=\"twitter:image\"
         content=\"http://cps-static.rovicorp.com/3/JPG_250/MI0003/369/MI0003369371.jpg?partner=allrovi.com\">\n\n
-        \       <meta property=\"og:image\" content=\"http://assets.allmusic.com/images/allmusic_facebook_share.png\">\n
+        \       <meta property=\"og:image\" content=\"//r6d3s2t7.ssl.hwcdn.net/images/allmusic_facebook_share.png\">\n
         \       <meta property=\"og:url\" content=\"http://www.allmusic.com/album/small-fame-mw0002374964\">\n\n
         \       <link rel=\"canonical\" href=\"http://www.allmusic.com/album/small-fame-mw0002374964\">\n\n
-        \       <title>Small Fame - Bend Sinister | Songs, Reviews, Credits, Awards
-        | AllMusic</title>\n\n        <link type=\"text/css\" rel=\"stylesheet\" href=\"http://assets.allmusic.com/css/global/global.css\">\n\n
-        \                   <link type=\"text/css\" rel=\"stylesheet\" href=\"http://assets.allmusic.com/css/pages/album/album.css\">\n
+        \       <title>Small Fame - Bend Sinister | Songs, Reviews, Credits | AllMusic</title>\n\n
+        \       <link type=\"text/css\" rel=\"stylesheet\" href=\"//r6d3s2t7.ssl.hwcdn.net/css/global/global.css\">\n\n
+        \                   <link type=\"text/css\" rel=\"stylesheet\" href=\"//r6d3s2t7.ssl.hwcdn.net/css/pages/album/album.css\">\n
         \       \n        <!-- Alexa tag -->\n        <meta name=\"alexaVerifyID\"
         content=\"SfgYrX5roRNK_iy-Mr_tFkRlY7M\"/>\n\n        <script>\n            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
         \               (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n
@@ -120,22 +127,34 @@ http_interactions:
         \           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n
         \           ga('create', 'UA-7096127-1', 'auto');\n\n                                ga('send',
         'pageview', 'album/small-fame-mw0002374964');\n                        setTimeout(\"ga('send','event','adjusted
-        bounce rate','page visit 15 seconds or more')\",15000);\n                </script>\n\n\n
-        \       <!-- Media query polyfill ( Always require because loading via dynamic
-        ajax injection is too slow [the enquire.js will fire before the ajax completes]
-        ) -->\n        <script src=\"http://assets.allmusic.com/js/lib/media.match.min.js\"></script>\n\n
-        \       <script src=\"http://assets.allmusic.com/cache/setup.1415810327.js\"></script>\n\n
-        \                   <script type=\"text/javascript\">\n   // Get Mobile User
-        agent\n   var isMobileUa = /iPhone|iPod|BlackBerry|Opera Mini|(android|bb\\d+|meego).+mobile/i.test(navigator.userAgent);\n
-        \  // Get the browser width\n   var browserwidth = window.innerWidth;\n</script>\n<script
+        bounce rate','page visit 15 seconds or more')\",15000);\n                </script>\n\n
+        \       \n        <!-- Media query polyfill ( Always require because loading
+        via dynamic ajax injection is too slow [the enquire.js will fire before the
+        ajax completes] ) -->\n        <script src=\"//r6d3s2t7.ssl.hwcdn.net/js/lib/media.match.min.js\"></script>\n\n
+        \       <script src=\"//r6d3s2t7.ssl.hwcdn.net/cache/setup.1452703941.js\"></script>\n\n
+        \       <script type=\"text/javascript\">\nvar googletag = googletag || {};\ngoogletag.cmd
+        = googletag.cmd || [];\n(function(){\n  var gads = document.createElement(\"script\");\n
+        \ gads.async = true;\n  gads.type = \"text/javascript\";\n  var useSSL = \"https:\"
+        == document.location.protocol;\n  gads.src = (useSSL ? \"https:\" : \"http:\")
+        + \"//www.googletagservices.com/tag/js/gpt.js\";\n  var node = document.getElementsByTagName(\"script\")[0];\n
+        \ node.parentNode.insertBefore(gads, node);\n})();\ngoogletag.cmd.push(function(){\n
+        \ googletag.defineSlot('/22732481/Allmusic_ROS_1x1_Footer', [[1, 1]], 'Allmusic_ROS_1x1_Footer').addService(googletag.pubads());\n});\ngoogletag.cmd.push(function(){\n
+        \ googletag.pubads().setTargeting('pagename', 'album');\n  googletag.pubads().setTargeting('album_id',
+        'MW0002374964');\n  googletag.pubads().setTargeting('artist_id', 'MN0002082546');\n
+        \ googletag.pubads().setTargeting('genre', 'Pop/Rock');\n  googletag.pubads().setTargeting('blockadex',
+        'FALSE');\n  googletag.pubads().set(\"adsense_background_color\", \"F4F4F4\");\n
+        \ googletag.enableServices();\n});\n</script>        <script type=\"text/javascript\">\n
+        \  // Get Mobile User agent\n   var isMobileUa = /iPhone|iPod|BlackBerry|Opera
+        Mini|(android|bb\\d+|meego).+mobile/i.test(navigator.userAgent);\n   // Get
+        the browser width\n   var browserwidth = window.innerWidth;\n</script>\n<script
         type=\"text/javascript\">\n   if (isMobile_AllMusic ) {\n       cmnunt_site
         = 'allmusic_mob';\n   } else {\n       cmnunt_site = 'allmusic';\n   }\n   cmnunt_silo
         = 's_mus';\n   cmnunt_subsilo = '';\n   cmnunt_tier = 'to,t2,internal';\n
         \  cmnunt_zone = 'album';\n   cmnunt_kw = 'album_id=MW0002374964,artist_id=MN0002082546,genre=Pop/Rock,blockadex=FALSE,pagename=album';\n
         \  cmnunt_exclude = '';\nif (isMobile_AllMusic) {\ndocument.write('<scr'+'ipt
         type=\"text/javascript\" src=\"http://cdn.complexmedianetwork.com/js/cmnUNTmobile.js\"></scr'+'ipt>')\n}
-        else {\ndocument.write('<scr'+'ipt type=\"text/javascript\" src=\"http://cdn.complexmedianetwork.com/js/cmnUNT.js\"></scr'+'ipt>')\n}\n</script>
-        \       \n    </head>\n    <body>\n        <noscript>\n            <div class=\"javascript-disabled\"
+        else {\ndocument.write('<scr'+'ipt type=\"text/javascript\" src=\"http://cdn.complexmedianetwork.com/js/cmnUNT.js\"></scr'+'ipt>')\n}\n</script>\n
+        \   \n    </head>\n    <body>\n        <noscript>\n            <div class=\"javascript-disabled\"
         id=\"no-js\">\n                AllMusic relies heavily on JavaScript.<br>\n
         \               Please enable JavaScript in your browser to use the site fully.\n
         \           </div>\n        </noscript>\n        <div class=\"stripe-container
@@ -145,17 +164,18 @@ http_interactions:
         \           </div>\n</div>\n\n<div class=\"overflow-container album\">\n\n<div
         class=\"stripe-container header-main-nav clearfix\">\n    <div class=\"max-header\">\n
         \       <div class=\"main-nav\">\n\n    <div class=\"logo-container\">\n        <a
-        class=\"logo no-snap\" href=\"/\">\n            <h1>AllMusic</h1>\n        </a>\n
-        \   </div>\n\n    <nav class=\"mobile-menu\"></nav>\n\n    <div class=\"search-container\">\n
-        \       <form class=\"site-search\" method=\"post\" name=\"site-search\" action=\"/search\">\n
-        \           <input type=\"submit\" class=\"site-search-button\" name=\"submit\">\n
-        \           <input type=\"search\" class=\"site-search-input\" name=\"term\"
-        placeholder=\"Search\" tabindex=\"1\">\n        </form>\n    </div>\n\n    <nav
-        class=\"site-nav\">\n        <ul>\n            <li class=\"new-releases\">\n
-        \               <a href=\"/newreleases\">New Releases</a>\n                <ul
-        class=\"new-releases-nav\">\n    <div class=\"sub-nav-container\">\n        <div
-        class=\"sub-nav-columns\">\n            <div class=\"new-releases-subnav left\">\n
-        \               <li class=\"nr-featured\">\n                    <a href=\"/newreleases\">Featured
+        class=\"logo no-snap\" href=\"/\">\n                            <h3 class=\"logo-img\">AllMusic</h3>\n
+        \                   </a>\n    </div>\n\n    <nav class=\"mobile-menu\"></nav>\n\n
+        \   <div class=\"search-container\">\n        <form class=\"site-search\"
+        method=\"post\" name=\"site-search\" action=\"/search\">\n            <input
+        type=\"submit\" class=\"site-search-button\" name=\"submit\">\n            <input
+        type=\"search\" class=\"site-search-input\" name=\"term\" placeholder=\"Search\"
+        tabindex=\"1\">\n        </form>\n    </div>\n\n    <nav class=\"site-nav\">\n
+        \       <ul>\n            <li class=\"new-releases\">\n                <a
+        href=\"/newreleases\">New Releases</a>\n                <ul class=\"new-releases-nav\">\n
+        \   <div class=\"sub-nav-container\">\n        <div class=\"sub-nav-columns\">\n
+        \           <div class=\"new-releases-subnav left\">\n                <li
+        class=\"nr-featured\">\n                    <a href=\"/newreleases\">Featured
         New Releases</a>\n                </li>\n                <li class=\"nr-editorschoice\">\n
         \                   <a href=\"/newreleases/editorschoice\">Editors' Choice</a>\n
         \               </li>\n                <li class=\"nr-all\">\n                    <a
@@ -251,28 +271,32 @@ http_interactions:
         href=\"/blog/lists\">Lists</a>\n                </li>\n            </div>\n
         \           <div class=\"blog-list\">\n                <li class=\"blog-stream\">\n
         \                   <a href=\"/blog/stream-and-download\">Streams</a>\n                </li>\n
-        \               <li class=\"blog-promotions\">\n                    <a href=\"/blog/promotions\">Promotions</a>\n
+        \               <li class=\"blog-promotions\">\n                    <a href=\"/videos\">Videos</a>\n
         \               </li>\n                <li class=\"blog-all\">\n                    <a
         href=\"/blog\">All Posts</a>\n                </li>\n            </div>\n
         \           <div class=\"blog-subnav right\">\n                <div class=\"sub-nav-blog-content\"></div>\n
-        \           </div>\n        </div>\n    </div>\n</ul>\n            </li>\n
-        \           <li class=\"recommendations\">\n                <a href=\"/recommendations\">Recommendations</a>\n
+        \           </div>\n        </div>\n    </div>\n</ul>\n            </li>\n<!--
+        \           <li class=\"videos\">-->\n<!--                <a href=\"/videos\"
+        class=\"videos-link\">Video</a>-->\n<!--            </li>-->\n            <li
+        class=\"recommendations\">\n                <a href=\"/recommendations\">Recommendations</a>\n
         \           </li>\n            <li class=\"my-profile\">\n                <a
         href=\"javascript:void(0)\" class=\"my-profile-link\">My Profile</a>\n            </li>\n
-        \           <li class=\"advanced-search\">\n                <a href=\"/advanced-search\">Advanced
-        Search</a>\n            </li>\n        </ul>\n    </nav>\n\n    <div class=\"user-social-nav\">\n
-        \       <nav class=\"social-nav\">\n            <ul>\n                <li
-        class=\"facebook\">\n                    <a href=\"http://www.facebook.com/AllMusicDotCom\"
-        alt=\"Like us on Facebook\" title=\"Like us on Facebook\">Facebook</a>\n                </li>\n
-        \               <li class=\"twitter\">\n                    <a href=\"https://twitter.com/#!/Allmusic\"
+        \           <li class=\"advanced-search\">\n                <a href=\"/advanced-search\"
+        class=\"advanced-search-link\">Advanced Search</a>\n            </li>\n        </ul>\n
+        \   </nav>\n\n    <div class=\"user-social-nav\">\n        <nav class=\"social-nav\">\n
+        \           <ul>\n                <li class=\"facebook\">\n                    <a
+        href=\"http://www.facebook.com/AllMusicDotCom\" alt=\"Like us on Facebook\"
+        title=\"Like us on Facebook\">Facebook</a>\n                </li>\n                <li
+        class=\"twitter\">\n                    <a href=\"https://twitter.com/#!/Allmusic\"
         alt=\"Follow us on Twitter\" title=\"Follow us on Twitter\">Twitter</a>\n
-        \               </li>\n                <li class=\"google-plus\">\n                    <a
-        href=\"https://plus.google.com/101788172919569561373/posts\" alt=\"Follow
-        us on Google+\" title=\"Follow us on Google+\">Google</a>\n                </li>\n
-        \               <li class=\"rss\">\n                    <a alt=\"Subscribe
-        to our RSS feed\" title=\"Subscribe to our RSS feed\" alt=\"Subscribe to our
-        RSS feed\" href=\"/rss\" target=\"_blank\">RSS</a>\n                </li>\n
-        \           </ul>\n        </nav>\n\n        <nav class=\"user-notifications\">\n
+        \               </li>\n                <li class=\"tumblr\">\n                    <a
+        href=\"http://allmusic.tumblr.com\" alt=\"Follow us on Tumblr\" title=\"Follow
+        us on Tumblr\">Tumblr</a>\n                </li>\n                <li class=\"google-plus\">\n
+        \                   <a href=\"https://plus.google.com/101788172919569561373/posts\"
+        alt=\"Follow us on Google+\" title=\"Follow us on Google+\">Google</a>\n                </li>\n
+        \               <li class=\"rss\">\n                    <a href=\"/rss\" alt=\"Subscribe
+        to our RSS feed\" title=\"Subscribe to our RSS feed\" target=\"_blank\">RSS</a>\n
+        \               </li>\n            </ul>\n        </nav>\n\n        <nav class=\"user-notifications\">\n
         \           <ul>\n                <li class=\"user-notification-icon\">\n
         \               </li>\n            </ul>\n        </nav>\n\n        <nav class=\"user-nav\"></nav>\n
         \   </div>\n\n</div>    </div>\n</div>\n\n<div id=\"cmn_wrap\">\n<div class=\"content-container\"
@@ -280,9 +304,9 @@ http_interactions:
         content=\"http://www.allmusic.com/album/small-fame-mw0002374964\">\n    <div
         class=\"sidebar\">\n        <div class=\"album-cover\">\n            <div
         class=\"album-contain\">\n                                    <img src=\"http://cps-static.rovicorp.com/3/JPG_400/MI0003/369/MI0003369371.jpg?partner=allrovi.com\"\n
-        \                        width=\"303\"\n                         alt=\"Small
-        Fame\"\n                         title=\"click to embiggen\"\n                         itemprop=\"image\"
-        data-lightbox=\"{&quot;image&quot;:{&quot;height&quot;:450,&quot;width&quot;:500,&quot;formatid&quot;:16,&quot;author&quot;:&quot;&quot;,&quot;copyrightOwner&quot;:&quot;&quot;,&quot;imageTypeId&quot;:0,&quot;zoomLevel&quot;:null,&quot;url&quot;:&quot;http:\\/\\/cps-static.rovicorp.com\\/3\\/JPG_500\\/MI0003\\/369\\/MI0003369371.jpg?partner=allrovi.com&quot;}}\">\n
+        \                        class=\"embiggen\"\n                         width=\"303\"\n
+        \                        alt=\"Small Fame\"\n                         title=\"click
+        to embiggen\"\n                         itemprop=\"image\" data-lightbox=\"{&quot;image&quot;:{&quot;height&quot;:450,&quot;width&quot;:500,&quot;formatid&quot;:16,&quot;author&quot;:&quot;&quot;,&quot;copyrightOwner&quot;:&quot;&quot;,&quot;imageTypeId&quot;:0,&quot;zoomLevel&quot;:null,&quot;url&quot;:&quot;http:\\/\\/cps-static.rovicorp.com\\/3\\/JPG_500\\/MI0003\\/369\\/MI0003369371.jpg?partner=allrovi.com&quot;}}\">\n
         \               \n                            </div>\n        </div>\n\n            <section
         class=\"discography-browser\">\n        <h4><a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546/discography\"
         alt=\"Bend Sinister Discography\" title=\"Bend Sinister Discography\">Discography
@@ -300,21 +324,29 @@ http_interactions:
         src=\"http://cps-static.rovicorp.com/3/JPG_75/MI0003/369/MI0003369371.jpg?partner=allrovi.com\"
         width=\"65\" height=\"65\" alt=\"Small Fame\"></a>                </li>\n
         \           \n            <li class=\"next\">next</li>\n\n            <li
-        class=\"dots-container\"></li>\n        </ul>\n    </section>\n\n        <div
+        class=\"dots-container\"></li>\n        </ul>\n    </section>\n\n                <div
         class=\"advertising medium-rectangle\">\n            <!-- 300x250 Ad Tag --><script
         type=\"text/javascript\">    cmnUNT('300x250,300x600', tile_num++);</script>
-        \       </div>\n\n        <section class=\"basic-info\">\n\n            <div
+        \       </div>\n        \n        <section class=\"basic-info\">\n\n            <div
         class=\"affiliates num-1\">\n            <h4>Stream or buy on:</h4>\n\n            <ul
-        class=\"partner-buttons\">\n                \n                                    <li>\n
-        \                       <a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Fwww.rdio.com%2Fartist%2FBend_Sinister%2Falbum%2FSmall_Fame%2F\"
-        data-target=\"rdio\" class=\"rdio\" title=\"Stream from Rdio\">\n                            Rdio\n
-        \                       </a>\n                    </li>\n                \n
-        \               \n                            </ul>\n        </div>\n    \n
-        \           <div class=\"release-date\">\n            <h4>Release Date</h4>\n
-        \           <span>2012</span>\n        </div>\n    \n            <div class=\"duration\">\n
-        \           <h4>Duration</h4>\n            <span>43:53</span>\n        </div>\n
-        \   \n            <div class=\"genre\">\n            <h4>Genre</h4>\n            <div>\n
-        \                           <a href=\"http://www.allmusic.com/genre/pop-rock-ma0000002613\">Pop/Rock</a>
+        class=\"partner-buttons clearfix\">\n\n                \n                \n
+        \               <li class=\"amazontooltip\">\n                    <a href=\"http://www.amazon.com/s/?field-keywords=music:
+        &#34;Small%20Fame&#34; by &#34;Bend%20Sinister&#34;&tag=allmusicdotcom-20\"
+        data-target=\"amazon\" class=\"amazon\" title=\"Search on Amazon\"></a>\n
+        \                                                                   <span>\n
+        \                           <b></b>\n                                                            <div
+        class=\"amazon-div div-0\">\n                                    <a href=\"http://www.amazon.com/dp/B008F9O3N8/?tag=allmusicdotcom-20\"
+        data-target=\"amazon\" class=\"amazonDirect\" title=\"Buy from Amazon Music\"></a>\n
+        \                               </div>\n                                                                                                                        <div
+        class=\"amazon-div div-1\">\n                                    <a href=\"http://www.amazon.com/gp/dmusic/promotions/prime.html?upsellOriginAsin=B008F9O3N8&tag=allmusicdotcom-20\"
+        data-target=\"amazon\" class=\"amazonPrime\" title=\"Stream from Amazon Prime\"></a>\n
+        \                               </div>\n                                                                                    </span>\n
+        \                                   </li>\n\n                            </ul>\n
+        \       </div>\n    \n            <div class=\"release-date\">\n            <h4>Release
+        Date</h4>\n            <span>2012</span>\n        </div>\n    \n            <div
+        class=\"duration\">\n            <h4>Duration</h4>\n            <span>43:53</span>\n
+        \       </div>\n    \n            <div class=\"genre\">\n            <h4>Genre</h4>\n
+        \           <div>\n                            <a href=\"http://www.allmusic.com/genre/pop-rock-ma0000002613\">Pop/Rock</a>
         \                       </div>\n        </div>\n    \n            <div class=\"styles\">\n
         \           <h4>Styles</h4>\n            <div>\n                            <a
         href=\"http://www.allmusic.com/style/alternative-indie-rock-ma0000012230\">Alternative/Indie
@@ -322,28 +354,29 @@ http_interactions:
         class=\"recording-date\">\n            <h4>Recording Date</h4>\n            <div>April,
         2011 - November, 2011</div>\n        </div>\n    \n    <a href=\"http://www.allmusic.com/album/small-fame-mw0002374964/corrections\"
         class=\"submit-corrections\">Submit Corrections</a>\n</section>\n\n        \n\n
-        \       <div class=\"advertising medium-rectangle-btf\">\n            <script
-        type=\"text/javascript\">    cmnUNT('300x251', tile_num++);</script>        </div>\n\n
-        \   </div>\n\n    <div class=\"content\">\n\n        <header>\n            <a
-        href=\"#no-js\"\n           class=\"audio-player large\"\n           data-sample-url=\"/album/MW0002374964/samples.json\">\n
-        \           <canvas width=\"55\" height=\"55\"></canvas>\n        </a>\n    \n
-        \   <hgroup>\n        <h3 class=\"album-artist\" id=\"album-artist-link\"\n
-        \           itemprop=\"byArtist\"\n            itemscope\n            itemtype=\"http://schema.org/MusicGroup\">\n
-        \           <span itemprop=\"name\">\n                <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
-        Sinister</a>            </span>\n        </h3>\n\n        <h2 class=\"album-title\"
-        itemprop=\"name\">\n            Small Fame        </h2>\n\n        <a href=\"javascript:void(0)\"
-        class=\"add-to-list-link\" data-id=\"MW0002374964\" data-addtolist=\"addtolist\"></a>\n
-        \       <a href=\"javascript:void(0)\" class=\"add-to-collection-link\" data-id=\"MW0002374964\"\n
-        \          data-artist=\"Bend Sinister\"\n           data-album=\"Small Fame\"\n
-        \          data-release-date=\"2012-??-??\"></a>\n        <div class=\"tabletdummy\"></div>\n
-        \           </hgroup>\n\n    <ul class=\"ratings\" itemscope itemtype=\"http://schema.org/Rating\">\n
-        \       <li id=\"microdata-rating\">\n            <span>AllMusic Rating</span>\n\n
-        \           <div class=\"allmusic-rating rating-allmusic-0\" itemprop=\"ratingValue\">\n
-        \                            </div>\n\n            <meta itemprop=\"name\"
-        content=\"AllMusic Rating\">\n            <meta itemprop=\"bestRating\" content=\"10\">\n
-        \           <meta itemprop=\"worstRating\" content=\"1\">\n        </li>\n\n
-        \       <li class=\"average\">\n            <span>\n                User Ratings
-        (<span class=\"average-user-rating-count\" data-id=\"MW0002374964\">0</span>)\n
+        \               <div class=\"advertising medium-rectangle-btf\">\n            <script
+        type=\"text/javascript\">    cmnUNT('300x251', tile_num++);</script>        </div>\n
+        \       \n    </div>\n\n    <div class=\"content\">\n\n        <header>\n
+        \           <a href=\"#no-js\"\n           class=\"audio-player large\"\n
+        \          data-sample-url=\"/album/MW0002374964/samples.json\">\n            <canvas
+        width=\"55\" height=\"55\"></canvas>\n        </a>\n    \n    <hgroup>\n        <h2
+        class=\"album-artist\"\n            itemprop=\"byArtist\"\n            itemscope\n
+        \           itemtype=\"http://schema.org/MusicGroup\">\n            <span
+        itemprop=\"name\">\n                <a href=\"http://www.allmusic.com/artist/bend-sinister-mn0002082546\">Bend
+        Sinister</a>            </span>\n        </h2>\n\n        <h1 class=\"album-title\"
+        itemprop=\"name\">\n            Small Fame        </h1>\n                <a
+        href=\"javascript:void(0)\" class=\"add-to-list-link\" data-id=\"MW0002374964\"
+        data-addtolist=\"addtolist\"></a>\n        <a href=\"javascript:void(0)\"
+        class=\"add-to-collection-link\" data-id=\"MW0002374964\"\n           data-artist=\"Bend
+        Sinister\"\n           data-album=\"Small Fame\"\n           data-release-date=\"2012-??-??\"></a>\n
+        \       <div class=\"tabletdummy\"></div>\n    </hgroup>\n\n    <ul class=\"ratings\"
+        itemscope itemtype=\"http://schema.org/Rating\">\n        <li id=\"microdata-rating\">\n
+        \           <span>AllMusic Rating</span>\n\n            <div class=\"allmusic-rating
+        rating-allmusic-0\" itemprop=\"ratingValue\">\n                             </div>\n\n
+        \           <meta itemprop=\"name\" content=\"AllMusic Rating\">\n            <meta
+        itemprop=\"bestRating\" content=\"10\">\n            <meta itemprop=\"worstRating\"
+        content=\"1\">\n        </li>\n\n        <li class=\"average\">\n            <span>\n
+        \               User Ratings (<span class=\"average-user-rating-count\" data-id=\"MW0002374964\">0</span>)\n
         \           </span>\n            <div class=\"average-user-rating\" data-id=\"MW0002374964\"></div>\n
         \       </li>\n\n        <li>\n            <span>Your Rating</span>\n            <div
         class=\"album-page-user-rating user-rating\"\n                 data-id=\"MW0002374964\"\n
@@ -352,14 +385,17 @@ http_interactions:
         class=\"tabs overview\">\n            <li class=\"tab overview\" data-sections=\"tracks\">\n
         \           <a href=\"/album/small-fame-mw0002374964\">\n                Overview\n
         \               <span class=\"arrow\">&darr;</span>\n            </a>\n        </li>\n
-        \   \n            <li class=\"tab credits\">\n            <a href=\"/album/small-fame-mw0002374964/credits\">\n
-        \               Credits\n                <span class=\"arrow\">&darr;</span>\n
-        \           </a>\n        </li>\n    \n    \n            <li class=\"tab releases\">\n
-        \           <a href=\"/album/small-fame-mw0002374964/releases\">\n                Releases\n
+        \   \n    <li class=\"tab user_reviews\">\n        <a href=\"/album/small-fame-mw0002374964/user-reviews\">\n
+        \           User Reviews\n            <span class=\"arrow\">&darr;</span>\n
+        \       </a>\n    </li>\n\n            <li class=\"tab credits\">\n            <a
+        href=\"/album/small-fame-mw0002374964/credits\">\n                Credits\n
         \               <span class=\"arrow\">&darr;</span>\n            </a>\n        </li>\n
-        \   \n            <li class=\"tab similar\">\n            <a href=\"/album/small-fame-mw0002374964/similar\">\n
-        \               Similar Albums\n                <span class=\"arrow\">&darr;</span>\n
-        \           </a>\n        </li>\n    </ul>\n        \n<div class=\"allmusic-share\"
+        \   \n    \n            <li class=\"tab releases\">\n            <a href=\"/album/small-fame-mw0002374964/releases\">\n
+        \               Releases\n                <span class=\"arrow\">&darr;</span>\n
+        \           </a>\n        </li>\n    \n            <li class=\"tab similar\">\n
+        \           <a href=\"/album/small-fame-mw0002374964/similar\">\n                Similar
+        Albums\n                <span class=\"arrow\">&darr;</span>\n            </a>\n
+        \       </li>\n    </ul>\n                \n<div class=\"allmusic-share\"
         data-sharemessage=\"Listen to Small Fame by Bend Sinister - Album Reviews,
         Credits, and Awards - AllMusic - \">\n    <p>\n        Share this page\n    </p>\n
         \   <ul class=\"share-menu\">\n        <li>\n            <a title=\"Share
@@ -371,14 +407,15 @@ http_interactions:
         \       </li>\n        <li>\n            <a title=\"Share via e-mail\" class=\"share-button
         email\" href=\"#\">email</a>\n        </li>\n    </ul>\n    <div class=\"share-modal\">\n
         \       <a title=\"close button\" class=\"close-button\"></a>\n        <div
-        class=\"share-frame\"></div>\n    </div>\n</div>\n\n            <section class=\"track-listing\">\n\n
-        \                   <div class=\"disc\">\n                <div class=\"headline\">\n
-        \                   <h3>\n                        Track Listing\n                                            </h3>\n
-        \               </div>\n\n                <table>\n                    <thead>\n
-        \                       <tr>\n                            <th class=\"pick-prefix\"></th>\n
-        \                                                           <th class=\"sample\">Sample</th>\n
-        \                                                       <th class=\"tracknum\"><!--
-        Track #--></th>\n                            <th class=\"title-composer\">Title/Composer</th>\n
+        class=\"share-frame\"></div>\n    </div>\n</div>        \n        <section
+        class=\"user_review\">\n    <div class=\"loading-bg\"><div class=\"loading\"></div></div>\n</section>\n
+        \   <section class=\"track-listing\">\n\n                    <div class=\"disc\">\n
+        \               <div class=\"headline\">\n                    <h3>\n                        Track
+        Listing\n                                            </h3>\n                </div>\n\n
+        \               <table>\n                    <thead>\n                        <tr>\n
+        \                           <th class=\"pick-prefix\"></th>\n                                                            <th
+        class=\"sample\">Sample</th>\n                                                        <th
+        class=\"tracknum\"><!-- Track #--></th>\n                            <th class=\"title-composer\">Title/Composer</th>\n
         \                           <th class=\"performer\">Performer</th>\n                            <th
         class=\"time\">Time</th>\n\n                                                            <th
         class=\"stream\">Stream</th>\n                            \n                            <th
@@ -416,8 +453,8 @@ http_interactions:
         \                                                                   </td>\n\n
         \                                                                   <td class=\"stream\">\n
         \                                       <a href=\"javascript:void(0)\" class=\"empty
-        spotify\"></a><a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Frd.io%2Fx%2FQitDSh2j%2F\"
-        class=\"rdio\" alt=\"Stream from Rdio\" title=\"Stream from Rdio\">Rdio</a><a
+        spotify\"></a><a href=\"javascript:void(0)\" class=\"empty rdio\"></a><a href=\"http://www.amazon.com/gp/dmusic/promotions/prime.html?upsellOriginAsin=B008F9O3W4&tag=allmusicdotcom-20\"
+        class=\"amazon\" alt=\"Amazon Prime\" title=\"Amazon Prime\">Amazon</a><a
         href=\"javascript:void(0)\" class=\"empty mog\"></a>                                    </td>\n
         \                               \n                                <td class=\"pick-suffix\"></td>\n\n
         \                           </tr>\n                        \n                            <tr
@@ -453,8 +490,8 @@ http_interactions:
         \                                                                   </td>\n\n
         \                                                                   <td class=\"stream\">\n
         \                                       <a href=\"javascript:void(0)\" class=\"empty
-        spotify\"></a><a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Frd.io%2Fx%2FQitDShx_%2F\"
-        class=\"rdio\" alt=\"Stream from Rdio\" title=\"Stream from Rdio\">Rdio</a><a
+        spotify\"></a><a href=\"javascript:void(0)\" class=\"empty rdio\"></a><a href=\"http://www.amazon.com/gp/dmusic/promotions/prime.html?upsellOriginAsin=B008F9O49G&tag=allmusicdotcom-20\"
+        class=\"amazon\" alt=\"Amazon Prime\" title=\"Amazon Prime\">Amazon</a><a
         href=\"javascript:void(0)\" class=\"empty mog\"></a>                                    </td>\n
         \                               \n                                <td class=\"pick-suffix\"></td>\n\n
         \                           </tr>\n                        \n                            <tr
@@ -491,8 +528,8 @@ http_interactions:
         \                                                                   </td>\n\n
         \                                                                   <td class=\"stream\">\n
         \                                       <a href=\"javascript:void(0)\" class=\"empty
-        spotify\"></a><a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Frd.io%2Fx%2FQitDShxg%2F\"
-        class=\"rdio\" alt=\"Stream from Rdio\" title=\"Stream from Rdio\">Rdio</a><a
+        spotify\"></a><a href=\"javascript:void(0)\" class=\"empty rdio\"></a><a href=\"http://www.amazon.com/gp/dmusic/promotions/prime.html?upsellOriginAsin=B008F9O4Y6&tag=allmusicdotcom-20\"
+        class=\"amazon\" alt=\"Amazon Prime\" title=\"Amazon Prime\">Amazon</a><a
         href=\"javascript:void(0)\" class=\"empty mog\"></a>                                    </td>\n
         \                               \n                                <td class=\"pick-suffix\"></td>\n\n
         \                           </tr>\n                        \n                            <tr
@@ -528,8 +565,8 @@ http_interactions:
         \                                                                   </td>\n\n
         \                                                                   <td class=\"stream\">\n
         \                                       <a href=\"javascript:void(0)\" class=\"empty
-        spotify\"></a><a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Frd.io%2Fx%2FQitDShw5%2F\"
-        class=\"rdio\" alt=\"Stream from Rdio\" title=\"Stream from Rdio\">Rdio</a><a
+        spotify\"></a><a href=\"javascript:void(0)\" class=\"empty rdio\"></a><a href=\"http://www.amazon.com/gp/dmusic/promotions/prime.html?upsellOriginAsin=B008F9O5PY&tag=allmusicdotcom-20\"
+        class=\"amazon\" alt=\"Amazon Prime\" title=\"Amazon Prime\">Amazon</a><a
         href=\"javascript:void(0)\" class=\"empty mog\"></a>                                    </td>\n
         \                               \n                                <td class=\"pick-suffix\"></td>\n\n
         \                           </tr>\n                        \n                            <tr
@@ -565,8 +602,8 @@ http_interactions:
         \                                                                   </td>\n\n
         \                                                                   <td class=\"stream\">\n
         \                                       <a href=\"javascript:void(0)\" class=\"empty
-        spotify\"></a><a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Frd.io%2Fx%2FQitDShza%2F\"
-        class=\"rdio\" alt=\"Stream from Rdio\" title=\"Stream from Rdio\">Rdio</a><a
+        spotify\"></a><a href=\"javascript:void(0)\" class=\"empty rdio\"></a><a href=\"http://www.amazon.com/gp/dmusic/promotions/prime.html?upsellOriginAsin=B008F9O630&tag=allmusicdotcom-20\"
+        class=\"amazon\" alt=\"Amazon Prime\" title=\"Amazon Prime\">Amazon</a><a
         href=\"javascript:void(0)\" class=\"empty mog\"></a>                                    </td>\n
         \                               \n                                <td class=\"pick-suffix\"></td>\n\n
         \                           </tr>\n                        \n                            <tr
@@ -604,8 +641,8 @@ http_interactions:
         \                                                                   </td>\n\n
         \                                                                   <td class=\"stream\">\n
         \                                       <a href=\"javascript:void(0)\" class=\"empty
-        spotify\"></a><a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Frd.io%2Fx%2FQitDShzC%2F\"
-        class=\"rdio\" alt=\"Stream from Rdio\" title=\"Stream from Rdio\">Rdio</a><a
+        spotify\"></a><a href=\"javascript:void(0)\" class=\"empty rdio\"></a><a href=\"http://www.amazon.com/gp/dmusic/promotions/prime.html?upsellOriginAsin=B008F9O6LW&tag=allmusicdotcom-20\"
+        class=\"amazon\" alt=\"Amazon Prime\" title=\"Amazon Prime\">Amazon</a><a
         href=\"javascript:void(0)\" class=\"empty mog\"></a>                                    </td>\n
         \                               \n                                <td class=\"pick-suffix\"></td>\n\n
         \                           </tr>\n                        \n                            <tr
@@ -641,8 +678,8 @@ http_interactions:
         \                                                                   </td>\n\n
         \                                                                   <td class=\"stream\">\n
         \                                       <a href=\"javascript:void(0)\" class=\"empty
-        spotify\"></a><a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Frd.io%2Fx%2FQitDShyZ%2F\"
-        class=\"rdio\" alt=\"Stream from Rdio\" title=\"Stream from Rdio\">Rdio</a><a
+        spotify\"></a><a href=\"javascript:void(0)\" class=\"empty rdio\"></a><a href=\"http://www.amazon.com/gp/dmusic/promotions/prime.html?upsellOriginAsin=B008F9O702&tag=allmusicdotcom-20\"
+        class=\"amazon\" alt=\"Amazon Prime\" title=\"Amazon Prime\">Amazon</a><a
         href=\"javascript:void(0)\" class=\"empty mog\"></a>                                    </td>\n
         \                               \n                                <td class=\"pick-suffix\"></td>\n\n
         \                           </tr>\n                        \n                            <tr
@@ -678,8 +715,8 @@ http_interactions:
         \                                                                   </td>\n\n
         \                                                                   <td class=\"stream\">\n
         \                                       <a href=\"javascript:void(0)\" class=\"empty
-        spotify\"></a><a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Frd.io%2Fx%2FQitDShy2%2F\"
-        class=\"rdio\" alt=\"Stream from Rdio\" title=\"Stream from Rdio\">Rdio</a><a
+        spotify\"></a><a href=\"javascript:void(0)\" class=\"empty rdio\"></a><a href=\"http://www.amazon.com/gp/dmusic/promotions/prime.html?upsellOriginAsin=B008F9O784&tag=allmusicdotcom-20\"
+        class=\"amazon\" alt=\"Amazon Prime\" title=\"Amazon Prime\">Amazon</a><a
         href=\"javascript:void(0)\" class=\"empty mog\"></a>                                    </td>\n
         \                               \n                                <td class=\"pick-suffix\"></td>\n\n
         \                           </tr>\n                        \n                            <tr
@@ -717,8 +754,8 @@ http_interactions:
         \                                                                   </td>\n\n
         \                                                                   <td class=\"stream\">\n
         \                                       <a href=\"javascript:void(0)\" class=\"empty
-        spotify\"></a><a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Frd.io%2Fx%2FQitDShyi%2F\"
-        class=\"rdio\" alt=\"Stream from Rdio\" title=\"Stream from Rdio\">Rdio</a><a
+        spotify\"></a><a href=\"javascript:void(0)\" class=\"empty rdio\"></a><a href=\"http://www.amazon.com/gp/dmusic/promotions/prime.html?upsellOriginAsin=B008F9O7MK&tag=allmusicdotcom-20\"
+        class=\"amazon\" alt=\"Amazon Prime\" title=\"Amazon Prime\">Amazon</a><a
         href=\"javascript:void(0)\" class=\"empty mog\"></a>                                    </td>\n
         \                               \n                                <td class=\"pick-suffix\"></td>\n\n
         \                           </tr>\n                        \n                            <tr
@@ -756,8 +793,8 @@ http_interactions:
         \                                                                   </td>\n\n
         \                                                                   <td class=\"stream\">\n
         \                                       <a href=\"javascript:void(0)\" class=\"empty
-        spotify\"></a><a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Frd.io%2Fx%2FQitDSiNA%2F\"
-        class=\"rdio\" alt=\"Stream from Rdio\" title=\"Stream from Rdio\">Rdio</a><a
+        spotify\"></a><a href=\"javascript:void(0)\" class=\"empty rdio\"></a><a href=\"http://www.amazon.com/gp/dmusic/promotions/prime.html?upsellOriginAsin=B008F9O7VQ&tag=allmusicdotcom-20\"
+        class=\"amazon\" alt=\"Amazon Prime\" title=\"Amazon Prime\">Amazon</a><a
         href=\"javascript:void(0)\" class=\"empty mog\"></a>                                    </td>\n
         \                               \n                                <td class=\"pick-suffix\"></td>\n\n
         \                           </tr>\n                        \n                            <tr
@@ -794,8 +831,8 @@ http_interactions:
         \                                                                   </td>\n\n
         \                                                                   <td class=\"stream\">\n
         \                                       <a href=\"javascript:void(0)\" class=\"empty
-        spotify\"></a><a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Frd.io%2Fx%2FQitDSiMI%2F\"
-        class=\"rdio\" alt=\"Stream from Rdio\" title=\"Stream from Rdio\">Rdio</a><a
+        spotify\"></a><a href=\"javascript:void(0)\" class=\"empty rdio\"></a><a href=\"http://www.amazon.com/gp/dmusic/promotions/prime.html?upsellOriginAsin=B008F9O8AG&tag=allmusicdotcom-20\"
+        class=\"amazon\" alt=\"Amazon Prime\" title=\"Amazon Prime\">Amazon</a><a
         href=\"javascript:void(0)\" class=\"empty mog\"></a>                                    </td>\n
         \                               \n                                <td class=\"pick-suffix\"></td>\n\n
         \                           </tr>\n                        \n                            <tr
@@ -833,46 +870,52 @@ http_interactions:
         \                                                                   </td>\n\n
         \                                                                   <td class=\"stream\">\n
         \                                       <a href=\"javascript:void(0)\" class=\"empty
-        spotify\"></a><a href=\"http://click.linksynergy.com/fs-bin/click?id=KteTUsO0Zkw&subid=&offerid=221756.1&type=10&tmpid=7950&RD_PARM1=http%3A%2F%2Frd.io%2Fx%2FQitDSiMs%2F\"
-        class=\"rdio\" alt=\"Stream from Rdio\" title=\"Stream from Rdio\">Rdio</a><a
+        spotify\"></a><a href=\"javascript:void(0)\" class=\"empty rdio\"></a><a href=\"http://www.amazon.com/gp/dmusic/promotions/prime.html?upsellOriginAsin=B008F9O8HY&tag=allmusicdotcom-20\"
+        class=\"amazon\" alt=\"Amazon Prime\" title=\"Amazon Prime\">Amazon</a><a
         href=\"javascript:void(0)\" class=\"empty mog\"></a>                                    </td>\n
         \                               \n                                <td class=\"pick-suffix\"></td>\n\n
         \                           </tr>\n                                            </tbody>\n
         \               </table>\n            </div>\n        \n        <span class=\"note\">blue
         highlight denotes track pick</span>\n\n    </section>\n\n    </div>\n\n</div>\n\n<div
-        class=\"stripe-container footer-leaderboard\">\n    <div class=\"advertising
-        leaderboard\">\n            <script type=\"text/javascript\">        cmnUNT('728x91',
-        tile_num++);    </script>    </div>\n</div>\n\n<div class=\"stripe-container
-        footer-container\">\n    <footer>\n        <div class=\"other-sites\">\n                <a
-        href=\"http://www.allmovie.com/\" title=\"AllMovie - Movies and Films Database
-        - Movie Search, Guide, Recommendations, and Reviews\">AllMovie</a>&nbsp;&nbsp;|&nbsp;\n
-        \               <a href=\"http://www.allgame.com/\" title=\"AllGame - Games
-        Database - Games Search, Guides, Recommendations, and Reviews\">AllGame</a>&nbsp;&nbsp;|&nbsp;\n
-        \               <a href=\"http://www.sidereel.com/\" title=\"SideReel - Watch
-        TV &amp; Movies Online | Episodes, Seasons, Series | SideReel\">SideReel</a>&nbsp;&nbsp;|&nbsp;\n
-        \               <a href=\"http://www.celebified.com/\" title=\"Celebified
-        - Celebrity news, watch videos, get tv info\">Celebified</a>\n        </div>\n\n
-        \       <div class=\"corporate-links\">\n                <a href=\"/copyright-policy\"
-        title=\"AllMusic - Copyright Policy &amp; Intellectual Property Rights\">Copyright
-        Policy</a>&nbsp;&nbsp;|&nbsp;\n                <a href=\"/about\" title=\"AllMusic
-        About\">About</a>&nbsp;&nbsp;|&nbsp;\n                <a href=\"/faq\" title=\"AllMusic
-        FAQ\">FAQ</a>&nbsp;&nbsp;|&nbsp;\n                <a href=\"https://getsatisfaction.com/allmedianetwork/categories/allmedianetwork_allmusic\"
+        class=\"stripe-container footer-leaderboard\">\n            <div class=\"advertising
+        leaderboard\">\n                                <script type=\"text/javascript\">
+        \       cmnUNT('728x91', tile_num++);    </script>                    </div>\n
+        \   </div>\n<div class=\"stripe-container footer-container\">\n    <footer>\n
+        \       <div class=\"other-sites\">\n                <a href=\"http://www.allmusic.com/\"
+        title=\"AllMusic - Albums and Artist Database - Music Search, Guide, Recommendations,
+        Videos and Reviews\">AllMusic</a>&nbsp;&nbsp;|&nbsp;\n                <a href=\"http://www.allmovie.com/\"
+        title=\"AllMovie - Movies and Films Database - Movie Search, Guide, Recommendations,
+        and Reviews\">AllMovie</a>&nbsp;&nbsp;|&nbsp;\n                <a href=\"http://www.sidereel.com/\"
+        title=\"SideReel - Watch TV &amp; Movies Online | Episodes, Seasons, Series
+        | SideReel\">SideReel</a>&nbsp;&nbsp;|&nbsp;\n                <a href=\"http://www.celebified.com/\"
+        title=\"Celebified - Celebrity news, watch videos, get tv info\">Celebified</a>\n
+        \       </div>\n\n        <div class=\"corporate-links\">\n                <a
+        href=\"/about\" title=\"AllMusic About\">About</a>&nbsp;&nbsp;|&nbsp;\n                <a
+        href=\"/faq\" title=\"AllMusic FAQ\">FAQ</a>&nbsp;&nbsp;|&nbsp;\n                <a
+        href=\"https://getsatisfaction.com/allmedianetwork/categories/allmedianetwork_allmusic\"
         title=\"AllMusic Customer Community\" class=\"getSatisfactionLink\">Feedback</a><span
         class=\"line-one\">&nbsp;&nbsp;|&nbsp;</span>\n                <a href=\"/advertise\"
         title=\"AllMusic Advertising Network\"><br class=\"mobile-break\">Advertise</a>&nbsp;&nbsp;|&nbsp;\n
+        \               <a href=\"/copyright-policy\" title=\"AllMusic - Copyright
+        Policy &amp; Intellectual Property Rights\">Copyright Policy</a>&nbsp;&nbsp;|&nbsp;\n
         \               <a href=\"/privacy-policy\" title=\"AllMusic Privacy Policy\">Privacy
         Policy</a>&nbsp;&nbsp;|&nbsp;\n                <a href=\"/terms-of-service\"
-        title=\"AllMusic Terms of Service\">Terms of Service</a>\n        </div>\n\n
-        \       <div class=\"copyright\">\n                &copy;2014 AllMusic, a
-        division of All Media Network, LLC.<span class=\"line-two\">&nbsp;&nbsp;|&nbsp;&nbsp;</span><br
-        class=\"mobile-break\">All Rights Reserved\n        </div>\n    </footer>\n</div><script
-        src=\"//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js\"></script>\n<script>!window.jQuery
-        && document.write(unescape('%3Cscript src=\"http://assets.allmusic.com/js/jquery/jquery-1.9.1.min.js\"%3E%3C/script%3E'))</script>\n<script
-        src=\"//ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js\"></script>\n<script>!window.jQuery.ui
-        && document.write(unescape('%3Cscript src=\"http://assets.allmusic.com/js/jquery/jquery-ui.min.js\"%3E%3C/script%3E'))</script>\n\n<script
-        src=\"http://assets.allmusic.com/cache/global.1415810327.js\"></script>\n\n
-        \                                           <script src=\"http://assets.allmusic.com/cache/album.overview.1415810324.js\"></script>\n
-        \           \n                            <script>\n                    if(User.loggedIn)
+        title=\"AllMusic Terms of Service\">Terms of Service</a>&nbsp;&nbsp;|&nbsp;&nbsp;\n
+        \               <a href=\"//www.allmusic.com/subscribe\" title=\"Subscribe\">Subscribe</a>\n
+        \       </div>\n\n        <div class=\"copyright\">\n                &copy;2016
+        AllMusic, a division of All Media Network, LLC.<span class=\"line-two\">&nbsp;&nbsp;|&nbsp;&nbsp;</span><br
+        class=\"mobile-break\">All Rights Reserved\n        </div>\n    </footer>\n</div>\n\n<div
+        class=\"advertisement-div-footer\">\n            <div id=\"Allmusic_ROS_1x1_Footer\">
+        \   <script type=\"text/javascript\">        googletag.cmd.push(function(){
+        googletag.display('Allmusic_ROS_1x1_Footer'); });    </script></div>    </div>
+        \           <script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js\"></script>\n
+        \           <script>!window.jQuery && document.write(unescape('%3Cscript src=\"//r6d3s2t7.ssl.hwcdn.net/js/jquery/jquery-1.9.1.min.js\"%3E%3C/script%3E'))</script>\n
+        \           <script src=\"//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js\"></script>\n
+        \           <script>!window.jQuery.ui && document.write(unescape('%3Cscript
+        src=\"//r6d3s2t7.ssl.hwcdn.net/js/jquery/jquery-ui.min.js\"%3E%3C/script%3E'))</script>\n\n
+        \           <script src=\"//r6d3s2t7.ssl.hwcdn.net/cache/global.1452703941.js\"></script>\n\n
+        \           \n                                            <script src=\"//r6d3s2t7.ssl.hwcdn.net/cache/album.overview.1452703941.js\"></script>\n
+        \                                           <script>\n                    if(User.loggedIn)
         {\n                        ga('set', 'dimension1', 'Yes');\n                    }
         else {\n                        ga('set', 'dimension1', 'No');\n                    }\n
         \               </script>\n            \n            <!-- BEGIN GetSat -->\n
@@ -884,7 +927,7 @@ http_interactions:
         \           </script>\n\n            <script type=\"text/javascript\" charset=\"utf-8\">\n
         \               var feedback_widget = new GSFN.feedback_widget({\n                    display:
         'overlay',\n                    company: 'allmedianetwork',\n                    placement:
-        'hidden',\n                    custom_css: 'http://assets.allmusic.com/css/modules/feedback-widget.css',\n
+        'hidden',\n                    custom_css: '//r6d3s2t7.ssl.hwcdn.net/css/modules/feedback-widget.css',\n
         \                   color: '#222',\n                    style: 'idea',\n                    limit:
         '3',\n                    product: 'allmedianetwork_allmusic'\n                });\n
         \           </script>\n            <!-- END GetSat -->\n\n            <!--
@@ -895,10 +938,10 @@ http_interactions:
         = (document.location.protocol == \"https:\" ? \"https://sb\" : \"http://b\")
         + \".scorecardresearch.com/beacon.js\";\n                    el.parentNode.insertBefore(s,
         el);\n                })();\n            </script>\n            <noscript>\n
-        \               <img src=\"http://b.scorecardresearch.com/p?c1=2&c2=17343944&cv=2.0&cj=1\"
+        \               <img src=\"//b.scorecardresearch.com/p?c1=2&c2=6685975&cv=2.0&cj=1\"
         />\n            </noscript>\n            <!-- End comScore Tag -->\n\n                    </div>\n
         \       \n       </div>\n\n       <!-- Footer Ad Tag -->\n<script type=\"text/javascript\">\ncmnTB();\ncmnUNT('tover',
-        tile_num++);\n</script>    <script type=\"text/javascript\">window.NREUM||(NREUM={});NREUM.info={\"beacon\":\"beacon-6.newrelic.com\",\"licenseKey\":\"37e6a77380\",\"applicationID\":\"3096013\",\"transactionName\":\"NlMEYhZXW0oEWkQNVg8ZJ1UQX1pXSnhcBkwMGQlAAURDUABO\",\"queueTime\":0,\"applicationTime\":1011,\"ttGuid\":\"\",\"agentToken\":\"\",\"userAttributes\":\"\",\"errorBeacon\":\"bam.nr-data.net\",\"agent\":\"js-agent.newrelic.com\\/nr-476.min.js\"}</script></body>\n</html>\n"
+        tile_num++);\n</script>    <script type=\"text/javascript\">window.NREUM||(NREUM={});NREUM.info={\"beacon\":\"bam.nr-data.net\",\"licenseKey\":\"37e6a77380\",\"applicationID\":\"3096013\",\"transactionName\":\"NlMEYhZXW0oEWkQNVg8ZJ1UQX1pXSnhcBkwMGQlAAURDUABO\",\"queueTime\":0,\"applicationTime\":769,\"ttGuid\":\"\",\"agentToken\":\"\",\"userAttributes\":\"\",\"errorBeacon\":\"bam.nr-data.net\",\"agent\":\"js-agent.newrelic.com\\/nr-768.min.js\"}</script></body>\n</html>\n"
     http_version: 
-  recorded_at: Wed, 12 Nov 2014 18:52:54 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Sun, 17 Jan 2016 19:34:52 GMT
+recorded_with: VCR 3.0.1
